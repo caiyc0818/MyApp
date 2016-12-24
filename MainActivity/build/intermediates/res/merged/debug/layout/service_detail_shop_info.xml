@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_detail_shop_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="营业"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/shop_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="AM10:00-PM18:00"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/gray_border" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="特色"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/shop_feature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="古典家具、画廊"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/gray_border" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="建议时长"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/shop_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2小时"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/gray_border" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地址"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/shop_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="梅尔罗斯大街68号"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+</LinearLayout>

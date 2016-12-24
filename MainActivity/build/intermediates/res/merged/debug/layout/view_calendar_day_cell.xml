@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:background="@color/gray_border" />
+
+    <LinearLayout
+        android:id="@+id/mark_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/txtCellGregorian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="日期"
+            android:textColor="@color/dark_gray"
+            android:textSize="18sp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/txtCellLunar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="农历"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/set_item_width"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip" />
+
+    <ImageView
+        android:id="@+id/event_remark"
+        android:layout_width="8dip"
+        android:layout_height="8dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6dip"
+        android:background="@color/event_green"
+        android:contentDescription="@string/desc_cell_hint"
+        android:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- "筛选条件" layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_condition_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/discovery_secTitle"
+        layout="@layout/discovery_second_title" />
+
+    <!-- 相对布局 -->
+
+    <RelativeLayout
+        android:id="@+id/main_condition_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/discovery_secTitle"
+        android:background="@color/color_search_condition"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:paddingTop="7dp" >
+
+        <!-- 行程时间 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/trip_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:singleLine="true"
+            android:text="@string/trip_time"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/title_size" />
+        <!-- 开始时间  结束时间 -->
+
+        <LinearLayout
+            android:id="@+id/trip_time_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/trip_time"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:orientation="horizontal" >
+
+            <!-- 行程开始时间 -->
+
+            <LinearLayout
+                android:id="@+id/trip_start_time_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <!-- 显示 "开始时间"文本内容 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_start_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trip_start_time"
+                    android:textColor="@color/shadow_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!-- 垂直分隔条 -->
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color_search_time_vertical_line" />
+            <!-- 行程结束时间 -->
+
+            <LinearLayout
+                android:id="@+id/trip_end_time_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trip_end_time"
+                    android:textColor="@color/shadow_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 同行游客 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/trip_visitor_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trip_time_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:singleLine="true"
+            android:text="@string/trip_visitor_text"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/title_size" />
+        <!-- 同行游客  线性布局 -->
+
+        <LinearLayout
+            android:id="@+id/trip_visitor_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@id/trip_time_layout"
+            android:layout_below="@id/trip_visitor_count"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:orientation="horizontal" >
+
+            <!-- 减号 -->
+
+            <LinearLayout
+                android:id="@+id/substract_icon_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/substract_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/state_filter_subtractmark_selector"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+            <!-- 垂直分隔条 -->
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color_search_time_vertical_line" />
+            <!-- 游客数量 -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_visitor_counts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trip_visitor_counts"
+                    android:textColor="@color/shadow_black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!-- 垂直分隔条 -->
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color_search_time_vertical_line" />
+            <!-- 加号 -->
+
+            <LinearLayout
+                android:id="@+id/add_icon_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/add_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/state_filter_addmark_selector"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 价格范围  文本框 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/trip_price_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trip_visitor_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:singleLine="true"
+            android:text="@string/trip_price_range"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/title_size" />
+        <!-- 价格范围 -->
+
+        <LinearLayout
+            android:id="@+id/trip_price_random"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/trip_visitor_layout"
+            android:layout_below="@id/trip_price_range"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <!-- 0 -->
+
+                <CheckBox
+                    android:id="@+id/zerobox1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawableBottom="@drawable/state_pay_price_dot"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="@string/zero"
+                    android:textColor="@color/colorlist_pay_price_textcolor"
+                    android:textSize="17sp" />
+                <!-- 1K -->
+
+                <CheckBox
+                    android:id="@+id/onebox2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawableBottom="@drawable/state_pay_price_dot"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="@string/onethousand"
+                    android:textColor="@color/colorlist_pay_price_textcolor"
+                    android:textSize="17sp" />
+                <!-- 5K -->
+
+                <CheckBox
+                    android:id="@+id/fivebox3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawableBottom="@drawable/state_pay_price_dot"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="@string/fivethousand"
+                    android:textColor="@color/colorlist_pay_price_textcolor"
+                    android:textSize="17sp" />
+                <!-- 1W -->
+
+                <CheckBox
+                    android:id="@+id/onebox4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawableBottom="@drawable/state_pay_price_dot"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="@string/onemillion"
+                    android:textColor="@color/colorlist_pay_price_textcolor"
+                    android:textSize="17sp" />
+                <!-- 1.5W -->
+
+                <CheckBox
+                    android:id="@+id/dotfivebox5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawableBottom="@drawable/state_pay_price_dot"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="@string/dotfivemillion"
+                    android:textColor="@color/colorlist_pay_price_textcolor"
+                    android:textSize="17sp" />
+                <!-- 2W -->
+
+                <CheckBox
+                    android:id="@+id/twobox6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:drawableBottom="@drawable/state_pay_price_dot"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="@string/twomillion"
+                    android:textColor="@color/colorlist_pay_price_textcolor"
+                    android:textSize="17sp" />
+            </LinearLayout>
+            <!-- 容器  盛放二级拖动滚动条seekbar -->
+
+            <LinearLayout
+                android:id="@+id/seekBar_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 服务类型 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/trip_service_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trip_price_random"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:singleLine="true"
+            android:text="@string/trip_service_category"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/title_size" />
+         <!-- 服务类型  layout -->
+        <LinearLayout
+            android:id="@+id/trip_service_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/trip_price_random"
+            android:layout_below="@id/trip_service_category"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal" >
+
+            <!-- 车辆服务  checkbox -->
+
+            <CheckBox
+                android:id="@+id/trip_car_service"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+               android:layout_weight="1"
+                android:button="@null"
+                android:layout_gravity="center_vertical"
+                android:drawableTop="@drawable/trip_service_car_checkstate"
+                android:drawablePadding="6dp"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/shape_logreg_cell_normal"
+                android:gravity="center"
+                android:text="@string/trip_car_service"
+                android:textColor="@color/colorlist_trip_service_textcolor"
+                android:textSize="15sp" />
+            <!-- 空白分隔块 -->
+            <View 
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                
+                />
+            <!-- 行程规划  checkbox -->
+            <CheckBox
+                android:id="@+id/trip_route_plan"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@null"
+                 android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="6dp"
+                android:background="@drawable/shape_logreg_cell_normal"
+                android:drawableTop="@drawable/trip_route_plan_checkstate"
+                android:gravity="center"
+                android:text="@string/trip_route_plan"
+                android:textColor="@color/colorlist_trip_service_textcolor"
+                android:textSize="15sp" />
+              <!-- 空白分隔块 -->
+            <View 
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                
+                />
+            <!-- 房屋   checkbox -->
+            
+            <CheckBox
+                android:id="@+id/trip_rent"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="6dp"
+                android:background="@drawable/shape_logreg_cell_normal"
+                android:drawableTop="@drawable/trip_home_checkstate"
+                android:gravity="center"
+                android:text="@string/trip_home"
+                android:textColor="@color/colorlist_trip_service_textcolor"
+                android:textSize="15sp" />
+
+            
+        </LinearLayout>
+      
+    </RelativeLayout>
+
+</RelativeLayout>

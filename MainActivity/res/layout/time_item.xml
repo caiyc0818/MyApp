@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/flag_experience" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="体验期"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/detail_content_size"
+            android:visibility="visible" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/experience_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical"
+            android:text="2015/04/20 - 2015/05/12"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/detail_content_size"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_marginLeft="15dp"
+        android:background="@color/gray_border" />
+
+</LinearLayout>

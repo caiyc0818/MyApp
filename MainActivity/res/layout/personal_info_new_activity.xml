@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 自定义ScrollView滚动条 -->
+
+    <com.bcinfo.tripaway.view.ScrollView.PersonalNewScrollView
+        android:id="@+id/personal_scrollView_new_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <!-- 根布局-相对布局 -->
+
+        <RelativeLayout
+            android:id="@+id/personal_new_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical" >
+
+            <!-- FrameLayout显示大幅的照片和个人简要信息等 -->
+
+            <FrameLayout
+                android:id="@+id/contentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="460dp"
+                android:layout_centerHorizontal="true" >
+
+                <!-- 背景图片 -->
+
+                <ImageView
+                    android:id="@+id/personal_scence_background_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_launcher"
+                    android:scaleType="centerCrop" />
+                <!-- 居中的个人信息简介 -->
+
+                <LinearLayout
+                    android:id="@+id/layout_personal_info_introduce"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:orientation="vertical" >
+
+                    <!-- 用户圆形头像 -->
+
+                    <com.bcinfo.tripaway.view.image.RoundImageView
+                        xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/personal_headIcon_iv"
+                        android:layout_width="@dimen/detail_author_photo_size"
+                        android:layout_height="@dimen/detail_author_photo_size"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_launcher"
+                        imagecontrol:border_inside_color="@color/white"
+                        imagecontrol:border_thickness="2dp" />
+                    <!-- 用户姓名和性别图标icon -->
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/userNameIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:drawablePadding="5dp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title_size" />
+                    <!-- 头衔  空的线性布局  最多一行装五个头衔 -->
+
+                    <LinearLayout
+                        android:id="@+id/layout_personal_titles_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:visibility="visible" >
+
+                        <!-- no.1 -->
+
+
+                        <!-- 头衔 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/personal_titleName1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/shape_personal_headtitle_normal"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="2dp"
+                            android:singleLine="true"
+                            android:text="捕鱼达人"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dialog_user_address_size"
+                            android:visibility="gone" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/personal_titleName2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/shape_personal_headtitle_normal"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="2dp"
+                            android:singleLine="true"
+                            android:text="金牌达人"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dialog_user_address_size"
+                            android:visibility="gone" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/personal_titleName3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_personal_headtitle_normal"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="2dp"
+                            android:singleLine="true"
+                            android:text="旅游达人"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dialog_user_address_size"
+                            android:visibility="gone" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/personal_titleName4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/shape_personal_headtitle_normal"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="2dp"
+                            android:singleLine="true"
+                            android:text="吃货达人"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dialog_user_address_size"
+                            android:visibility="gone" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/personal_titleName5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/shape_personal_headtitle_normal"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingTop="2dp"
+                            android:singleLine="true"
+                            android:text="电影达人"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/dialog_user_address_size"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                    <!-- 个人简介 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp" >
+
+                        <!-- 个人简介 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/personal_introduce_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.2"
+                            android:singleLine="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/comment_user_name_size" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <!-- -140dp -->
+
+            <LinearLayout
+                android:id="@+id/footer_personal_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contentContainer"
+                android:layout_marginTop="-140dp"
+                android:background="@color/transparent"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp" >
+
+                    <LinearLayout
+                        android:id="@+id/personal_navigation_Bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="bottom"
+                        android:background="@color/half_transparent_gray"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="40dp" >
+
+                        <!-- 游记  布局 -->
+
+                        <LinearLayout
+                            android:id="@+id/layout_blog_container"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <!-- 游记    数量 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/amount_personal_blog"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:textColor="@color/colorlist_personal_tab_button_selector"
+                                android:textSize="@dimen/title_size" />
+                            <!-- 游记 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/item_personal_blog_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/personal_blog_item_name"
+                                android:textColor="@color/colorlist_personal_tab_button_selector" />
+                        </LinearLayout>
+
+                        <!-- 产品  布局  如果用户是服务商  那么就显示产品tab标签;否则是普通用户(游客) 就不显示产品tab标签 -->
+
+                        <!-- <LinearLayout
+                            android:id="@+id/layout_product_container"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:visibility="visible" >
+
+                            产品    数量
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/amount_personal_product"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:textColor="@color/colorlist_personal_tab_button_selector"
+                                android:textSize="@dimen/title_size" />
+                            产品
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/item_personal_product_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/personal_products"
+                                android:textColor="@color/colorlist_personal_tab_button_selector" />
+                        </LinearLayout> -->
+
+                        <!-- 关注 布局 -->
+
+                        <LinearLayout
+                            android:id="@+id/layout_attention_container"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <!-- 关注    数量 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/amount_personal_attention"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:textColor="@color/colorlist_personal_tab_button_selector"
+                                android:textSize="@dimen/title_size" />
+                            <!-- 关注 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/item_personal_attention_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/personal_attention_item_name"
+                                android:textColor="@color/colorlist_personal_tab_button_selector" />
+                        </LinearLayout>
+
+                        <!-- 粉丝 布局 -->
+
+                        <LinearLayout
+                            android:id="@+id/layout_fans_container"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <!-- 粉丝    数量 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/amount_personal_fans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:singleLine="true"
+                                android:textColor="@color/colorlist_personal_tab_button_selector"
+                                android:textSize="@dimen/title_size" />
+                            <!-- 粉丝 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/item_personal_fans_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:singleLine="true"
+                                android:text="@string/personal_fans_item_name"
+                                android:textColor="@color/colorlist_personal_tab_button_selector" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <!-- 关注TA -->
+
+                    <LinearLayout
+                        android:id="@+id/layout_focusOn_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/shape_layout_personal_attention"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:paddingTop="6dp" >
+
+                        <!-- 关注TA -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/user_focused_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/title_size" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <com.bcinfo.tripaway.view.MyGridView
+                    android:id="@+id/photo_gridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:horizontalSpacing="0dp"
+                    android:listSelector="@color/transparent"
+                    android:numColumns="4"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"
+                    android:verticalSpacing="0dp" />
+
+                <!-- ViewPager -->
+                <!-- 在ScrollView中,viewPager一定要设置成具体的高度    match_parent或wrap_content无效 -->
+
+
+                <!--
+                     <android.support.v4.view.ViewPager
+                    android:id="@+id/personalContentViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="565dp"
+                    android:overScrollMode="never" />
+                -->
+            </LinearLayout>
+        </RelativeLayout>
+    </com.bcinfo.tripaway.view.ScrollView.PersonalNewScrollView>
+    <!-- include 一个透明的标题栏 -->
+
+    <include layout="@layout/personal_new_title" />
+
+</RelativeLayout>

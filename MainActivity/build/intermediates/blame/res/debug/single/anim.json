@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\pw_hide2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\pw_hide2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\hintpw.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\hintpw.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\rotating.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\rotating.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_dlg_alpha.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\shake_umeng_socialize_dlg_alpha.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\translate_down_current.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\translate_down_current.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_out.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\push_up_out.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_animation2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\alpha_animation2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_back.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_back.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_animation1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\alpha_animation1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in_2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\push_bottom_in_2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_edit_anim.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\shake_umeng_socialize_edit_anim.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\loading.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\loading.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\popup_window_above.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\popup_window_above.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_back1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_back1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_finish1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_finish1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_out1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_out1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_finish.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_finish.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_cycle_5.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\shake_umeng_socialize_cycle_5.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\popup_window_down.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\popup_window_down.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_new.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_new.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\hintpw2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\hintpw2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\icon_anim2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\icon_anim2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_imageview_rotate.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\shake_umeng_socialize_imageview_rotate.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\pw_show2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\pw_show2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\fade_ins.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\fade_ins.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\translate_up.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\translate_up.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\scale_animation.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\scale_animation.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\pw_hide.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\pw_hide.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\pw_show.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\pw_show.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\translate_down.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\translate_down.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\icon_anim.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\icon_anim.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\reverse_anim.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\reverse_anim.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_scrshot_dlg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\shake_umeng_socialize_scrshot_dlg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\shake_umeng_socialize_dlg_scale.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\shake_umeng_socialize_dlg_scale.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\reverse_anim2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\reverse_anim2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_alpha_action_in.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_alpha_action_in.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_new1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_new1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\activity_out.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\activity_out.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\pb_default.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\pb_default.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\translate_up_current.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\anim\\translate_up_current.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\anim\\abc_popup_exit.xml"
+    }
+]

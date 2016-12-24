@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义 微游记-发布布局界面 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/trip_blog_publish_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_trip_blog_publish_separate_view"
+        android:orientation="vertical" >
+
+        <!-- 导入微游记-发布 标题栏 -->
+
+        <include layout="@layout/trip_microblog_title" />
+
+        <LinearLayout
+            android:id="@+id/trip_blog_container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <!-- GridView 网格列表 -->
+
+            <GridView
+                android:id="@+id/trip_blogPhoto_gridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:horizontalSpacing="10dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="5"
+                android:overScrollMode="never"
+                android:verticalSpacing="10dp"
+                />
+            <!-- 照片添加描述 -->
+
+            <EditText
+                android:id="@+id/trip_edit_photoDescript"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:gravity="left|top"
+                android:maxLength="140"
+                android:hint="给这些图片添加描述吧"
+                android:singleLine="false"
+                android:textColor="@color/color_trip_blog_photoDescript"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <!-- 空白分隔条 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_trip_blog_publish_separate_line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/color_trip_blog_publish_separate_view" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_trip_blog_publish_separate_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <!-- 所在位置 -->
+
+            <RelativeLayout
+                android:id="@+id/trip_blog_published_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <!-- map地图 图标 -->
+
+                <ImageView
+                    android:id="@+id/trip_blog_map_icon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:scaleType="fitCenter"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/map_black" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_blog_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/trip_blog_map_icon"
+                    android:text="@string/trip_blog_location"
+                    android:textColor="@color/color_trip_blog_publish_font_color"
+                    android:textSize="12sp" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_blog_location_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="right"
+                    android:text="定位中"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/right_arrow"
+                    android:layout_toRightOf="@+id/trip_blog_location"
+                    android:textColor="@color/color_trip_blog_publish_font_color"
+                    android:textSize="12sp" />
+                <ImageView 
+                        android:layout_width="20dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/right_arrow"
+                        android:id="@+id/right_arrow"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <!-- 分隔条 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:orientation="horizontal" >
+
+                <!-- 白色分隔条 -->
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+                <!-- 灰色分隔条 -->
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+            </LinearLayout>
+            <!-- 谁可以看 -->
+
+            <RelativeLayout
+                android:id="@+id/trip_blog_published_secret"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <!-- map地图 图标 -->
+
+                <ImageView
+                    android:id="@+id/trip_blog_secret_icon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/secret" />
+                <!-- 谁可以看 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_blog_secret"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/trip_blog_secret_icon"
+                    android:text="@string/trip_blog_secret"
+                    android:textColor="@color/color_trip_blog_publish_font_color"
+                    android:textSize="12sp" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_blog_secret_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="公开"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/color_trip_blog_publish_font_color"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_trip_blog_publish_separate_line" />
+            
+            
+            
+              <!-- 下方空白点击区域 ,用于隐藏Edittext弹出的软键盘 --><LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <View
+                    android:id="@+id/down_linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+<!-- 半透明的背景色 -->
+    <FrameLayout 
+        android:id="@+id/trip_blog_publish_fullTransParentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_gray"
+        android:visibility="gone"
+        ></FrameLayout>
+    <!-- 导入抽屉 -->
+
+    <include layout="@layout/trip_addphoto_slidingdrawer2" />
+    
+    
+    
+    
+
+</FrameLayout>

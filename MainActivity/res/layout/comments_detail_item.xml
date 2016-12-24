@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:background="@color/white" >
+
+    <com.bcinfo.tripaway.view.image.RoundImageView
+        android:id="@+id/comments_user_photo"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:src="@drawable/user_defult_photo" />
+
+    <RelativeLayout
+        android:id="@+id/layout_comments_user_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@id/comments_user_photo" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/comments_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/comment_user_name_size" />
+
+        <LinearLayout
+            android:id="@+id/comments_user_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="2dip"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/comments_user_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comments_user_name"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="5dip"
+            android:ellipsize="end"
+            android:gravity="left|top"
+            android:lineSpacingExtra="5dip"
+            android:maxLines="4"
+            android:textColor="@color/gray_more_5"
+            android:textSize="13sp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/comments_user_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comments_user_content"
+            android:layout_marginTop="2dip"
+            android:text=""
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/comment_date_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/comments_user_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/comments_user_content"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="2dip"
+            android:text="回复"
+            android:textColor="@color/sky_blue"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <com.bcinfo.tripaway.view.MyListView
+            android:id="@+id/comments_replys_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comments_user_date"
+            android:divider="@color/gray_border"
+            android:dividerHeight="0px"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 发现-搜索提示框item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/discovery_hint_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlist_discovery_selected_items"
+    android:padding="10dp" >
+
+    <!-- 搜索图标 -->
+
+    <ImageView
+        android:id="@+id/discovery_items_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/search_searchicon_gray"
+        android:scaleType="fitCenter" />
+    <!-- 文本框  显示搜索可能到的产品结果 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/discovery_items_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/discovery_items_icon"
+        android:gravity="center"
+        android:textColor="@color/shadow_black"
+        android:textSize="15sp" />
+    <!-- 文本框   显示结果数量 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/discovery_items_counts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:textColor="@color/shadow_gray"
+        android:textSize="15sp" />
+
+</RelativeLayout>

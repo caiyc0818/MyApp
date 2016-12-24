@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 圈子 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/second_title_bar"/>
+   <!-- 显示 圈子内容的列表 -->
+   <ListView 
+       android:id="@+id/trip_zone_item_listview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:listSelector="@color/transparent"
+       android:divider="@color/gray_border"
+       android:dividerHeight="1dp"
+       android:scrollbars="none"
+       android:overScrollMode="never"
+       android:cacheColorHint="@color/transparent"
+       />
+</LinearLayout>

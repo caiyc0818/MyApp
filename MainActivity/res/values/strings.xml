@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 阿里字符 -->
+    <string name="icons">&#x3605; &#x35ad; &#x35ae; &#x35af;</string>
+    <string name="icon">&#xe608;</string>
+    <string name="icon_clicked">&#xe611;</string>
+     <!-- 阿里妈妈矢量图 -->
+    <string name="alimama_return_back_text_icon">&#xe650;</string>  <!-- 返回  矢量图标 -->
+    <string name="alimama_more_text_icon">&#xe610;</string> <!-- 更多   矢量图标 -->
+    <string name="alimama_like_empty_text_icon">&#xe652;</string> <!-- 喜欢  矢量图标 -->
+    <string name="alimama_dustbin_delete_text_icon">&#xe612;</string> <!-- 删除  矢量图标 -->
+    
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="app_name">远行旅行</string>
+    <string name="action_open">开</string>
+    <string name="action_close">关</string>
+    <!-- 登录  注册 -->
+    <string name="resetPassword">找回密码</string>
+    <string name="commitPassword">提交新密码</string>
+    <string name="sendResetEmail">发送重置密码邮件</string>
+    <string name="findPassword">手机找回</string>
+    <string name="findPasswordByEmail">邮箱找回</string>
+    <string name="login">登录</string>
+    <string name="authCode_hint">请输入验证码</string>
+    <string name="emailInput">请输入注册时的邮箱</string>
+    <string name="register">注册</string>
+    <string name="loginNameHint">请输入邮箱/手机账号</string>
+    <string name="loginPassWordHint">请输入密码</string>
+    <string name="forgetPassWord">忘记密码?</string>
+    <string name="logining">登录中,请稍后...</string>
+    <string name="reseting">重置中,请稍后...</string>
+    <string name="successInfo">重置密码成功,请登录。</string>
+    <string name="resetPwd">重置密码</string>
+    <string name="errorInfo">账号或密码错误,请重新输入</string>
+    <string name="login_fail">登录失败</string>
+    <string name="inputNewPwd">6-18位字母和数字新密码</string>
+    <string name="inputPhoneAutjCodeText">请输入6位数验证码</string>
+    <string name="inputNewPwdAgain">请重复一遍新密码</string>
+    <string name="otherLoginWays">使用以下方式登录</string>
+    <string name="weiboLogin">新浪微博</string>
+    <string name="qqLogin">腾讯QQ</string>
+    <string name="twitterLogin">twitter</string>
+    <string name="contentStr1">我同意《远行平台服务条款》</string>
+    <string name="contentStr2">《隐私权保护和个人信息利用政策》。</string>
+    <string name="findHint1">您好,请输入您的手机号码,点击\"找回密码\",</string>
+    <string name="findHint2">系统将通过短信把验证码发送到您的手机上。</string>
+    <string name="findHint3">请在输入框中输入您注册账号时所使用的邮箱,</string>
+    <string name="findHint4">我们将会把重置密码的邮件发到您的邮箱。</string>
+    <string name="dialog_findPwdByPhone_text">验证码已通过短信发给您,请立即修改密码。</string>
+    <string name="phoneInput">请输入注册时的邮箱/手机号码</string>
+    <string name="resetSuccessStr">重置密码发送成功</string>
+    <string name="resultText1">请到注册邮箱</string>
+    <string name="resultText2">中查收</string>
+    <string name="userHeaderName">AllKee</string>
+    <string name="regNameHint">请输入邮箱或手机号</string>
+    <string name="regPassWordHint">密码，6-16位数字或字母</string>
+    <string name="verifyCode">验证码</string>
+    <string name="verifyCodeTip">验证码已发送至手机</string>
+    <string name="verifyCodeHint">请输入验证码</string>
+    <!-- 搜索  发现 -->
+    <string name="search_hint">搜索目的地、主题、景点等</string>
+    <string name="search_hintm">搜索目的地0、主题、景点等</string>
+    <string name="discovery_standard_product_label">标准</string>
+    <string name="discovery_team_product_label">跟团游</string>
+    <string name="discover_title_themes">全部主题</string>
+    <string name="discover_title_locations">目的地</string>
+    <string name="discovery_hot_keywords_text">热搜词</string>
+    <string name="discovery_history_item">搜索历史</string>
+    <string name="discovery_history_clear">清除历史</string>
+    <!-- &#160;代表空格 -->
+    <string name="discover_theme_product_by">By&#160;</string>
+    <string name="search_hint_default"></string>
+    <string name="search_cancel">取消</string>
+    <string name="search_hotLocation">目的地</string>
+    <string name="search_all">全部</string>
+    <string name="search_hotThemes">主题</string>
+    <string name="search_tripTime">旅行时间</string>
+    <string name="search_city_additionalText">个城市</string>
+    <string name="choice_title">筛选条件</string>
+    <string name="trip_route">线路</string>
+    <string name="trip_car">车辆</string>
+    <string name="trip_comments">条评价</string>
+    <string name="dot">&#046;</string>
+    <string name="tipContent1">下拉可以刷新</string>
+    <string name="tipContent2">松开可以刷新</string>
+    <string name="updateText">最近更新&#058;</string>
+    <string name="loadEmpty">暂无数据</string>
+
+    <item name="tag_theme" type="id"></item>
+    <item name="tag_location" type="id"></item>
+    <item name="tag_search_first" type="id"></item>
+    <item name="tag_search_second" type="id"></item>
+    <!-- 评论 -->
+    <item name="tag_comment_first" type="id"></item>
+    <item name="tag_comment_second" type="id"></item>
+    <!-- 个人主页-更多 -->
+    <item name="tag_experience_photo_list" type="id"></item>
+    <item name="tag_experience_photo_index" type="id"></item>
+    <!-- 产品详情景点图片 -->
+    <item name="tag_photo_index" type="id"></item>
+    <item name="tag_photo_list" type="id"></item>
+
+    <!-- 目的地   中文 -->
+    <string name="January_text">1</string>
+    <string name="February_text">2</string>
+    <string name="March_text">3</string>
+    <string name="April_text">4</string>
+    <string name="May_text">5</string>
+    <string name="June_text">6</string>
+    <string name="July_text">7</string>
+    <string name="August_text">8</string>
+    <string name="September_text">9</string>
+    <string name="October_text">10</string>
+    <string name="November_text">11</string>
+    <string name="December_text">12</string>
+    <string name="month_text">月</string>
+    <!-- 目的地-城市详情 -->
+    <string name="current_travel_achivement_text">当地旅游达人</string>
+    <string name="current_travel_hotcity_text">热门城市</string>
+    <string name="current_travel_product_text">旅游产品</string>
+
+    <string-array name="discovery_location_zhCnArray">
+        <item>美国</item>
+        <item>日本</item>
+        <item>泰国</item>
+        <item>韩国</item>
+        <item>中国</item>
+        <item>法国</item>
+    </string-array>
+    <!-- 目的地  英文 -->
+    <string-array name="discovery_location_enUsArray">
+        <item>American</item>
+        <item>JaPan</item>
+        <item>ThailLand</item>
+        <item>Korea</item>
+        <item>China</item>
+        <item>France</item>
+    </string-array>
+    <!-- 产品-新修 -->
+
+    <string name="product_traffic_str">交通</string>
+    <string name="product_food_str">美食</string>
+    <string name="product_shopping_str">购物</string>
+    <string name="product_tip_str">小贴士</string>
+
+    <string-array name="product_hint_array">
+        <item>复活节岛,神秘巨石表情与浩大的运送工程,至今任是世人不解之谜。</item>
+        <item>美国的宾馆和民宿档次不一,游客可以根据经济条件选择各类层次的旅馆投宿。</item>
+        <item>美国式饮食不讲究惊喜,追求快捷方便,也不奢华,一日三餐都很方便。</item>
+        <item>游人络绎不绝,市场上有很多卖旅游纪念品的,还有很多农副产品,出来到这里可以很直观的感受到朴素。</item>
+        <item>您是第一次出国旅游吗?走前,我这里有8条提醒说给您,记住了,或许您的旅行会方便很多。</item>
+    </string-array>
+    <!-- 产品-新修-申请预订-选择航班 -->
+    <!-- &#058;  冒号 -->
+    <string name="product_category_flight_international">国际航班&#058;</string>
+    <string name="product_flight_mark">-</string>
+    <string name="product_flight_picked_tip">点击选择乘坐的航班</string>
+    <string name="product_flight_rmb_symbol">¥</string>
+    <!-- 产品-新修-申请预订-选择汽车 -->
+    <string name="product_car_picked_tip">选择使用该车辆的日期</string>
+    <string name="product_hotel_picked_tip">选择入住该酒店的日期</string>
+    <string name="product_car_picked_startTime">开始时间：</string>
+    <string name="product_car_picked_endTime">结束时间：</string>
+    <string name="product_flight_info_clsText">清除已选择的航班信息?</string>
+
+    <!-- 微游记 -->
+    <string name="blogTitleName">微游记</string>
+    <string name="blogPublished">发布</string>
+    <string name="blog_taking_photos">手机拍照</string>
+    <string name="blog_album_photos">从手机相册选择</string>
+    <string name="blog_photos_descript">给这些照片添加描述吧</string>
+    <string name="trip_blog_location">所在位置</string>
+    <string name="trip_blog_secret">谁可以看</string>
+    <string name="trip_blog_secret_public">公开</string>
+    <string name="trip_blog_secret_private">私密</string>
+    <string name="trip_blog_location_default">南京</string>
+    <string name="trip_blog_photo_returnBack">返回</string>
+    <string name="trip_blog_photo_delete">删除</string>
+    <string name="blog_detail_delete_text">删除此晒图</string>
+    <string name="blog_delete_content_text">确定删除此晒图?</string>
+    <!-- tag -->
+    <item name="border_top" type="id"></item>
+    <item name="border_bottom" type="id"></item>
+    <item name="image_url" type="id"></item>
+    <!-- 搜索-筛选条件 -->
+    <string name="trip_time">行程时间</string>
+    <string name="trip_start_time">开始时间</string>
+    <string name="trip_end_time">结束时间</string>
+    <string name="trip_visitor_text">同行游客</string>
+    <string name="trip_price_range">价格范围</string>
+    <string name="trip_visitor_counts">2位</string>
+    <string name="zero">0</string>
+    <string name="onethousand">1K</string>
+    <string name="fivethousand">5K</string>
+    <string name="onemillion">1W</string>
+    <string name="dotfivemillion">1.5W</string>
+    <string name="twomillion">2W</string>
+    <string name="trip_service_category">服务类型</string>
+    <string name="trip_car_service">车辆服务</string>
+    <string name="trip_route_plan">行程规划</string>
+    <string name="trip_home">房屋</string>
+    <string name="trip_agent_buy">代订</string>
+    <string name="search_result_application">使用筛选条件</string>
+    <string name="search_filter_done_text">完成</string>
+    <!-- 精选 -->
+    <string name="product_picked_titleName">精选</string>
+
+    <item name="tag_picked_first" type="id"></item>
+    <item name="tag_picked_second" type="id"></item>
+    <item name="tag_picked_thrid" type="id"></item>
+
+    <!-- 好友 -->
+    <string name="my_friendship_titlebar_titleName">好友</string>
+    <string name="my_friendship_query_hint_text">搜索好友</string>
+    <string name="my_friendship_query_peo_text">搜索全部成员</string>
+    <string name="my_friendship_is_ok_text">已关注</string>
+    <string name="my_friendship_is_each_text">相互关注</string>
+    <string name="my_friendship_cancel_or_not_text">确认取消关注?</string>
+    <!-- 个人资料 -->
+    <string name="individualInfo_name">个人资料</string>
+    <string name="personalInfo_name">个人主页</string>
+    <string name="zone_sidebar_name">圈子</string>
+    <string name="message_sidebar_name">消息</string>
+    <string name="friendship_sidebar_name">好友</string>
+    <string name="myitinerary_sidebar_name">我的旅程</string>
+    <string name="myItineraryOrder_sidebar_name">行程单</string>
+    <string name="travelStory_sidebar_name">旅行故事</string>
+    <string name="gowith_sidebar_name">我的结伴</string>
+    <string name="accountHelper_name">记账助手</string>
+    <string name="personal_comments">用户评论</string>
+    <string name="personal_verificate">验证</string>
+    <string name="personal_photos">照片</string>
+    <string name="personal_products">产品</string>
+    <string name="personal_msgSend">发送</string>
+    <string name="personal_more_text">更多</string>
+    <string name="personal_blog_item_name">游记</string>
+    <string name="personal_attention_item_name">关注</string>
+    <string name="personal_fans_item_name">粉丝</string>
+    <string name="personal_focusOn_tv">关注TA</string>
+    <string name="personal_focusOff_tv">取消关注</string>
+    <string name="personal_hi_more_text">Hi</string>
+    <string name="personal_more_age_text">年龄</string>
+    <string name="personal_more_area_text">地区</string>
+    <string name="personal_more_job_text">职业</string>
+    <string name="personal_more_educate_text">教育</string>
+    <string name="personal_more_language_text">语言</string>
+    <string name="personal_more_record_text">TA的过往</string>
+
+    <item name="tag_first" type="id"></item>
+    <item name="tag_second" type="id"></item>
+       <item name="tag_third" type="id"></item>
+    <!-- 产品详情-服务者个人信息字段 -->
+    <string name="servicer_focused_str">关注</string>
+    <string name="servicer_fans_str">粉丝</string>
+    <string name="servicer_browser_page">访问主页</string>
+    <!-- 圈子 -->
+    <string name="zone_is_ok_text">赞</string>
+    <string name="zone_content_category_tripStory">发布了微游记</string>
+    <string name="zone_content_category_goWith">发布了结伴</string>
+    <string name="zone_content_category_product">发布了新产品</string>
+    <item type="id" name="item_zone_object_id"/> <!-- 圈子item 的id -->
+    <item type="id" name="item_zone_object_type"/><!-- 圈子item的 type -->
+    <string-array name="personal_verificate_items">
+        <item>电子邮箱</item>
+        <item>电话号码</item>
+        <item>座驾</item>
+        <item>身份</item>
+    </string-array>
+    <string-array name="personal_isVerificate">
+        <item>已验证</item>
+        <item>未验证</item>
+    </string-array>
+    <!-- 设置 -->
+    <string name="setting_titleName">设置</string>
+    <string name="setting_imgUpload_text">图片上传条件</string>
+    <string name="setting_clsCache_text">清除缓存</string>
+    <string name="setting_aboutUs_text">关于我们</string>
+    <string name="setting_checkForUpdate_text">版本检查</string>
+    <string name="setting_new_mark">NEW</string>
+    <string name="setting_new_info">有新版本可用</string>
+    <string name="setting_evaluate_text">去评价</string>
+    <string name="setting_help_text">帮助</string>
+    <string name="setting_exit_text">退出账号</string>
+    <string name="setting_exit_text1">关闭远行</string>
+    <string name="setting_exit_text2">退出登录</string>
+    <string name="setting_cache_dialog_content">清除后,图片,视频等多媒体消息需要重新下载查看,确定清除?</string>
+    <string name="setting_exit_yesOrNo">确定退出当前账号?</string>
+    <string name="setting_exit_dialog_positive">确定</string>
+    <string name="setting_exit_dialog_negative">取消</string>
+    <string name="setting_help_number_one">1、</string>
+    <string name="setting_help_number_two">2、</string>
+    <string name="setting_help_number_three">3、</string>
+    <string name="setting_help_number_four">4、</string>
+    <string name="setting_help_number_five">5、</string>
+    <string name="setting_help_number_six">6、</string>
+    <string name="setting_help_number_seven">7、</string>
+    <string name="setting_check_new_version_text">检查新版本</string>
+    <string name="setting_check_new_version_usage_introduce_text">使用条款</string>
+    <string name="setting_check_new_version_private_policy_text">隐私策略</string>
+    <string name="setting_check_new_version_and_text">和</string>
+    <string name="setting_check_new_version_company_version_text">南京远游信息科技有限公司版权所有</string>
+    <!-- 设置  品质 -->
+    <string-array name="setting_quality">
+        <item>低品质</item>
+        <item>中等品质</item>
+        <item>高品质</item>
+    </string-array>
+    <string-array name="sidebar_function">
+        <item>精选</item>
+        <item>目的地</item>
+        <item>社区</item>
+        <item>设置</item>
+    </string-array>
+    <!-- 详情-服务 -->
+    <string-array name="service_names">
+        <item>SUV</item>
+        <item>行程规划</item>
+        <item>6位游客</item>
+        <item>代订酒店</item>
+        <item>代订门票</item>
+    </string-array>
+    <!-- 支付成功 -->
+    <string name="setting_pad_success_text">支付成功</string>
+    <string name="setting_pad_success_close">关闭</string>
+    <string name="setting_pad_success_alipay">支付宝</string>
+    <string name="setting_pad_success_paytime">交易时间</string>
+    <string name="setting_pad_success_no">订单编号</string>
+    <string name="setting_pad_success_name">产品名称</string>
+    <string name="setting_pad_success_starttime">行程时间</string>
+    <string name="setting_pad_success_num">游客人数</string>
+    <string name="setting_pad_success_message">您的留言</string>
+    <!-- 设置-帮助 -->
+    <string name="setting_help_guide">新手上路</string>
+    <string name="setting_help_account">账号</string>
+    <string name="setting_title_name">帮助</string>
+
+    <string-array name="questionArray1">
+        <item>我是否能够更改已确认的预订?</item>
+        <item>在哪输入优惠券代码或旅游基金?</item>
+        <item>如何预订预准房源和特别优惠房源?</item>
+        <item>如果我联系不上我的房东,该怎么办?</item>
+        <item>我可以删除或回复评价吗?</item>
+        <item>评价是如何运作的?</item>
+        <item>我需要为预订支付多少费用?</item>
+    </string-array>
+    <string-array name="questionArray2">
+        <item>如何创建远行账号?</item>
+        <item>远行是否可以取消激活我的账号?</item>
+        <item>如何取消我的账号?</item>
+    </string-array>
+    <!-- 设置-关于我们 -->
+    <string name="setting_aboutUs_content">远行网是一款连结旅行者和当地人的在线旅游平台。当我们厌倦了跟团走马观花式的传统旅游方式，也对自己安排繁重的交通，住宿，景点规划感到身心疲惫时，让远行网以极致周到的体验为你重新定义"旅游"。</string>
+    <string name="setting_aboutUs_title">关于我们</string>
+    <!-- 下拉刷新 上拉加载更多 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_success">刷新完成</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_no_more">没有更多内容</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载,请稍候</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="tips_weather">"洛杉矶拥有温和的地中海气候，全年气温适中，湿度较小，天气晴朗。一年中的292天都阳光明媚。夏天是最佳旅游时节，此时可以在海边游泳嬉戏，但夏季也是游人最多的季节。如果你想清净一些，你可以选择4、5月或者9、10月出游。"</string>
+    <string name="tips_currency">"汇率与市区内的银行几乎一样。到达之后最好换一些准备搭车，如果要搭市区巴士，就得准备硬币。兑换外币处的前面有时也设兑换机，非常方便。另外也可以用信用卡在ATM领钱"</string>
+    <!-- alarm -->
+    <string name="default_alarm_label">"闹钟"</string>
+
+    <!-- calendar -->
+    <string name="menu_goto">跳转到&#8230;</string>
+    <string name="menu_about">关于</string>
+    <string name="desc_previous_month">previous month</string>
+    <string name="desc_next_month">next month</string>
+    <string name="desc_today">return to today</string>
+    <string name="desc_popup_menu">Popup menu</string>
+    <string name="desc_cell_hint">cell hint</string>
+    <string name="chinese_week">周</string>
+    <string name="demo">demo</string>
+    <string name="calendar_sunday">日</string>
+    <string name="calendar_monday">一</string>
+    <string name="calendar_tuesday">二</string>
+    <string name="calendar_wednsday">三</string>
+    <string name="calendar_thursday">四</string>
+    <string name="calendar_firday">五</string>
+    <string name="calendar_saturday">六</string>
+    <string name="point">.</string>
+
+    <string-array name="gregorianFestivals">
+        <item>元旦</item>
+        <item>情人节</item>
+        <item>妇女节</item>
+        <item>植树节</item>
+        <item>消费者权益日</item>
+        <item>愚人节</item>
+        <item>国际劳动节</item>
+        <item>国际儿童节</item>
+        <item>教师节</item>
+        <item>国庆节</item>
+        <item>万圣节</item>
+        <item>平安夜</item>
+        <item>圣诞节</item>
+    </string-array>
+    <string-array name="lunarFestivals">
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>七夕</item>
+        <item>中元节</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>祭祖节</item>
+        <item>腊八节</item>
+        <item>小年</item>
+        <item>除夕</item>
+    </string-array>
+    <string-array name="solarTerm">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="chineseDigital">
+        <item>〇</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="chinesePrefix">
+        <item>初</item>
+        <item>十</item>
+        <item>廿</item>
+        <item>正</item>
+        <item>冬</item>
+        <item>腊</item>
+        <item>闰</item>
+    </string-array>
+    <string-array name="chineseTime">
+        <item>年</item>
+        <item>月</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="chinese_gan">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="chinese_zhi">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+	<string name="register_success">注册成功</string>
+	<string name="register_fail">注册失败</string>
+    <string name="title_activity_comfire_order">ComfireOrderActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    
+    <string name="more_than_max">超过了上限</string>
+    <string name="preview">预览</string>
+    <string name="recent_photos">最近照片</string>
+    <string name="sure">完成</string>
+    <string name="select_photos">选择图片</string>
+    <string name="back">返回</string>
+    <string name="taking_pictures">拍摄照片</string>
+    <string name="max_img_limit_reached">不能选择超过%d个图像</string>
+       <!-- 设置-我的账户 -->
+    <string name="my_account_current_total_salary_text">您目前总收入(元)</string>
+    <string name="my_account_add_text">添加账户</string>
+    <string name="my_account_added_item_name_tv1">支付宝</string>
+    <string name="my_account_added_item_name_tv2">PayPal</string>
+    <string name="alipay_binded_second_titlebar_name">绑定第三方支付</string>
+    <string name="alipay_binded_hint_text">请输入需要绑定的支付宝账户</string>
+    <string name="alipay_binded_account_hint_text">电子邮箱或手机号</string>
+    <string name="alipay_binded_operate_commit_text">提交</string>
+    <string name="alipay_binded_operate_done_titleBar_text">收款账户绑定成功</string>
+    <string name="alipay_binded_operate_done_text">您的收款将在游客支付订单之后,分批次发放给您,并显示在您的可提现金额中,但全部款项可能需要更长时间才会在您的支付宝账户中到账。</string>
+    <string name="my_account_confirm_text">知道了</string>
+    <string name="my_account_setdefault_text">设为默认</string>
+    <string name="my_account_unbind_text">解绑</string>   
+    <string name="my_account_detail_filter_titlebar_name">流水筛选</string>
+    <string name="my_account_detail_filter_query_name_text">输入订单号查询</string>
+    <string name="my_account_detail_text">账户流水</string>
+     <!-- dialog -->
+     <string name="setting_callphone_yesOrNo">确定拨打?</string>
+     <string name="my_account_unbind_dialog_content_str">正在解除与支付宝的绑定,确认解除?\n解绑后,可以重新绑定。</string>
+     <string name="dialog_findPwdByemail_text">验证码已通过邮箱发给您,请立即修改密码。</string>
+     <string name="dialog_ResetPassWordDialog_text">修改密码成功，请重新登陆!</string>
+     <string name="setting_unsubscribe_agreement">同意退订?</string>
+     <string name="setting_unsubscribe_refusement">不同意退订?</string>
+     <string name="setting_unsubscribe_agreement_success">同意退订成功!</string>
+     <string name="setting_unsubscribe_agreement_fail">同意退订失败!</string>
+     <string name="setting_unsubscribe_refusement_success">不同意退订成功!</string>
+     <string name="setting_unsubscribe_refusement_fail">不同意退订失败!</string>
+
+</resources>

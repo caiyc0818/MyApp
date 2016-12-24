@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg" >
+
+    <com.bcinfo.tripaway.view.ScrollView.ProductDetailScrollView
+        android:id="@+id/product_detail_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="320dip"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/page_background"
+                    android:layout_width="fill_parent"
+                    android:layout_height="320dip"
+                    android:background="@drawable/clubmeb_bg"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/transparent"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="236dip"
+                    android:layout_marginTop="-236dip"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" >
+
+                        <com.bcinfo.tripaway.view.image.RoundImageView
+                            xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/club_author_photo"
+                            android:layout_width="@dimen/detail_author_photo_size"
+                            android:layout_height="@dimen/detail_author_photo_size"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/user_defult_photo"
+                            app:border_inside_color="@color/white"
+                            app:border_thickness="4dip" />
+
+                        <ImageView
+                            android:id="@+id/personal_v_icon_iv"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="bottom|right"
+                            android:visibility="visible" />
+                    </FrameLayout>
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/club_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="川藏老兵"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/person_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/dark_gray"
+                android:textSize="12sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/blog_gray"
+                android:gravity="center"
+                android:text="TA的游记"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blog_gray"
+                android:orientation="horizontal" >
+
+                <!-- 添加View的第一列 -->
+
+                <LinearLayout
+                    android:id="@+id/first_column"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+                </LinearLayout>
+                <!-- 添加View的第二列 -->
+
+                <LinearLayout
+                    android:id="@+id/second_column"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.bcinfo.tripaway.view.ScrollView.ProductDetailScrollView>
+
+    <RelativeLayout
+        android:id="@+id/layout_product_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/title_bg" >
+
+        <LinearLayout
+            android:id="@+id/layout_back_button"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:background="@drawable/button_selector_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/back_button_height"
+                android:layout_height="@dimen/back_button_height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/nav_back"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/club_name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nav_talk"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_detail_car_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="品牌名"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/car_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="车辆编号"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/car_license_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="行驶里程"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/car_distance_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购车时间"
+            android:paddingTop="15dp"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/car_shopping_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="座位"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/car_seat_num_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车型级别"
+            android:paddingTop="15dp"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/car_type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后备箱容积"
+            android:paddingTop="15dp"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/car_capacity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出产国"
+            android:textColor="@color/gray_more"
+            android:paddingTop="15dp"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/car_place_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_more"
+            android:paddingTop="15dp"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_more"
+            android:paddingTop="15dp"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dip" 
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_more"
+            android:paddingTop="15dp"
+            android:textSize="@dimen/car_info_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/car_info_size" />
+    </RelativeLayout>
+
+</LinearLayout>

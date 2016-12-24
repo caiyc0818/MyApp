@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义一个搜索模块的标题栏 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/the_search_title"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/dark_green"
+    
+    android:orientation="horizontal" >
+    
+   <RelativeLayout 
+       
+       android:id="@+id/search_title"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal" 
+       
+       android:gravity="center_vertical"
+       android:layout_gravity="center"
+       
+       >
+        <!-- 定义标题栏左边的一个"展开侧边栏"的图标 -->
+   <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+       android:id="@+id/nav_sidebar"
+       android:layout_width="30dp"
+       android:layout_height="40dp"
+       
+       android:background="@drawable/nav_sidebar"
+       android:layout_alignParentLeft="true"
+       
+       android:layout_marginLeft="3dp"
+      
+       android:visibility="gone"
+       android:gravity="center_vertical"
+       android:layout_centerVertical="true"
+       />
+   <!-- 同样在标题栏的左边定义一个"返回"的图标 -->
+   <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+       android:id="@+id/nav_back"
+       android:layout_width="35dp"
+       android:layout_height="35dp"
+       
+       android:background="@drawable/nav_back"
+       android:layout_alignParentLeft="true"
+       
+       android:layout_marginLeft="3dp"
+      
+       android:visibility="gone"
+       android:gravity="center_vertical"
+       
+       />
+   <!-- 在"返回"图标的右边定义一个 文本框 内容显示 "筛选条件"-->
+   <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+       android:id="@+id/choice_title"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center_vertical|center_horizontal"
+       android:text="@string/choice_title"
+       android:textColor="@color/milk_color"
+       android:textSize="20sp"
+       android:visibility="gone"
+       
+       android:layout_toRightOf="@id/nav_back"
+      android:layout_marginTop="3dp"
+       android:layout_marginLeft="1dp"
+       
+       />
+   
+   <!-- 在"展开侧边栏"图标的右边定义一个表示"筛选结果日期"的文本内容 -->
+   <LinearLayout 
+       android:id="@+id/choice_result_title"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:visibility="gone"
+       android:layout_toRightOf="@id/nav_sidebar"
+       android:layout_marginLeft="5dp"
+       >
+     <LinearLayout 
+         android:id="@+id/choice_result_title_header"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="7dp"
+         >
+         <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/choice_title"
+             android:textSize="18sp"
+             android:textColor="@color/milk_color"
+             
+             
+             
+             />
+         
+         
+     </LinearLayout>
+        <LinearLayout 
+         android:id="@+id/choice_result_title_date"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="-2dp"
+         
+         >
+        <!-- 其中定义一个显示筛选日期条件的文本框  显示日期 -->
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+            android:id="@+id/choice_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textColor="@color/milk_color"
+            
+            android:text="2014/10/12-2014/10/22"
+            
+            
+            />
+            </LinearLayout>
+   </LinearLayout>
+   <!-- 中间的搜索框 -->
+   <LinearLayout 
+       android:id="@+id/centerLayout"
+       android:layout_width="280dp"
+       android:layout_height="wrap_content"
+     android:layout_toRightOf="@id/nav_sidebar"
+       android:orientation="vertical"
+        android:layout_alignTop="@id/nav_sidebar"
+        android:layout_marginLeft="20dp"
+       android:visibility="gone"
+      
+       >
+        
+     <LinearLayout 
+         
+         android:id="@+id/search_layout"
+         android:layout_width="match_parent"
+         android:layout_height="30dp"
+         
+         android:orientation="horizontal"
+      
+       android:padding="2dp"
+         
+         >
+         <!-- 搜索图标 -->
+         <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+             android:id="@+id/search_icon"
+             android:layout_width="29dp"
+             android:layout_height="29dp"
+             android:background="@drawable/search_searchicon"
+           android:layout_gravity="center_vertical"
+             
+             />
+         <EditText 
+             android:id="@+id/search_keywords"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@null"
+             android:hint="@string/search_hint"
+             android:textSize="20sp"
+             android:textColor="@color/milk_color"
+             android:textColorHint="@color/milk_color"
+             android:layout_marginLeft="5dp"
+             
+             
+             android:singleLine="true"
+             android:paddingLeft="3dp"
+             />
+         
+     </LinearLayout>
+        <!-- 定义一个线性布局 -->
+     <LinearLayout 
+         android:id="@+id/search_bottom_layout"
+         android:layout_width="match_parent"
+         android:layout_height="10dp"
+         android:orientation="horizontal"
+        
+         android:background="@drawable/search_bg"
+       
+        
+         >
+     </LinearLayout>
+       
+       
+   </LinearLayout>
+    
+   
+      
+       
+   </RelativeLayout>
+  
+
+</LinearLayout>

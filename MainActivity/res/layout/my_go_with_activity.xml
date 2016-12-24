@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/second_title_bar" />
+
+    <ListView
+        android:id="@+id/go_with_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/layout_title"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/gray_border"
+        android:dividerHeight="0.5px"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" >
+    </ListView>
+    <!-- 添加照片  图标 -->
+
+    <ImageView
+        android:id="@+id/add_go_with_button"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/add_photo_button_selector"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

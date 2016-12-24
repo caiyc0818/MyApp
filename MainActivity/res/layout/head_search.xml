@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_edittext_linearlayout_new" >
+
+        <EditText
+            android:id="@+id/info_edt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/limit_tip"
+            android:background="@null"
+            android:hint="请输入"
+            android:maxLength="30"
+            android:minHeight="60dp"
+            android:padding="10dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/detail_content_title_size" />
+    </RelativeLayout>
+
+</LinearLayout>

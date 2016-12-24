@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framelayout" >
+
+    
+    <com.bcinfo.imageviewer.view.HackyViewPager
+        android:id="@+id/pager"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black" />
+    <LinearLayout 
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView 
+        
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="top"
+        android:src="@drawable/nav_back"/>
+    
+    </LinearLayout>
+<LinearLayout 
+    android:id="@+id/down_tv"
+    android:layout_width="fill_parent"
+    android:layout_height="130dp"
+    android:layout_gravity="bottom"
+    android:clickable="true"
+    android:background="#55000000"
+    android:orientation="horizontal">
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+        android:id="@+id/image_desc"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+         android:scrollbars="vertical"  
+        android:scrollbarStyle="outsideOverlay"  
+        android:singleLine="false"
+        android:maxLines="4"
+        android:scrollbarFadeDuration="2000"/>
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/viewpager_indicator"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</LinearLayout>
+</FrameLayout>

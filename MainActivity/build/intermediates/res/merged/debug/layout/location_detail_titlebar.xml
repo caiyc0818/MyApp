@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 目的地  国家-城市详情的标题栏 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/title_bg"
+    android:orientation="horizontal"
+    android:id="@+id/country_detail_layout_title"
+    tools:context=".activity.AddMemberActivity" >
+
+    <!-- 标题栏左边的返回图标 -->
+
+    <LinearLayout
+        android:id="@+id/layout_back_button"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="fill_parent"
+        android:background="@drawable/button_selector_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/back_button_height"
+            android:layout_height="@dimen/back_button_height"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/nav_back"
+            android:gravity="center" />
+        
+    </LinearLayout>
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+        android:id="@+id/country_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text=""/>
+    
+    <!-- 标题栏右边的贴士 -->
+
+     <ImageView
+        android:id="@+id/subject_service_share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:visibility="gone"
+        android:background="@drawable/product_detail_share"
+        android:scaleType="center" /> 
+
+</RelativeLayout>

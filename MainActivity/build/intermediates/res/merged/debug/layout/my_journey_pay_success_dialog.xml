@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/pay_success_logo"
+        android:layout_width="@dimen/detail_author_photo_size"
+        android:layout_height="@dimen/detail_author_photo_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip"
+        android:src="@drawable/allpage_ok" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/pay_success_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pay_success_logo"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="完成产品全款支付"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pay_success_text"
+        android:layout_marginTop="40dip"
+        />
+</RelativeLayout>

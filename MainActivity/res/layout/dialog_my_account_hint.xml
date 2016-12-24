@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 我的账户-问题提示  dialog -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="@string/alipay_binded_operate_done_text"
+        android:textColor="@color/shadow_black"
+        android:textSize="@dimen/car_info_size" />
+    <!-- 知道了 -->
+
+    <LinearLayout
+        android:id="@+id/layout_my_account_confirm_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_alipay_binded_cell_normal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_account_confirm_text"
+            android:textColor="@color/dark_green"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

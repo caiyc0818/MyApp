@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义微游记记录详情布局 -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blog_imageViewer_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 自定义ViewPager 显示发布者发布的游记照片 -->
+
+    <com.bcinfo.imageviewer.view.HackyViewPager
+        android:id="@+id/blogPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/dark_gray" />
+    <!-- 下方 一个线性布局 -->
+
+    <LinearLayout
+        android:id="@+id/down_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/transparent1"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical" >
+
+            <!-- 游记内容 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/blog_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+                android:text="美丽的泰州人杰地灵美丽的泰州人州人杰地灵"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.image.RoundImageView
+                xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/micro_publisher_photo"
+                android:layout_width="40dp"
+                android:visibility="gone"
+                android:layout_height="40dp"
+                
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/user_defult_photo"
+                imagecontrol:border_inside_color="@color/white"
+                imagecontrol:border_thickness="4dip" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <!-- 第一个线性布局 -->
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" >
+
+                    <!-- 发布者姓名 -->
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/blog_authorName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="zhangsan"
+                        android:textColor="@color/white"
+                        android:visibility="gone"
+                        android:textSize="20sp" />
+                    <!-- 页码 -->
+
+                </RelativeLayout>
+                <!-- 发布时间 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/blog_published_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="2015/05/07"
+                    android:visibility="gone"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <!-- 第二个线性布局 -->
+
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/pageCountTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="1/15"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- 左边的返回 按钮 -->
+
+            <ImageView
+                android:id="@+id/detail_back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:src="@drawable/nav_back" />
+
+            <!-- 右边的 更多选项 图标 -->
+ <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+                
+     <FrameLayout 
+         android:id="@+id/micro_layout"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         >
+                    <ImageView 
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/blog_contents"
+                        />
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/micro_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="0"
+                android:textSize="10sp"
+                android:textColor="@color/white"
+                android:background="@drawable/green_circle_corner_bg"
+                 />
+            </FrameLayout>
+ </LinearLayout>
+            <ImageView
+                android:id="@+id/detail_delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:src="@drawable/micro_dustbin" />
+            <!--
+                 <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/detail_more_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/alimama_more_text_icon"
+                android:textSize="@dimen/alimama_icon_textsize_normal" />
+            -->
+            <!-- 喜欢  图标 -->
+
+
+            <!--
+                 <CheckedTextView
+                android:id="@+id/detail_is_like_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/detail_more_icon"
+                android:gravity="center"
+                android:text="@string/alimama_like_empty_text_icon"
+                android:textSize="@dimen/alimama_icon_textsize_middle" />
+            -->
+        </LinearLayout>
+
+        <!--
+        <RelativeLayout
+            android:id="@+id/layout_detail_top_container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back"
+            android:layout_marginTop="10dp" >
+
+            <LinearLayout
+                android:id="@+id/layout_detail_delete_container"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/detail_delete_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/gray"
+                    android:text="@string/alimama_dustbin_delete_text_icon"
+                    android:textSize="@dimen/alimama_icon_textsize_little" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blog_detail_delete_text"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="@dimen/comment_user_name_size" />
+            </LinearLayout>
+        </RelativeLayout>
+        -->
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,502 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg" >
+
+    <include layout="@layout/second_title_bar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/comfir_pay_rel"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="54dip"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="行程时间"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <LinearLayout
+                android:id="@+id/comfire_time_lin"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/comfire_date_begin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="开始时间"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/detail_content_title_size" />
+
+                <ImageView
+                    android:layout_width="0.5dip"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@color/gray_border" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/comfire_date_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:singleLine="true"
+                    android:text="结束时间"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/detail_content_title_size" />
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="同行游客"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <LinearLayout
+                android:id="@+id/comfir_together"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp" >
+
+                <RadioGroup
+                    android:id="@+id/comfire_people"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/comfire_people_1"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_checked_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/color_radiobutton"
+                        android:textSize="@dimen/detail_content_title_size" />
+
+                    <RadioButton
+                        android:id="@+id/comfire_people_2"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_checked_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@color/color_radiobutton"
+                        android:textSize="@dimen/detail_content_title_size" />
+
+                    <RadioButton
+                        android:id="@+id/comfire_people_3"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_checked_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="@color/color_radiobutton"
+                        android:textSize="@dimen/detail_content_title_size" />
+
+                    <RadioButton
+                        android:id="@+id/comfire_people_4"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_checked_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textColor="@color/color_radiobutton"
+                        android:textSize="@dimen/detail_content_title_size" />
+
+                    <RadioButton
+                        android:id="@+id/comfire_people_5"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_checked_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@color/color_radiobutton"
+                        android:textSize="@dimen/detail_content_title_size" />
+
+                    <RadioButton
+                        android:id="@+id/comfire_people_6"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_checked_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="6"
+                        android:textColor="@color/color_radiobutton"
+                        android:textSize="@dimen/detail_content_title_size" />
+
+                    <RadioButton
+                        android:id="@+id/comfire_people_7"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/radio_checked_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textColor="@color/color_radiobutton"
+                        android:textSize="@dimen/detail_content_title_size" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="交通工具"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dip"
+                android:src="@drawable/airporticon" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/gray_border" />
+
+            <LinearLayout
+                android:id="@+id/comfire_plane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="26dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/gray_border" />
+
+                    <ImageView
+                        android:id="@+id/gray_circle"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/gray_circle_bg" />
+
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="26dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/gray_border" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/traffic_type_flags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="8dip"
+                        android:src="@drawable/caricon" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="8dip"
+                        android:src="@drawable/sheepicon" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/comfire_othertraffic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:text="酒店住宿"
+                android:textColor="@color/black"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <LinearLayout
+                android:id="@+id/comfire_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:text="价格"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dip"
+                        android:gravity="center"
+                        android:text="产品："
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/product_price"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="end"
+                        android:text="¥5588"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/border_width"
+                    android:background="@color/gray_border" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dip"
+                        android:text="交通费:"
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/traffic_price"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="end"
+                        android:text="¥4588"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/border_width"
+                    android:background="@color/gray_border" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dip"
+                        android:text="住宿费:"
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/stay_price"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="end"
+                        android:text="¥100"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </LinearLayout>
+
+               <!--  <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/border_width"
+                    android:background="@color/gray_border" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dip"
+                        android:text="平台服务费:"
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/price_platform"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="end"
+                        android:text="¥128"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </LinearLayout> -->
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/border_width"
+                    android:background="@color/gray_border" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dip"
+                        android:text="总价:"
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/price_total"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="end"
+                        android:text="¥10404"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/comfir_pay_rel"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:layout_alignParentTop="true"
+            android:background="@color/gray_border" />
+
+        <Button
+            android:id="@+id/comfir_pay_button"
+            android:layout_width="200dip"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/red_circle_side_bg"
+            android:text="提交申请"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

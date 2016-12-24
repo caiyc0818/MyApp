@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设置-帮助子模块布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_help_layout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 导入二级标题栏 -->
+
+    <include layout="@layout/second_title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="5dp" >
+
+            <!-- 新手上路 标题 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/search_separate_view_color"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="15dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    style="@style/style_setting_help_header_textStyle"
+                    android:text="@string/setting_help_guide" />
+            </LinearLayout>
+            <!-- 分隔线 -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_trip_blog_publish_separate_line" />
+
+            <RelativeLayout
+                android:id="@+id/guideItemContainer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  1 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_the_first_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_one" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_item1"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/guide_the_first_item" />
+                <!-- 半分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@id/guide_the_first_item"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_setting_help_dividerLine" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/guideItemContainer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  2 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_the_second_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_two" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_item2"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/guide_the_second_item" />
+                <!-- 半分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@id/guide_the_second_item"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_setting_help_dividerLine" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/guideItemContainer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  3 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_the_thrid_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_three" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_item3"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/guide_the_thrid_item" />
+                <!-- 半分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@id/guide_the_thrid_item"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_setting_help_dividerLine" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/guideItemContainer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  4 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_the_fourth_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_four" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_item4"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/guide_the_fourth_item" />
+                <!-- 半分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@id/guide_the_fourth_item"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_setting_help_dividerLine" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/guideItemContainer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  5 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_the_fiveth_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_five" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_item5"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/guide_the_fiveth_item" />
+                <!-- 半分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@id/guide_the_fiveth_item"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_setting_help_dividerLine" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/guideItemContainer6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  6 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_the_sixth_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_six" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_item6"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/guide_the_sixth_item" />
+                <!-- 半分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@id/guide_the_sixth_item"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_setting_help_dividerLine" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/guideItemContainer7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  7 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_the_seventh_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_seven" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/guide_item7"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/guide_the_seventh_item" />
+            </RelativeLayout>
+            <!-- 分隔线 -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_trip_blog_publish_separate_line" />
+
+            <!-- 账号 标题 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/search_separate_view_color"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="15dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    style="@style/style_setting_help_header_textStyle"
+                    android:text="@string/setting_help_account" />
+            </LinearLayout>
+            <!-- 分隔线 -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_trip_blog_publish_separate_line" />
+
+            <!-- 账号问题 -->
+
+            <RelativeLayout
+                android:id="@+id/accountItemContainer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  1 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/account_the_first_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_one" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/account_item1"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/account_the_first_item" />
+                <!-- 半分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@id/account_the_first_item"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_setting_help_dividerLine" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/accountItemContainer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  2 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/account_the_second_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_two" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/account_item2"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/account_the_second_item" />
+                <!-- 半分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@id/account_the_second_item"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_setting_help_dividerLine" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/accountItemContainer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="3dp" >
+
+                <!-- 序号  3 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/account_the_thrid_item"
+                    style="@style/style_setting_help_item_textStyle"
+                    android:text="@string/setting_help_number_three" />
+                <!-- 文本框  显示问题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/account_item3"
+                    style="@style/style_setting_help_item_textStyle2"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/account_the_thrid_item" />
+            </RelativeLayout>
+            <!-- 分隔线 -->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_trip_blog_publish_separate_line" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

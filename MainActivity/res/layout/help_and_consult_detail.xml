@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/second_title"
+        layout="@layout/second_title_bar" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+  >
+     <com.bcinfo.tripaway.view.textview.NormalTfTextView android:layout_width="wrap_content"
+       android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+    android:layout_height="wrap_content"
+    android:textColor="@color/gray_more"
+    android:id="@+id/title"
+    android:textSize="16sp"
+    android:text="沒有想要的问题？我要咨询"/>
+       <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="10dp"
+        android:background="@color/color_trip_blog_publish_separate_line" />
+       <com.bcinfo.tripaway.view.textview.NormalTfTextView android:layout_width="wrap_content"
+       android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+          android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content"
+    android:textColor="@color/gray_more"
+    android:id="@+id/content"
+     android:textSize="14sp"
+    android:text="沒有想要的问题？我要咨询"/>
+       
+</LinearLayout>
+  <com.bcinfo.tripaway.view.textview.NormalTfTextView android:layout_width="wrap_content"
+       android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:textColor="@color/gray_more"
+    android:textSize="16sp"
+    android:text="可能你还需要"/>
+  <RelativeLayout 
+          android:id="@+id/ask"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp" 
+          android:background="@color/white"
+          >
+          <ImageView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_centerVertical="true"
+              android:src="@drawable/to_help"
+              android:id="@+id/my_store__img"
+              />
+          <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_toRightOf="@id/my_store__img"
+				android:text="我要咨询"
+				android:textColor="@color/gray_more"
+				android:textSize="16sp"
+				android:layout_marginLeft="10sp"
+				android:gravity="center_vertical"
+              />
+	          <ImageView 
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+				 android:layout_alignParentRight="true"
+				 android:layout_marginRight="10dp"	              
+	              android:layout_centerVertical="true"
+	              android:src="@drawable/right_arrow"
+	              />
+      </RelativeLayout>
+</LinearLayout>

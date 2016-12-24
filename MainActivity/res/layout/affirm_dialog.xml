@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dip"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/user_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            android:id="@+id/response_user_photo"
+            android:layout_width="@dimen/dialog_photo_size"
+            android:layout_height="@dimen/dialog_photo_size"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_defult_photo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/response_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="allkee"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/dialog_user_name_size" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/response_user_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="美国洛杉矶！"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dialog_user_address_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview_user_description"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_below="@id/user_info_layout"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:scrollbars="none" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/response_user_description"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left|top"
+            android:lineSpacingExtra="5dip"
+            android:text="收到哦感觉个电饭锅电饭锅地方固定式风格的风格地方个电饭锅的舒服个电饭锅国防生发个 国防生反反收到！"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/dialog_content_size" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_operation_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/response_commit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg_red"
+            android:text="善意拒绝"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commit_button_size" />
+
+        <Button
+            android:id="@+id/response_cancel_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg_gray"
+            android:text="取消"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/commit_button_size" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/response_reason"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/layout_operation_button"
+        android:layout_below="@id/scrollview_user_description"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/gray_border_bg"
+        android:gravity="top|left"
+        android:hint="请输入拒绝理由"
+        android:minHeight="100dip"
+        android:padding="10dip"
+        android:textColor="@color/dark_gray"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/dialog_content_size" />
+
+</RelativeLayout>

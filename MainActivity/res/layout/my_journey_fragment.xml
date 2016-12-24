@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical" >
+
+    <include 
+        layout="@layout/second_title_bar"
+        />
+     <View 
+         android:id="@+id/login_loading" 
+         android:layout_width="40dp" 
+         android:layout_height="40dp"
+         android:layout_gravity="center_horizontal" 
+         android:background="@anim/loading"/>
+    <com.bcinfo.tripaway.view.refreshandload.XListView
+        android:id="@+id/my_orders_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:background="@color/white"
+        android:divider="#F2F2F2"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/no_trip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notravel" />
+      
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 定义 筛选结果页面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/search_title" /> -->
+
+
+    <!-- 中间在定义一个具体高度的白色分隔条 -->
+
+    <View
+        android:id="@+id/choice_separate_line"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/search_separate_view_color"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/search_choice_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/search_separate_view_color" >
+
+        <!-- android:scrollbars="none"表示当listview滚动的时候不显示滚动条 -->
+<!--  
+        <ListView
+            android:id="@+id/main_choice_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/search_separate_line"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:visibility="gone" />
+-->
+        <!-- 在定义一个 listview控件   该控件显示筛选结果的数据 是可见的 -->
+
+        <ListView
+            android:id="@+id/main_choice_results_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/search_separate_line"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:visibility="visible" />
+
+        <!-- 在底部定义一个 "筛选条件"的按钮  是可见的 -->
+
+        <LinearLayout
+            android:id="@+id/search_result_btn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/shape_search_cell_choice"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/searchresult_icon" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/choice_title"
+                android:textColor="@color/milk_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

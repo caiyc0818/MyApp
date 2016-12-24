@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/second_title"
+        layout="@layout/second_title_bar" />
+     <com.bcinfo.tripaway.view.refreshandload.XListView
+        android:id="@+id/consult_or_complaint_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/gray_border"
+        android:dividerHeight="0.5px"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" >
+    </com.bcinfo.tripaway.view.refreshandload.XListView>
+</LinearLayout>

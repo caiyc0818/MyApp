@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 精选详细页面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/search_separate_view_color"
+    android:orientation="vertical" >
+
+    <!-- include 标题栏 -->
+
+    <include layout="@layout/picked_second_titlebar" />
+    <!-- 定义一个显示精选目的地产品列表控件 -->
+
+    <ListView
+        android:id="@+id/picked_detail_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/search_separate_line"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</LinearLayout>

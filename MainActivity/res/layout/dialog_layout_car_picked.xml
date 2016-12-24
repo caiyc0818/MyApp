@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 产品-申请预订-选择汽车 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <!-- 预选汽车的型号 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/picked_car_Name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="奔驰BENZ-e350"
+        android:textColor="@color/black"
+        android:textSize="@dimen/comment_user_name_size" />
+    <!-- 汽车简介 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/picked_car_introduce_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picked_car_Name_tv"
+        android:layout_marginTop="10dp"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:singleLine="false"
+        android:text="2014年购入的新车,干净整洁的,自带车载 wifi,轻型商用车的典范之作,被誉为&quot;移动的总裁办公室&quot;。豪华配置,可推拉天窗,前后置空调,真皮太空座椅,车内干净整洁舒适,满足您的各种用车需求,是您外出用车的最佳选择。"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/comment_user_name_size" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/layout_car_picked_tip_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picked_car_introduce_tv"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/product_car_picked_tip"
+        android:textColor="@color/black"
+        android:textSize="@dimen/comment_user_name_size" />
+    <!-- 开始时间   结束时间 -->
+
+    <LinearLayout
+        android:id="@+id/layout_car_picked_time_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_car_picked_tip_container"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <!-- 开始时间 -->
+
+        <LinearLayout
+            android:id="@+id/layout_product_car_useage_startTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_logreg_btn_normal"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <!-- icon -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_car_usage_starttime"
+                android:scaleType="center" />
+            <!-- 开始时间 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/product_car_picked_startTime"
+                android:textColor="@color/white"
+                android:textSize="@dimen/comment_user_name_size" />
+            <!-- 日期   年-月-日 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/product_car_picked_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015/03/20"
+                android:textColor="@color/white"
+                android:textSize="@dimen/comment_user_name_size" />
+        </LinearLayout>
+        <!-- 结束时间 -->
+
+        <LinearLayout
+            android:id="@+id/layout_product_car_useage_endTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_car_picked_btn_normal"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <!-- icon -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_car_usage_endtime"
+                android:scaleType="center" />
+            <!-- 开始时间 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/product_car_picked_endTime"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/comment_user_name_size" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/product_car_picked_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015/03/24"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/comment_user_name_size" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 底端的  确定  取消 layout -->
+
+    <LinearLayout
+        android:id="@+id/layout_footer_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <!-- 灰色分隔线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_border" />
+        <!-- 确定  取消 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- 确定 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/product_car_picked_confirm_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/setting_exit_dialog_positive"
+                android:textColor="@color/black"
+                android:textSize="@dimen/comment_user_name_size" />
+            <!-- 分隔线 -->
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray_border" />
+            <!-- 取消 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/product_car_picked_cancel_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/setting_exit_dialog_negative"
+                android:textColor="@color/black"
+                android:textSize="@dimen/comment_user_name_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milk_color" >
+
+    <!-- 发现-搜索二级页面标题栏 -->
+
+    <include
+        android:id="@+id/discovery_title_header"
+        layout="@layout/discovery_second_title" />
+    <!-- RelativeLayout  相对布局 -->
+	<FrameLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/discovery_title_header">
+
+    <RelativeLayout
+        android:id="@+id/layout_discovery_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/layout_discovery_hot_keywords_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_personal_comment"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp" >
+
+            <!-- 文本框   显示 热搜词 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:gravity="center"
+                android:text="@string/discovery_hot_keywords_text"
+                android:textColor="@color/search_allTheme_color"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_discovery_hot_keywords_gridview_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_discovery_hot_keywords_container"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp" >
+
+            <!-- 显示 热搜词 的gridview -->
+
+            <GridView
+                android:id="@+id/discovery_hot_keywords_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:horizontalSpacing="10dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="4"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:verticalSpacing="10dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_history_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_discovery_hot_keywords_gridview_container"
+            android:background="@color/color_personal_comment"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp" >
+
+            <!-- 文本框  显示搜索历史 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/discovery_history_item"
+                android:textColor="@color/search_allTheme_color"
+                android:textSize="18sp" />
+            <!-- 文本框   显示清除历史 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_history_record_clear_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/dustbin_history"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="@string/discovery_history_clear"
+                android:textColor="@color/gray"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        <!-- 搜索历史记录  listview -->
+
+        <ListView
+            android:id="@+id/discovery_history_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_discovery_history_container"
+            android:divider="@color/gray_border"
+            android:dividerHeight="1dp"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never" />
+        <!-- 分隔线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/discovery_history_listview"
+            android:background="@color/gray_border" />
+       
+        
+    </RelativeLayout>
+    
+        <ListView
+            android:id="@+id/discovery_result_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/gray_border"
+            android:dividerHeight="1dp"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never" />
+</FrameLayout>
+</RelativeLayout>

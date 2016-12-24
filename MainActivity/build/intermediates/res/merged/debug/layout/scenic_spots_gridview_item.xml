@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/sceniLyout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/scenic_spots_photo"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="8dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flag_date" />
+
+</LinearLayout>

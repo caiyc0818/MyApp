@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="red2">#fe3332</color>
+
+<color name="black2">#ff909090</color>
+   <color name="green2">#1cce6f</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="experiod_transparent">#90ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pad_success_view_colornew">#F9F9F9</color>
+    <color name="black">#000000</color>
+    <color name="dark_gray_bg">#F6F6F6</color>
+    <color name="gray_text">#666666</color>
+    <color name="gray">#999999</color>
+    <color name="blog_gray">#ededed</color>
+    <color name="sliver_gray">#7C7C7C</color>
+    <color name="shadow_gray">#555555</color>
+    <color name="qian_gray">#C6C6C6</color>
+    <color name="red">#FF5F5F</color>
+    <color name="dark_red">#d77576</color>
+    <color name="gold">#FFD700</color>
+    <color name="font_gray">#A1A1A1</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="light_red">#650000</color>
+    <color name="blue">#0000FF</color>
+    <color name="sky_blue">#77B3E9</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FF6364</color>
+    <color name="orange">#FFA500</color>
+    <color name="shadow_orange">#FF9433</color>
+    <color name="dark_gray">#333333</color>
+    <color name="half_translate_black">#66000000</color>
+    <color name="half_transparent_gray">#90000000</color>
+    <color name="half_translate_white">#66ffffff</color>
+    <color name="half_more_translate_black">#23000000</color>
+    <color name="blue_more">#FF0073b6</color>
+    <color name="detail_button_red">#FF4E4E</color>
+
+    <drawable name="transparent_background">#00000000</drawable>
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 深绿色 -->
+    <color name="dark_green">#33CC99</color>
+    <!-- 深粉红色 -->
+    <color name="dark_pink">#FF3366</color>
+    <!-- 铅黑色 -->
+    <color name="shadow_black">#222222</color>
+    <!-- 浅灰色 -->
+    <color name="qian_gray2">#A6A6A6</color>
+    <color name="shadow_gray2">#CACACA</color>
+    <!-- 奶白色 -->
+    <color name="milk_color">#F9F8FA</color>
+    <!-- 半透明的灰色 -->
+    <color name="transparent_gray">#b0000000</color>
+    <!-- 微游记-底端半透明浅色 -->
+    <color name="transparent_shadow_gray">#45000000</color>
+
+    <!-- 发现 -->
+    <color name="search_separate_line">#D8D8D8</color>
+    <color name="search_separate_view_color">#F7F7F7</color>
+    <color name="search_allTheme_color">#979797</color>
+    <color name="price_color">#565656</color>
+    <color name="discovery_edit_color">#898989</color>
+    <!-- 筛选条件 -->
+    <color name="color_search_condition">#F4F4F4</color>
+    <color name="color_search_fonts">#E5E5E5</color>
+    <color name="color_search_time_vertical_line">#C0C0C0</color>
+
+    <!-- 个人资料-分隔线 -->
+    <color name="color_personal_separate">#DBDBDB</color>
+    <color name="color_personal_comment">#F5F5F5</color>
+    <color name="color_personal_verificate_textcolor">#18CA8E</color>
+
+    <!-- 设置 -->
+    <color name="color_setting_dialog">#EFEFEF</color>
+    <color name="color_setting_dialog_title_text">#404040</color>
+    <color name="color_setting_cache_dialog_content">#3E3E3E</color>
+    <color name="color_setting_cache_dialog_negative">#EEEEEE</color>
+    <!-- 设置-帮助 -->
+    <color name="color_setting_help_dividerLine">#C9C9C9</color>
+    <color name="color_setting_help_itemTextColor">#2C2C2C</color>
+
+    <!-- 设置-关于我们 -->
+    <color name="color_setting_aboutUs_fontColor">#383838</color>
+    <!-- 微游记-照片选择 -->
+    <color name="color_trip_blog_addPhoto">#F4F4F4</color>
+    <color name="color_trip_blog_addPhotoText">#2A2A2A</color>
+    <color name="color_trip_blog_separate_line">#BFBFBF</color>
+    <color name="color_trip_blog_photoDescript">#888888</color>
+    <color name="color_trip_blog_publish_separate_line">#CBCBCB</color>
+    <color name="color_trip_blog_publish_separate_view">#F9F9F9</color>
+    <color name="color_trip_blog_publish_font_color">#2B2B2B</color>
+    <color name="color_trip_blog_photoview_background">#181818</color>
+    <color name="color_blog_line">#d4d4d4</color>
+    <color name="gray_border">#E1E1E1</color>
+    <color name="gray_bg">#F8F8F8</color>
+    <color name="cell_gray">#D2D2D2</color>
+    <color name="gray_little_d">#dddddd</color>
+    <color name="gray_little">#CCCCCC</color>
+    <color name="gray_little_a">#aaaaaa</color>
+    <color name="gray_themore">#999999</color>
+    <color name="gray_more">#888888</color>
+    <color name="gray_more_5">#555555</color>
+    <color name="event_green">#ff16c98d</color>
+    <color name="event_gray">#ff888888</color>
+    <color name="event_red">#ffff5151</color>
+    <!-- title -->
+    <color name="title_bg">#1CCE6F</color>
+    <!-- Color.argb(0xFF, 0x33, 0xB5, 0xE5) -->
+    <!-- calendar -->
+    <color name="color_calendar_border">#3fff</color>
+    <color name="color_calendar_title_gregorian">#cfff</color>
+    <color name="color_calendar_title_lunar">#cfff</color>
+    <color name="color_calendar_title_start">#c000</color>
+    <color name="color_calendar_title_end">#6000</color>
+    <color name="color_calendar_title_addition">#f63</color>
+    <color name="color_calendar_weekindex">#3fff</color>
+    <color name="color_calendar_weekindex_background">#369f</color>
+    <color name="color_calendar_weekend">#9fff</color>
+    <color name="color_calendar_weekend_background">#3f99</color>
+    <color name="color_calendar_header">#9fff</color>
+    <color name="color_calendar_header_background">#6000</color>
+    <color name="color_calendar_outrange">#3fff</color>
+    <color name="color_calendar_outrange_background">#3fff</color>
+    <color name="color_calendar_normal_gregorian">#cfff</color>
+    <color name="color_calendar_normal_lunar">#9fff</color>
+    <color name="color_calendar_normal_background">#0000</color>
+    <color name="color_calendar_today_gregorian">#cfff</color>
+    <color name="color_calendar_today_lunar">#9fff</color>
+    <color name="color_calendar_today_background">#06c</color>
+    <color name="color_calendar_solarterm">#c0c3</color>
+    <color name="color_calendar_festival">#cf90</color>
+    <color name="color_calendar_pressed">#306c</color>
+    <color name="color_calendar_focused">#606c</color>
+    <!-- tesr calendar -->
+    <color name="title_bar_bg">#2EBF9E</color>
+    <color name="label_color_2">#62605e</color>
+    <color name="help_bg_color">#232631</color>
+    <color name="blue_1">#3d5378</color>
+    <color name="white1">#ebf2fa</color>
+    <color name="first_green">#57b10d</color>
+    <color name="first_red">#e35524</color>
+    <color name="first_purple">#492b68</color>
+    <color name="first_blue">#34b2e8</color>
+    <color name="first_red1">#ed4c44</color>
+    <color name="first_yellow">#eebf00</color>
+    <color name="first_yellow_1">#ec8a0d</color>
+    <color name="first_pink">#dd8cc4</color>
+    <color name="first_green_1">#87ac21</color>
+    <color name="message_color">#7d7d7d</color>
+    <color name="gray_1">#afafaf</color>
+    <color name="green_light">#b0ffec</color>
+    <color name="green_deep">#1a7e60</color>
+    <color name="green_my_gray">#57c6a5</color>
+    <color name="green_chart_label">#c1ddd1</color>
+    <color name="near_by_gray">#adadad</color>
+    <color name="gps_green">#26c09a</color>
+    <color name="gps_bg">#FBFAFB</color>
+
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="black_gray">#686864</color>
+    <color name="sport_text_gray">#91cbbf</color>
+    <color name="sport_text_green">#bfdad3</color>
+    <color name="listView_normal">#00ffffff</color>
+    <color name="listview_pressed">#ffe2e2e2</color>
+    <color name="listview_selected">#ffe2e2e2</color>
+    <color name="listview_focused">#ffe2e2e2</color>
+
+    <drawable name="titlebar_back_select">#354254</drawable>
+
+    <color name="gray_approve">#d8d8d8</color>
+    <color name="gray_approved">#74b4ff</color>
+    <color name="edit_linearlayout">#c9c9c9</color>
+    <color name="micro_blogs_bg">#F4F4F4</color>
+    <color name="micro_blogs_dash_line">#bebebe</color>
+    <color name="micro_blogs_line">#d5d5d5</color>
+    <color name="micro_blogs_border">#dedede</color>
+    <color name="price_btn_cancel">#e3e3e3</color>
+    <color name="software_textColor_selected">#66667d</color>
+    <color name="software_textColor_unselected">#cdcdcd</color>
+    <color name="alone_bg">#9d9d9d</color>
+     <color name="bg">#FFFFFF</color>
+     <color name="half_transparent_black">#75000000</color>
+
+</resources>

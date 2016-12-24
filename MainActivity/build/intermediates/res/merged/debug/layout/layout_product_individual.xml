@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 个人资料-产品 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_product_individual_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 灰色的分隔线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/color_search_condition" />
+    <!-- 服务者个人产品列表 listview -->
+
+    <ListView
+        android:id="@+id/product_servicer_individual_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/color_search_condition"
+        android:dividerHeight="10dp"
+        android:listSelector="@null"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</LinearLayout>

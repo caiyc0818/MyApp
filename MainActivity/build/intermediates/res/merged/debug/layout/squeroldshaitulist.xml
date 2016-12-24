@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+     >
+
+     <RelativeLayout
+        android:id="@+id/layout_product_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/title_bg" >
+
+        <LinearLayout
+            android:id="@+id/layout_back_button"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:background="@drawable/button_selector_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/back_button_height"
+                android:layout_height="@dimen/back_button_height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/nav_back"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.TextView1
+            android:id="@+id/product_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="过往晒图"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+        <com.bcinfo.tripaway.view.TextView1
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+    </RelativeLayout>
+        <RelativeLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+         >
+
+   <View 
+         android:id="@+id/login_loading" 
+         android:layout_width="40dp" 
+         android:layout_height="40dp"
+         android:layout_centerHorizontal="true"
+         android:layout_gravity="center_horizontal" 
+         android:background="@anim/loading"/>
+
+   <ImageView 
+       android:id="@+id/noimage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:src="@drawable/nooldpic"
+       android:visibility="gone"
+       
+       />
+    <com.bcinfo.tripaway.view.refreshandload.XListView 
+      android:id="@+id/select_dialog_listview"
+      android:layout_width="fill_parent"
+      android:scrollbars="none"
+      android:listSelector="@color/transparent"
+      android:layout_height="fill_parent"
+      android:fadingEdge="none"
+      android:layout_centerHorizontal="true"
+      android:clipToPadding="false"
+      android:dividerHeight="1dp"
+       android:overScrollMode="never"
+       android:background="@color/transparent"
+      android:divider="@color/transparent"
+       />
+      
+    </RelativeLayout>
+  
+
+
+</LinearLayout>

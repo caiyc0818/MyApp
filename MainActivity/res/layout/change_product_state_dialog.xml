@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_button_height"
+        android:background="@color/gray_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dip"
+        android:text="更改此产品状态"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/dialog_title_size" />
+
+    <ImageView
+        android:id="@+id/dialog_title_line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_below="@id/dialog_title"
+        android:background="@color/gray_border" />
+
+    <LinearLayout
+        android:id="@+id/layout_select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title_line"
+        android:layout_margin="10dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/state_issuet_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dip"
+                android:text="发布中"
+                android:textColor="@color/dark_gray"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/state_issue_img"
+                android:layout_width="18dip"
+                android:layout_height="18dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/change_state_select" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <RelativeLayout
+            android:id="@+id/state_close_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dip"
+                android:text="关闭"
+                android:textColor="@color/dark_gray"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/state_close_img"
+                android:layout_width="18dip"
+                android:layout_height="18dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/change_state_select" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <RelativeLayout
+            android:id="@+id/state_delect_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dip"
+                android:text="删除"
+                android:textColor="@color/dark_gray"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/state_delect_img"
+                android:layout_width="18dip"
+                android:layout_height="18dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/change_state_select" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_below="@id/layout_select"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

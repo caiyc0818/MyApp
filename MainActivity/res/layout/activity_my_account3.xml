@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 我的账户  布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <include layout="@layout/second_title_bar" />
+
+    <!-- 我的账户-金额显示 layout -->
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/blue"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 您目前的总收入 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/my_account_total_salary_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="账户余额(元)"
+                android:textColor="#FAFAFA"
+                android:textSize="@dimen/detail_button_size" />
+            <!-- 问号  图标 -->
+
+            <ImageView
+                android:id="@+id/my_account_question_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/my_account_total_salary_tv"
+                android:background="@drawable/my_account_question"
+                android:gravity="center"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+        <!-- 文本框   显示金额 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/my_account_total_salary_number_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="18dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:visibility="visible" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/cash1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="可提现金额(元):"
+                android:textColor="#FAFAFA"
+                android:textSize="@dimen/detail_button_size" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/cash1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/fas"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/fas_shape"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="提现"
+                android:textColor="#7a7a7a"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 服务者 账户类型  初始是没有的  需要服务者自己添加账户 -->
+    <!-- 添加账户 layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <View
+                android:id="@+id/login_loading"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@anim/loading" />
+
+            <ImageView
+                android:id="@+id/noimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nocash1"
+                android:visibility="gone" />
+
+            <com.bcinfo.tripaway.view.MyListView
+                android:id="@+id/myaccount_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="#efefef"
+                android:dividerHeight="1dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" >
+            </com.bcinfo.tripaway.view.MyListView>
+
+            <RelativeLayout
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/myaccount_listview"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="@drawable/shape_more"
+                android:visibility="gone" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="查看历史流水明细"
+                    android:textColor="@color/gray_text"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

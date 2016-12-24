@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    xmlns:emojicon="http://schemas.android.com/apk/res/com.bcinfo.tripaway"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/press_white_to_gray_bg"
+    android:orientation="vertical" >
+
+    <com.bcinfo.tripaway.view.swipe.SwipeLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/ll_menu"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/trash"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/trash" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/message_item_left_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.image.MoreCircleImageView
+                    android:id="@+id/message_user_photo"
+                    android:layout_width="45dip"
+                    android:layout_height="45dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:src="@drawable/user_defult_photo"
+                    imagecontrol:border_inside_color="@color/white"
+                    imagecontrol:border_thickness="3dip" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/message_send_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="12-13"
+                        android:textColor="#666666"
+                        android:textSize="12sp" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/message_number"
+                        android:layout_width="20dip"
+                        android:layout_height="20dip"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignRight="@id/message_send_time"
+                        android:background="@drawable/shape_red_oval"
+                        android:gravity="center"
+                        android:text="32"
+                        android:textColor="@color/white"
+                        android:textSize="11sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_toLeftOf="@id/layout_right"
+                    android:layout_toRightOf="@id/message_user_photo"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/message_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:duplicateParentState="true"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text="allkee"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="15sp" />
+
+                    <com.bcinfo.tripaway.view.emoji.EmojiconTextView
+                        android:id="@+id/last_words"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:background="@color/white"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="#666666"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.bcinfo.tripaway.view.swipe.SwipeLayout>
+
+</RelativeLayout>

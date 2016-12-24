@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 精选页面列表项 item布局 -->
+<!-- 该布局下有三个布局    其中第一个指的是普通产品布局;第二个指的是精选服务者(服务者产品)布局;第三个指的是精选的主题  (是一行两个主题) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_product_picked_itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/reason_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/quotation" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:text="很专业，很风趣的一个菇凉。为人热情诚恳，深得游客的喜爱。"
+            android:textColor="#666666"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <!-- 1.item:普通产品 -->
+
+    <RelativeLayout
+        android:id="@+id/layout_trip_picked_product_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/trip_picked_product_iv"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_photo" />
+
+        <com.bcinfo.tripaway.view.Triangle
+            android:id="@+id/triangle"
+            android:layout_width="11dp"
+            android:layout_height="11dp"
+            android:layout_marginLeft="15dp" >
+        </com.bcinfo.tripaway.view.Triangle>
+        <!-- 在其下方是  普通产品的简介 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_trip_picked_product_info_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/trip_picked_product_iv"
+            android:layout_alignParentLeft="true" >
+
+            <LinearLayout
+                android:id="@+id/trip_picked_product_info_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_alignParentTop="true"
+                android:background="#77000000"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_picked_product_info_price_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="4dp"
+                    android:text="¥888"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dialog_user_name_size" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_picked_product_info_unit_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="/人"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/layout_originalPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:visibility="gone" >
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:layout_alignLeft="@+id/originalPrice"
+                        android:layout_alignRight="@+id/originalPrice"
+                        android:layout_centerVertical="true"
+                        android:background="@color/font_gray" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/originalPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:singleLine="true"
+                        android:text="¥888"
+                        android:textColor="@color/font_gray"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_below="@id/trip_picked_product_info_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/transparent1" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_picked_product_info_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="寻梦荷比法妙趣童话游"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/layout_trip_picked_product_extra_info_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/trip_picked_product_info_name_tv"
+                    android:layout_below="@id/trip_picked_product_info_name_tv"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/flag_calendar_small"
+                        android:scaleType="center" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/trip_picked_product_timeSchedual_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="7天"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/apply_price_explain" />
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/distance_small"
+                        android:scaleType="center" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/trip_picked_product_distance_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="1298Km"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/apply_price_explain" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_trip_picked_product_buttom"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignLeft="@id/trip_picked_product_info_name_tv"
+                    android:layout_below="@id/layout_trip_picked_product_extra_info_container"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layout_trip_picked_product_location_info_container"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/trip_picked_tag1_lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/shape_6"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="小团游"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/trip_picked_tag2_lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/shape_5"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="深度游"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/trip_picked_tag3_lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/shape_4"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="可定制"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/trip_picked_tag4_lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/shape_3"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="跟团游"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/trip_picked_product_lable"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰荷兰"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/detail_issue_date_size" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/trip_picked_product_peo_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/member_join"
+                        android:visibility="gone" />
+
+                 
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/trip_picked_product_peo_join_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:gravity="center"
+                        android:paddingRight="15dp"
+                        android:paddingTop="1.5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/detail_issue_date_size" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 2.item:精选 服务者 -->
+
+    <FrameLayout
+        android:id="@+id/layout_trip_picked_product_servicer_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <!-- 照片ImageView -->
+
+        <ImageView
+            android:id="@+id/trip_picked_product_servicer_iv"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_photo" />
+        <!-- 居中显示的精选  产品 服务者信息和头像 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#25000000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp" >
+
+            <!-- 服务者 头像 -->
+
+            <com.bcinfo.tripaway.view.image.RoundImageView
+                xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/trip_picked_product_servicer_headIcon_iv"
+                android:layout_width="@dimen/login_toast_positionY"
+                android:layout_height="@dimen/login_toast_positionY"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/default_photo"
+                imagecontrol:border_inside_color="@color/white"
+                imagecontrol:border_thickness="2dp" />
+            <!-- 下面是 精选服务者的名字 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/trip_picked_product_servicer_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/trip_picked_product_servicer_headIcon_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="jobs"
+                android:textColor="@color/white"
+                android:textSize="@dimen/comment_user_name_size" />
+            <!-- 精选  服务者  简要说明 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/trip_picked_product_servicer_brief_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/trip_picked_product_servicer_name_tv"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/detail_issue_date_size" />
+        </RelativeLayout>
+    </FrameLayout>
+    <!-- 3. item:精选  主题  一行分为两个主题 -->
+
+    <LinearLayout
+        android:id="@+id/layout_trip_picked_product_theme_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <!-- 主题1 -->
+
+        <FrameLayout
+            android:id="@+id/theme_product1"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_weight="1" >
+
+            <!-- 主题  照片 -->
+
+            <ImageView
+                android:id="@+id/trip_picked_product_theme_item1_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/default_photo"
+                android:scaleType="fitXY" />
+            <!-- 主题1 名字 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="#25000000" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/trip_picked_product_theme_item_name_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="行走的意义"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </FrameLayout>
+        <!-- 竖线分隔块 -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="13dp"
+            android:background="#ffffff" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#d4d4d4" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 向上出现的抽屉 -->
+<SlidingDrawer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/attachSlidingDrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:allowSingleTap="false"
+    android:content="@+id/attachContent"
+    android:handle="@+id/SlidingLayoutHeader"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/SlidingLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@null"
+        android:visibility="gone" />
+
+    <!-- 定义SlidingDrawer所要显示的内容 -->
+
+    <LinearLayout
+        android:id="@+id/attachContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 透明的背景 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/transparent"
+            android:orientation="vertical" >
+        </LinearLayout>
+        <!-- 照片选择控件 -->
+
+        <LinearLayout
+            android:id="@+id/attachPhotoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_trip_blog_addPhoto"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="30dp" >
+
+            <RelativeLayout
+                android:id="@+id/layout_photo_by_phone_taken_container"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/shape_alipay_binded_cell_normal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp" >
+
+                <!-- 手机拍照 -->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/addphoto_camera" />
+                <!-- 文本框   手机拍照 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/blog_taking_photos"
+                    android:textColor="@color/shadow_black"
+                    android:textSize="@dimen/service_title_size_small" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_photo_by_album_taken_container"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shape_alipay_binded_cell_normal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp" >
+
+                <!-- 从手机相册选择 -->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/addphoto_album" />
+                <!-- 文本框   从手机相册选择 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/blog_album_photos"
+                    android:textColor="@color/shadow_black"
+                    android:textSize="@dimen/service_title_size_small" />
+            </RelativeLayout>
+
+            <!-- 底端含"叉"的布局 -->
+
+            <LinearLayout
+                android:id="@+id/attachPhotoFilter2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/closeSlidingLayout"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</SlidingDrawer>

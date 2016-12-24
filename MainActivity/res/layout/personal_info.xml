@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 个人资料 布局 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/personal_info_layout_containers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 自定义 ScrollView -->
+
+    <com.bcinfo.tripaway.view.ScrollView.PersonalScrollView
+        android:id="@+id/personal_scrollView_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <!-- 总的线性布局 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <!-- ImageView单张照片展示 -->
+
+            <ImageView
+                android:id="@+id/personal_Show_imageView"
+                android:layout_width="fill_parent"
+                android:layout_height="320dip"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/personal_layout_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-80dip"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <!-- 第一个线性布局  显示个人基本信息子模块 -->
+
+                <LinearLayout
+                    android:id="@+id/personal_info_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <!-- 显示个人身份和自我描述的布局 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_introduce_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <!-- 个人身份信息 -->
+
+                        <LinearLayout
+                            android:id="@+id/personal_introduce_part1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:padding="10dp" >
+
+                            <!-- 服务商或用户的姓名 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/personal_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="AllKee"
+                                android:textColor="@color/shadow_black"
+                                android:textSize="24sp" />
+                            <!-- 旅游的地点 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/travel_locations"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="kaopavd,callital reginan,iceland"
+                                android:textColor="@color/color_trip_blog_photoDescript"
+                                android:textSize="18sp" />
+                            <!-- 注册时间 -->
+
+                            <LinearLayout
+                                android:id="@+id/regTime_container"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal" >
+
+                                <!-- 注册时间 -->
+
+                                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="fill_parent"
+                                    android:text="注册时间:"
+                                    android:textColor="@color/color_trip_blog_photoDescript"
+                                    android:textSize="18sp" />
+                                <!-- 具体日期 -->
+
+                                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                    android:id="@+id/regTime"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="fill_parent"
+                                    android:text="2014年12月27日"
+                                    android:textColor="@color/color_trip_blog_photoDescript"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <!-- 灰色分隔线 -->
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/color_personal_separate" />
+                        <!-- 自我描述 -->
+
+                        <LinearLayout
+                            android:id="@+id/personal_introduce_part2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="15dp" >
+
+                            <!-- 自我描述 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/personal_introduce"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lineSpacingMultiplier="1.5"
+                                android:singleLine="false"
+                                android:text="大家好!我叫AllKee,是个活泼开朗的北京大妞儿。来美国留学工作快5年了，对这里的风景，教育，美食等等各方面都有自己深刻的体会。 想旅游，不要再找旅行社啦!旅行社行程死板，时间紧，饭还难吃，很多景点想去都没有机会。从现在开始，&quot;私人定制  &quot;你的旅行吧!!!好不容易"
+                                android:textColor="@color/shadow_black"
+                                android:textScaleX="1.05"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                        <!-- view灰色分隔线 -->
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/color_personal_separate" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 显示用户评论子模块 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_personal_comment"
+                    android:orientation="vertical" >
+
+                    <!-- 用户评论 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:gravity="center" >
+
+                        <!-- 显示"用户评论"内容 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/personal_comments"
+                            android:textColor="@color/shadow_black"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip" >
+
+                        <!-- 圆形头像 -->
+
+                        <com.bcinfo.tripaway.imageView.CircleImageView
+                            android:id="@+id/personal_comment_user_icon"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="centerCrop" />
+                        <!-- 个人资料-用户评论信息 -->
+
+                        <LinearLayout
+                            android:id="@+id/personal_comment_user_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/personal_comment_user_icon"
+                            android:layout_alignTop="@id/personal_comment_user_icon"
+                            android:layout_toRightOf="@id/personal_comment_user_icon"
+                            android:orientation="vertical" >
+
+                            <!-- 评论者名字 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/personal_comment_user_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:text="ALLKee"
+                                android:textColor="@color/dark_gray"
+                                android:textSize="20sp" />
+                            <!-- 评论日期 -->
+
+                            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                                android:id="@+id/personal_comment_user_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:text="2014年10月"
+                                android:textColor="@color/color_trip_blog_photoDescript"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                        <!-- 评论内容 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/personal_comment_user_content"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@id/personal_comment_user_info"
+                            android:layout_below="@id/personal_comment_user_info"
+                            android:layout_marginTop="6dip"
+                            android:gravity="left|top"
+                            android:lineSpacingMultiplier="1.5"
+                            android:text="服务特别热情,因为时间比较紧,我并没有做详细的规划，只是在网上大致看了下路线，他还特别详细地告诉我应该怎么玩合理得安排时间，还给我安排了酒店，一路上还给我讲解了"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/personal_product_evalute_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/detail_button_bg"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip"
+                        android:text="全部（21）"
+                        android:textColor="@color/title_bg"
+                        android:textSize="16sp" />
+                    <!-- 分隔线 -->
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/color_personal_separate" />
+                </LinearLayout>
+                <!-- 验证 -->
+              <!--  
+                <LinearLayout
+                    android:id="@+id/personal_verification_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_personal_comment"
+                    android:orientation="vertical"
+                    android:padding="8dp" >
+
+
+                    
+                   </LinearLayout>
+                   -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="18dp"
+                        android:orientation="horizontal" >
+
+                        <!-- 显示 "验证"字样的文本框 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/personal_verificate"
+                            android:textColor="@color/shadow_black"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+                    <!-- 自定义 listview列表 -->
+
+                    <com.bcinfo.tripaway.view.XListView.VerificateListView
+                        android:id="@+id/personal_verificate_listView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="10dp"
+                        android:divider="@color/color_personal_separate"
+                        android:dividerHeight="0.5dp"
+                        android:fadingEdge="none"
+                        android:footerDividersEnabled="false"
+                        android:headerDividersEnabled="false"
+                        android:listSelector="@color/transparent"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+
+                </LinearLayout>
+                <!-- 照片 -->
+
+                <LinearLayout
+                    android:id="@+id/personal_photos_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_personal_comment"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+
+                    <!-- 照片字样的文本内容 -->
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal" >
+
+
+                        <!-- 显示 "照片"字样的文本框 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/personal_photos"
+                            android:textColor="@color/shadow_black"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+                    <!-- 显示三张照片 -->
+
+                    <LinearLayout
+                        android:id="@+id/personal_photoWall_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal" >
+
+                        <!-- 左边的大照片 -->
+
+                        <ImageView
+                            android:id="@+id/personal_left_photo"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:background="@color/gray"
+                            android:scaleType="centerCrop" />
+                        <!-- 空白分隔条 -->
+
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="fill_parent"
+                            android:background="@color/color_personal_comment" />
+                        <!-- 右边的照片容器 -->
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical" >
+
+                            <!-- 右边第一张照片 -->
+
+                            <ImageView
+                                android:id="@+id/personal_right_photo1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/gray"
+                                android:scaleType="centerCrop" />
+                            <!-- 空白分隔条 -->
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="15dp"
+                                android:background="@color/color_personal_comment" />
+                            <!-- 右边第二张照片 -->
+
+                            <ImageView
+                                android:id="@+id/personal_right_photo2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/gray"
+                                android:scaleType="centerCrop" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 灰色分隔线 -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color_personal_separate" />
+                <!-- 产品   本人产品列表包括参团产品和个人产品 -->
+
+                <LinearLayout
+                    android:id="@+id/personal_products_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:visibility="visible" >
+
+
+                    <!-- 产品 标题字样 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp" >
+
+                        <!-- textview 文本框 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:text="@string/personal_products"
+                            android:textColor="@color/shadow_black"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+
+                    <!-- 个人产品列表  listview 产品列表是混排样式  既有标准产品 又有团购产品等。 -->
+
+                    <com.bcinfo.tripaway.view.XListView.PersonalProductListView
+                        android:id="@+id/personal_products_listview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="5dp"
+                        android:divider="@color/color_personal_separate"
+                        android:dividerHeight="0.5dp"
+                        android:fadingEdge="none"
+                        android:footerDividersEnabled="false"
+                        android:headerDividersEnabled="false"
+                        android:listSelector="@color/transparent"
+                        android:overScrollMode="never" />
+
+                </LinearLayout>
+            </LinearLayout>
+        
+    </com.bcinfo.tripaway.view.ScrollView.PersonalScrollView>
+    <!-- include 标题栏 -->
+
+    <include layout="@layout/personal_title" />
+    <!-- 底部随着输入法弹起的聊天布局 -->
+
+    <LinearLayout
+        android:id="@+id/personal_msgLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <!-- 在布局的底部  文本输入框 默认是隐藏的 -->
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="6"
+            android:background="@drawable/trip_personalinfo_edittext_selector"
+            android:imeOptions="actionDone"
+            android:padding="6dp"
+            android:singleLine="true"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+        <!-- 发送 按钮 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/messageSendBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/title_bg"
+            android:gravity="center"
+            android:text="@string/personal_msgSend"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</FrameLayout>

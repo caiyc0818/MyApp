@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 加载的圆圈 -->
+        <include
+        layout="@layout/trip_product_listview_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <!-- 自定义ScrollView垂直滚动条 -->
+<com.bcinfo.tripaway.view.refreshandload.PullToRefreshLayout
+        android:id="@+id/allThemes_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+		<include layout="@layout/refresh_head" />
+    <com.bcinfo.tripaway.view.ScrollView.MyMicroBlogScrollView
+        android:id="@+id/my_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blog_gray"
+            android:orientation="horizontal" >
+
+            <!-- 添加View的第一列 -->
+
+            <LinearLayout
+                android:id="@+id/first_column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="3dp" >
+            </LinearLayout>
+            <!-- 添加View的第二列 -->
+
+            <LinearLayout
+                android:id="@+id/second_column"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="3dp" >
+            </LinearLayout>
+        </LinearLayout>
+    </com.bcinfo.tripaway.view.ScrollView.MyMicroBlogScrollView>
+    <include layout="@layout/load_more" />
+</com.bcinfo.tripaway.view.refreshandload.PullToRefreshLayout>
+    <!-- 半透明的背景 -->
+    <!-- <ImageView 
+        android:id="@+id/ceshi_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/> -->
+
+    <LinearLayout
+        android:id="@+id/topPhotoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_gray"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+    <!-- 向上出现的抽屉 -->
+
+    <SlidingDrawer
+        android:id="@+id/upSlidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:allowSingleTap="false"
+        android:content="@+id/rel"
+        android:handle="@+id/handler"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <!-- 点击或者拖动出现抽屉的柄 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/handler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false"
+            android:text="@null"
+            android:textColor="@color/black"
+            android:textSize="0sp"
+            android:visibility="gone" />
+
+        <!-- 定义SlidingDrawer所要显示的内容 -->
+
+        <LinearLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/downPhotoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_trip_blog_addPhoto"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="30dp" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_photo_by_phone_taken_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/shape_alipay_binded_cell_normal"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp" >
+
+                    <!-- 手机拍照 -->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/addphoto_camera" />
+                    <!-- 文本框   手机拍照 -->
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/blog_taking_photos"
+                        android:textColor="@color/shadow_black"
+                        android:textSize="@dimen/service_title_size_small" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_photo_by_album_taken_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/shape_alipay_binded_cell_normal"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp" >
+
+                    <!-- 从手机相册选择 -->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/addphoto_album" />
+                    <!-- 文本框   从手机相册选择 -->
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/blog_album_photos"
+                        android:textColor="@color/shadow_black"
+                        android:textSize="@dimen/service_title_size_small" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/photoFliterLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </SlidingDrawer>
+
+    <!-- 添加照片  图标 -->
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+        android:id="@+id/response"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/addPhotoBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/add_photo_button_selector"
+        android:scaleType="fitCenter" />
+
+</FrameLayout>

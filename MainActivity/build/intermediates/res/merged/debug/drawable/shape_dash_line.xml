@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line" >
+    <!-- dashGap 两个破折线之间的空隙距离     dashWidth  破折线的宽度 -->
+    <stroke
+        android:dashGap="3dp"
+        android:dashWidth="3dp"
+        android:color="@color/gray" />
+</shape>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 圈子  列表项item -->
+<!-- 当listview中存在checkbox的时候  checkbox会拦截掉listview 的setonitemclick 事件  需要在listview item的布局文件的根item上加上android:descendantFocusability="blocksDescendants" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <!-- 圈子发布者头像 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <!-- 用户  圆形头像 -->
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/zone_user_head_iv"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            imagecontrol:border_inside_color="@color/white"
+            imagecontrol:border_thickness="0dp" />
+    </LinearLayout>
+    <!-- 圈子内容layout布局 -->
+
+    <RelativeLayout
+        android:id="@+id/zone_content_str_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/zone_content_top_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 用户姓名 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/zone_content_username_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="徐澄"
+                android:textColor="@color/title_bg"
+                android:textSize="@dimen/bootom_button_size" />
+            <!-- 发布了 什么 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/zone_content_category_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/zone_content_username_tv"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/zone_content_username_tv"
+                android:text="发布了微游记"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/detail_content_size" />
+            <!-- 发布时间 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/zone_content_published_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="12分钟前"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dialog_user_address_size" />
+        </RelativeLayout>
+        <!-- 圈子主要数据内容  分为 1.旅行故事  ;2.产品详情  ; 3:结伴信息 -->
+
+        <RelativeLayout
+            android:id="@+id/zone_content_middle_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/zone_content_top_container"
+            android:layout_below="@id/zone_content_top_container"
+            android:paddingTop="10dp" >
+
+            <!-- 1.旅行故事 -->
+
+            <LinearLayout
+                android:id="@+id/layout_zone_content_middle_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!-- 旅行故事 text -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/zone_content_middle_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.2"
+                    android:singleLine="false"
+                    android:text="这里的海域栖息着丰富的海洋哺乳动物和海鸟,游客也可以参加由当地毛利人提供的导览文化体验。"
+                    android:textColor="@color/shadow_gray"
+                    android:textSize="@dimen/dialog_user_address_size" />
+                <!-- 旅行故事 照片集 layout -->
+
+                <LinearLayout
+                    android:id="@+id/layout_zone_content_middle_photo_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+            </LinearLayout>
+            <!-- 2.产品详情    新产品 -->
+
+            <RelativeLayout
+                android:id="@+id/layout_zone_content_middle_product_container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/zone_content_product_background_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/ic_launcher"
+                    android:scaleType="centerCrop" />
+                <!-- 渐变的背景色 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/gradient_discovery_locateproduct_selector"
+                    android:orientation="horizontal" />
+
+                <!-- 产品名称  产品地点 标签  地区 -->
+
+                <LinearLayout
+                    android:id="@+id/layout_zone_content_middle_product_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zone_content_product_background_iv"
+                    android:layout_marginTop="-60dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp" >
+
+                    <!-- 产品 名字 -->
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/zone_content_middle_product_name_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="寻梦荷比法妙趣童话游"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dialog_user_address_size" />
+                    <!-- 产品多个标签 -->
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/zone_content_middle_product_label_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/back_button_src_padding" />
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 3.结伴信息 -->
+
+            <LinearLayout
+                android:id="@+id/layout_zone_content_middle_container3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_search_condition"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="visible" >
+
+                <!-- 结伴标题 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/zone_content_go_with_title_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="去肯尼亚看野生动物猎豹"
+                    android:textColor="@color/shadow_gray"
+                    android:textSize="@dimen/dialog_user_address_size" />
+                <!-- 结伴内容 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/zone_content_go_with_content_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="在返回酒店的途中,不知是热气球公司的司机更有经验还是上天眷顾我们,我们看到了非洲猎豹捕食的难得情景。"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/date_time_picker_normal_size" />
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- 地点   发布时间 -->
+
+        <RelativeLayout
+            android:id="@+id/zone_content_down_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/zone_content_middle_container"
+            android:layout_below="@id/zone_content_middle_container"
+            android:layout_marginTop="10dp" >
+
+            <!-- 发布的地点 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/zone_content_published_location_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/map_location_icon"
+                android:drawablePadding="5dp"
+                android:text="洛杉矶 · 红山大道"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dialog_user_address_size" />
+            <!-- 点赞 -->
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_zone_cell_normal"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <CheckBox
+                    android:id="@+id/zone_content_love_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/zone_checkbox_button_selector"
+                    android:drawablePadding="5dp"
+                    android:text="@string/zone_is_ok_text"
+                    android:textColor="@color/colorlist_zone_checkbox_color_selector"
+                    android:textSize="@dimen/dialog_content_size" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/zone_content_love_count_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:singleLine="true"
+                    android:text="21"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/dialog_content_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

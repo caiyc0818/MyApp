@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+     <com.bcinfo.tripaway.view.ScrollView.ProductDetailScrollView
+        android:id="@+id/product_detail_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical" >
+            
+               
+                <ImageView
+                    android:id="@+id/product_head_imageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="220dip"
+                    android:background="@drawable/summer"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/transparent"
+                    android:visibility="visible" />
+                
+                
+                  <com.bcinfo.tripaway.view.MyListView
+                        android:id="@+id/product_cats_listview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="@android:color/transparent"
+                        android:divider="@color/gray_border"
+                        android:dividerHeight="2dp"
+                        android:listSelector="@android:color/transparent"
+                        android:scrollbars="none" >
+                    </com.bcinfo.tripaway.view.MyListView>
+                    
+                  <ImageView 
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:src="@drawable/no_content"
+                      android:id="@+id/no_list"
+                      android:visibility="gone"
+                      />
+            </LinearLayout>
+         
+         
+        </com.bcinfo.tripaway.view.ScrollView.ProductDetailScrollView>
+        
+       <RelativeLayout
+        android:id="@+id/layout_product_detail_title1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/title_bg" >
+
+        <LinearLayout
+            android:id="@+id/layout_back_button"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:background="@drawable/button_selector_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/back_button_height"
+                android:layout_height="@dimen/back_button_height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/nav_back"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/product_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+
+        <ImageView
+            android:id="@+id/fliter_btn"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dip"
+            android:src="@drawable/white_filter" />
+    </RelativeLayout>
+</RelativeLayout>

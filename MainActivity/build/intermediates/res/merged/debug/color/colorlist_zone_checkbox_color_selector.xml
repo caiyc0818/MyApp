@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- checkbox text文本颜色  selector -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false" android:color="@color/gray"/>
+    <item android:state_checked="true" android:color="@color/pink"/>
+
+</selector>

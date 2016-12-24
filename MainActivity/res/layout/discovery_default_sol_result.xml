@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milk_color" >
+
+    <!-- 发现-搜索二级页面标题栏 -->
+
+
+    <include
+        layout="@layout/trip_product_listview_footer" />
+    
+        <include
+        android:id="@+id/discovery_title_header"
+        layout="@layout/second_title_bar" 
+        />
+    <!-- 搜索结果  listview 用来存放搜索结果数据 -->
+
+    <ListView
+        android:id="@+id/discovery_result_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/discovery_title_header"
+        android:divider="@color/gray_bg"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <!-- 筛选条件  图标 -->
+
+    <ImageView
+        android:id="@+id/discovery_filter_iv"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_selector"
+        android:scaleType="center"
+        android:visibility="gone" />
+
+</RelativeLayout>

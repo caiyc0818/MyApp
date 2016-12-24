@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_product_picked_itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+       <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:id="@+id/reason_layout"
+                android:layout_marginBottom="13dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+          android:layout_marginTop="3dp"
+            android:background="@drawable/quotation" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="很专业，很风趣的一个菇凉。为人热情诚恳，深得游客的喜爱。"
+                    android:textColor="#666666"
+                    android:id="@+id/reason"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="15sp" />
+            </LinearLayout>
+<!-- 目的地  列表item -->
+<FrameLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+     <!-- <FrameLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical" > -->
+
+    <!-- 目的地   国旗 -->
+    <ImageView
+        android:id="@+id/item_location_flag_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/summer" />
+     <com.bcinfo.tripaway.view.Triangle
+             android:layout_width="11dp"
+            android:layout_height="11dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/triangle"
+            ></com.bcinfo.tripaway.view.Triangle>
+    <!-- 目的地 中文名字   英文名字 -->
+<FrameLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+   
+
+        <!-- 中文名字 -->
+        <LinearLayout 
+            android:id="@+id/item_location_name_container"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:orientation="vertical">
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/item_location_zhCNname_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="美国"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <!-- 英文名字 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/item_location_enUSname_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        <!-- 关键字 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/item_location_keywords_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        </LinearLayout>
+
+        
+</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义一个显示搜索结果时的列表项item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 定义第一个布局   普通产品 -->
+
+    <LinearLayout
+        android:id="@+id/layout_discovery_standard_product_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="visible" >
+
+        <!-- 相对布局   显示产品搜索结果照片和产品分类标签 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_product_result_photo_container1"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical" >
+
+            <!-- 产品 照片 -->
+
+            <ImageView
+                android:id="@+id/discovery_standard_product_photo_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher"
+                android:scaleType="centerCrop" />
+            <!-- 产品 分类 标签 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_standard_product_category_label_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/title_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:text="@string/discovery_standard_product_label"
+                android:textColor="@color/white"
+                android:textSize="@dimen/detail_issue_date_size" />
+        </RelativeLayout>
+        <!-- 产品名称和其他信息 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_product_result_infos_container1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp" >
+
+            <!-- 搜索结果 产品名称 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_standard_product_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:text="洛杉矶科罗拉多大峡谷3日游"
+                android:textColor="@color/shadow_gray"
+                android:textSize="@dimen/dialog_content_size" />
+            <!-- 搜索结果  产品国家 地区 和主题 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_standard_product_extras_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/discovery_standard_product_name_tv"
+                android:layout_below="@id/discovery_standard_product_name_tv"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:text="荷兰  · 童话  · 亲子  · 欧洲"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/detail_issue_date_size" />
+            <!-- 产品  天数  里程距离 -->
+
+            <LinearLayout
+                android:id="@+id/layout_discovery_product_result_time_distance_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/discovery_standard_product_extras_tv"
+                android:layout_below="@id/discovery_standard_product_extras_tv"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/service_product_day_schedual"
+                    android:scaleType="center" />
+                <!-- 里程天数 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/discovery_standard_product__timeSchedual_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="7天"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/apply_price_explain" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/map_location_icon"
+                    android:scaleType="center" />
+                <!-- 里程距离 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/discovery_standard_product_distance_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="1298Km"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/apply_price_explain" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 定义第二个布局    团购产品 -->
+
+    <LinearLayout
+        android:id="@+id/layout_discovery_team_product_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <!-- 相对布局   显示产品搜索结果照片和产品分类标签 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_product_result_photo_container2"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical" >
+
+            <!-- 产品 照片 -->
+
+            <ImageView
+                android:id="@+id/discovery_team_product_photo_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher"
+                android:scaleType="centerCrop" />
+            <!-- 产品 分类 标签 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_team_product_category_label_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/shadow_orange"
+                android:paddingBottom="2dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:text="@string/discovery_team_product_label"
+                android:textColor="@color/white"
+                android:textSize="@dimen/detail_issue_date_size" />
+        </RelativeLayout>
+        <!-- 产品名称和其他信息 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_product_result_infos_container2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp" >
+
+            <!-- 搜索结果  团购产品名称 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_team_product_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:text="洛杉矶大道极尽奢华"
+                android:textColor="@color/shadow_gray"
+                android:textSize="@dimen/dialog_content_size" />
+            <!-- 搜索结果  团购产品国家 地区 和主题 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_team_product_extras_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/discovery_team_product_name_tv"
+                android:layout_below="@id/discovery_team_product_name_tv"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:text="荷兰  · 童话  · 亲子  · 欧洲"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/detail_issue_date_size" />
+            <!-- 产品  天数  里程距离 -->
+
+            <LinearLayout
+                android:id="@+id/layout_discovery_product_result_time_distance_container2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/discovery_team_product_extras_tv"
+                android:layout_below="@id/discovery_team_product_extras_tv"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/service_product_day_schedual"
+                    android:scaleType="center" />
+                <!-- 里程天数 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/discovery_team_product_timeSchedual_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="7天"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/apply_price_explain" />
+                <!-- 团游 开始时间-结束时间 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/discovery_team_product_time_distance_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="2015/05/05-2015/05/08"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/apply_price_explain" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 定义第三个布局  服务者 -->
+
+    <LinearLayout
+        android:id="@+id/layout_discovery_servicer_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_servicer_icon_container"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical" >
+
+            <!-- 服务者圆形头像 -->
+
+            <com.bcinfo.tripaway.view.image.RoundImageView
+                xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/discovery_servicer_icon_item_iv"
+                android:layout_width="@dimen/login_dialog_positionX"
+                android:layout_height="@dimen/login_dialog_positionX"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher"
+                imagecontrol:border_inside_color="@color/white"
+                imagecontrol:border_thickness="0dp" />
+        </RelativeLayout>
+        <!-- 服务者信息 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_servicer_result_infos_container"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+
+                <!-- 服务者  姓名 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/discovery_servicer_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="洛杉矶约瑟夫"
+                    android:textColor="@color/shadow_gray"
+                    android:textSize="@dimen/apply_price_explain" />
+                <!-- 头衔 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/discovery_servicer_titles_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:singleLine="true"
+                    android:text="旅游达人 · 生物学专家"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/detail_issue_date_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 定义第四个布局 目的地 -->
+
+    <LinearLayout
+        android:id="@+id/layout_discovery_destination_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <!-- 目的地  目的地图片 -->
+
+        <ImageView
+            android:id="@+id/discovery_destination_head_iv"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_launcher"
+            android:scaleType="centerCrop" />
+        <!-- 目的地 item -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical" >
+
+            <!-- 国家或者地区名 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_destination_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:text="洛杉矶Los Angeles"
+                android:textColor="@color/shadow_gray"
+                android:textSize="@dimen/dialog_content_size" />
+            <!-- 达人  图标 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_destination_achivement_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/discovery_destination_name_tv"
+                android:layout_below="@id/discovery_destination_name_tv"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/achive_count_icon"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:text="128名达人"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/apply_price_explain" />
+            <!-- 旅游产品数量 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_destination_product_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/discovery_destination_achivement_count_tv"
+                android:layout_below="@id/discovery_destination_achivement_count_tv"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/product_count_icon"
+                android:drawablePadding="5dp"
+                android:singleLine="true"
+                android:text="58个旅游产品"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/apply_price_explain" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 第五个布局   单产品 -->
+
+    <LinearLayout
+        android:id="@+id/layout_discovery_single_product_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <!-- 相对布局   显示产品搜索结果照片和产品分类标签 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_product_result_photo_container"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical" >
+
+            <!-- 产品 照片 -->
+
+            <ImageView
+                android:id="@+id/discovery_single_product_photo_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+        <!-- 产品名称和其他信息 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_discovery_product_result_infos_container"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp" >
+
+            <!-- 搜索结果 产品名称 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_single_product_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:singleLine="true"
+                android:text="洛杉矶科罗拉多大峡谷3日游"
+                android:textColor="@color/shadow_gray"
+                android:textSize="@dimen/dialog_content_size" />
+            <!-- 搜索结果  产品国家 地区 和主题 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_single_product_extras_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/discovery_single_product_name_tv"
+                android:layout_below="@id/discovery_single_product_name_tv"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:text="荷兰  · 童话  · 亲子  · 欧洲"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/detail_issue_date_size" />
+            <!-- 产品  天数  里程距离 -->
+
+            <LinearLayout
+                android:id="@+id/layout_discovery_single_product_result_time_distance_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/discovery_single_product_extras_tv"
+                android:layout_below="@id/discovery_single_product_extras_tv"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/service_product_day_schedual"
+                    android:scaleType="center" />
+                <!-- 里程天数 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/discovery_single_product__timeSchedual_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="7天"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/apply_price_explain" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/map_location_icon"
+                    android:scaleType="center" />
+                <!-- 里程距离 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/discovery_single_product_distance_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="1298Km"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/apply_price_explain" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

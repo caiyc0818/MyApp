@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            android:id="@+id/org_photo"
+            android:layout_width="46dip"
+            android:layout_height="46dip"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/user_defult_photo" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/org_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dip"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="川藏老兵"
+            android:textColor="@color/gray_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

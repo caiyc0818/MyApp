@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70dp"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" >
+    <com.bcinfo.tripaway.view.image.RoundImageView
+        android:layout_marginTop="10dp"
+        xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cats_photo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="fitXY"
+        app:border_inside_color="@color/white"
+        app:border_thickness="0dip" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:id="@+id/cats_name"
+        />
+    
+</LinearLayout>

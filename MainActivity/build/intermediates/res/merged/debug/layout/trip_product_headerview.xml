@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义listview的header头部view的布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="6dp" >
+
+    <!-- 相对布局 -->
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal" >
+
+        <!-- 在箭头图标的右边定义一个LinearLayout布局 -->
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical" >
+
+            <!-- 放置三个textview和一个progress进度条控件 -->
+            <!-- 先放置一个进度条控件  自定义style风格的进度条控件 -->
+
+            <ProgressBar
+                android:id="@+id/refreshBar"
+                style="@style/customBar" />
+            <!-- 下拉可以刷新 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/tipContent1"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <!-- 下面在定义一个linearLayout布局 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <!-- 最近更新 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/currentUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/updateText"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+                <!-- 最近更新的时间 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/lastUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 在相对布局中分别定义两个控件  一个是imageview控件 位置在左边 ；另一个是LinearLayout线性布局 -->
+
+
+        <!-- 向下箭头的ImageView控件 -->
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/layout3"
+            android:scaleType="fitXY"
+            android:src="@drawable/pull_to_refresh_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="400dip"
+    android:background="@color/white" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/alarm_title"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dip"
+        android:text="事件通知"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/dialog_title_size" />
+
+    <LinearLayout
+        android:id="@+id/layout_operation_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/alarm_delay_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg_red"
+            android:text="延迟十分钟"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commit_button_size" />
+
+        <Button
+            android:id="@+id/alarm_cancel_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg_gray"
+            android:text="关闭"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/commit_button_size" />
+    </LinearLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/alarm_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/layout_operation_button"
+        android:layout_below="@id/alarm_title"
+        android:gravity="left|top"
+        android:padding="20dip"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/dialog_content_size" />
+
+</RelativeLayout>

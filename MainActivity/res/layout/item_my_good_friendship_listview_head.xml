@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 好友列表的head view 布局 layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_gray_bg"
+    android:padding="15dp" >
+
+    <!-- 搜索框布局 -->
+
+    <LinearLayout
+        android:id="@+id/layout_friendship_query_container"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_search_friendship_cell_choice"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/friendship_query_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/query"
+            android:scaleType="fitCenter" />
+        <!-- 搜索好友 edittext -->
+
+        <com.bcinfo.tripaway.view.editText.DeletedEditText
+            android:id="@+id/friendship_query_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/my_friendship_query_hint_text"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/comment_user_name_size" />
+    </LinearLayout>
+
+</RelativeLayout>

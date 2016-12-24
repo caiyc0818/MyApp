@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+  <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/text_line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_marginTop="5dip"
+        android:background="@color/gray_border" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/name_layout"
+         android:layout_below="@id/text_line"
+          android:layout_marginTop="10dip"
+        >
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/comments_reply_name"
+        android:layout_width="wrap_content"
+        android:maxWidth="100dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:maxEms="7"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/comment_content_size" />
+
+     <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/text_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text="回复"
+        android:textColor="@color/gray_little"
+        android:textSize="@dimen/comment_content_size" />
+     	
+     <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/comments_reply_toname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:text=""
+        android:ellipsize="end"
+        android:maxEms="7"
+        android:maxLines="1"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/comment_content_size" />
+     </LinearLayout>
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/comments_reply_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_layout"
+         android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:ellipsize="end"
+        android:gravity="left|top"
+        android:lineSpacingExtra="5dip"
+        android:maxLines="4"
+        android:text=""
+        android:textColor="@color/gray_more_5"
+        android:textSize="13sp" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/comments_reply_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comments_reply_content"
+        android:layout_marginTop="2dip"
+        android:text=""
+        android:textColor="@color/gray_more"
+        android:textSize="@dimen/comment_date_size" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:visibility="gone"
+        android:id="@+id/comments_reply_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/comments_reply_content"
+        android:layout_marginTop="2dip"
+        android:layout_marginRight="10dip"
+        android:text="回复"
+        android:textColor="@color/sky_blue"
+        android:textSize="14sp" />
+</RelativeLayout>

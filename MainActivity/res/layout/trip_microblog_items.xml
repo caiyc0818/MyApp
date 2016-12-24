@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 微游记每个item项的布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trip_blog_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/trip_blog_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 背景图片  全屏铺满 -->
+
+        <ImageView
+            android:id="@+id/img_item_trip_blog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+        <!-- 表示 是否喜欢的checkbox -->
+
+        <CheckBox
+            android:id="@+id/isLike_trip_blog"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/trip_blog_like_yesno_checkstate"
+            android:button="@null"
+            android:checked="false" />
+        <!-- 相对布局  位于每个item的底部位置 -->
+
+        <RelativeLayout
+            android:id="@+id/bottom_item_trip_blog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/gradient_discovery_locateproduct_selector" >
+
+            <!-- ImageView显示用户(包括服务者和游客)的圆形图标 -->
+
+
+            <!-- 在右边定义一个线性布局 -->
+
+            <LinearLayout
+                android:id="@+id/trip_blog_infos_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/master_icon_trip_blog"
+                android:orientation="vertical" >
+
+                <!-- 上面定义两个控件 分别显示发微游记人的姓名 和发布的时间 -->
+
+                <RelativeLayout
+                    android:id="@+id/trip_blog1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" >
+
+                    <!-- 显示作者的姓名的文本框 -->
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/name_trip_bloger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="AllKee"
+                        android:textColor="@color/milk_color"
+                        android:textSize="15sp" />
+                    <!-- 显示发布时间 -->
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/time_trip_blog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="3分钟前"
+                        android:textColor="@color/milk_color"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+                <!-- 定义一个控件  显示个人发布的微游记的标题 -->
+
+                <LinearLayout
+                    android:id="@+id/trip_blog2"
+                    android:layout_width="205dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/describe_trip_blog"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="这是公寓的客厅的沙发区，窗外能看见美丽的大海"
+                        android:textColor="@color/milk_color"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

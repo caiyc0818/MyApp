@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 小贴士提醒文本布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_traffic_service_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <!-- 提醒元素 文本框 -->
+  <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+      android:id="@+id/element_tip_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/black"
+      android:textSize="14sp"
+      android:singleLine="true"
+      android:gravity="center"
+      />
+  <!-- 提醒内容 文本框  文字设为1.2倍行距-->
+  <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+      android:id="@+id/content_tip_tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="false"
+      android:textSize="14sp"
+     android:textColor="@color/gray"
+      android:lineSpacingMultiplier="1.2"
+      
+      />
+</LinearLayout>

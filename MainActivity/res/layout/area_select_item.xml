@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:paddingLeft="20dp"
+     android:orientation="vertical"
+     android:layout_gravity="center_vertical"
+  >        
+<com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/name_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="嘉业国际 "
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/shadow_gray"
+            android:textSize="14sp" />
+<com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/address_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="江苏南京 "
+             android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/gray_text"
+            android:textSize="12sp" />
+</LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

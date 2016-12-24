@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 服务者发布的产品列表item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 相对布局 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp" >
+
+        <!-- 左边-服务者产品图片 -->
+
+
+        <!-- 右边-产品名称 简介 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/club_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/club_icon_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:text="我是你的标题" />
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            android:id="@+id/club_icon_iv"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/u38"
+            android:scaleType="fitXY"
+            android:src="@drawable/user_defult_photo" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/theme_name"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/go_with_them_item_checkbox_bg"
+        android:gravity="center_horizontal|bottom"
+        android:paddingBottom="15dip"
+        android:button="@null"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/title_size"
+        android:text="春节" />
+
+</LinearLayout>

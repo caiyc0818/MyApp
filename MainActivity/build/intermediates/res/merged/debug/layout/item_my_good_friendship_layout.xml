@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 服务者端-好友列表 item布局 layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="@color/white"
+    android:paddingLeft="10dp"
+    android:paddingTop="4dp" >
+
+    <!-- 好友 头像 -->
+
+    <com.bcinfo.tripaway.view.image.RoundImageView
+        xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/my_good_friendship_head_icon_iv"
+        android:layout_width="@dimen/product_service_item_height"
+        android:layout_height="@dimen/product_service_item_height"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher"
+        imagecontrol:border_inside_color="@color/white"
+        imagecontrol:border_thickness="0dp" />
+    <!-- 好友  姓名和籍贯 -->
+
+    <LinearLayout
+        android:id="@+id/layout_my_good_friendship_info_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/my_good_friendship_head_icon_iv"
+        android:orientation="vertical" >
+
+        <!-- 好友  姓名 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/my_good_friendship_info_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文文"
+            android:textColor="@color/shadow_black"
+            android:textSize="18sp" />
+        <!-- 好友籍贯 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/my_good_friendship_info_place_of_origin_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="中国香港"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/dialog_user_address_size" />
+    </LinearLayout>
+    <!-- 已关注 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/my_good_friendship_status_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@color/color_setting_dialog"
+        android:drawableLeft="@drawable/ok"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="6dp"
+        android:text="@string/my_friendship_is_ok_text"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/dialog_user_address_size"
+        android:visibility="visible" />
+    <!-- 相互关注 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/my_good_friendship_status_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@color/color_setting_dialog"
+        android:drawableLeft="@drawable/each"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingBottom="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="6dp"
+        android:text="@string/my_friendship_is_each_text"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/dialog_user_address_size"
+        android:visibility="gone" />
+    <!-- 分隔线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/layout_my_good_friendship_info_container"
+        android:layout_below="@id/layout_my_good_friendship_info_container"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_border" />
+
+</RelativeLayout>

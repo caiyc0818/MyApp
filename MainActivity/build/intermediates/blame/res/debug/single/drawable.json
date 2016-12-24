@@ -1,0 +1,1662 @@
+[
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_selected_status.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\green_btn_selected_status.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_share_icon.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_share_icon.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_photoselector_ok.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_photoselector_ok.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_gray_rectangle.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_gray_rectangle.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\community_title_rightbtn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\community_title_rightbtn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_comment_bg.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_comment_bg.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\radiock.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\radiock.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_calendar_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_calendar_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_bar_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\rating_bar_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\isdefault_checkbox_selector_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\isdefault_checkbox_selector_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tag_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_tag_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\s2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\s2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_user.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_user.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\change_state_btn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\change_state_btn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_focous_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_focous_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_progress_horizontal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_progress_horizontal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\listview_arrow_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\listview_arrow_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\btn_checkbox_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\really2.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\really2.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_circle_corn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_circle_corn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_divider_line.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_divider_line.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shake_umeng_socialize_share_btn_style.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\shake_umeng_socialize_share_btn_style.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_dynamic.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_laiwang_dynamic.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_common_loading3.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_common_loading3.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_personal_headtitle_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_personal_headtitle_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_red_oval.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_red_oval.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\red_circle_corner_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\red_circle_corner_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\state_pay_price_dot.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\state_pay_price_dot.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_red.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_red.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_chat_item_icon_bg_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_chat_item_icon_bg_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radio3seclend.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_radio3seclend.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\square_pressed.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\square_pressed.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_singletheme_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_singletheme_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_circle_side_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_circle_side_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_calendar_titlebar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_calendar_titlebar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_layout_flight_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_layout_flight_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\checkbox.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip_service_car_checkstate.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip_service_car_checkstate.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\itinerary_day_textcolor.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\itinerary_day_textcolor.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_personal_icon.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_personal_icon.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_shanchu.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\bt_shanchu.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_red_del_btn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_red_del_btn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_grey.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_location_grey.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_foursquare_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_foursquare_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_setting_update_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_setting_update_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\subscribe_item_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\subscribe_item_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_homepage_message.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_homepage_message.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shake_umeng_socialize_preview_edit_corners_style.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\shake_umeng_socialize_preview_edit_corners_style.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_discovery_input_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_discovery_input_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip_product_footer_bardrawable.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip_product_footer_bardrawable.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\zone_checkbox_button_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\zone_checkbox_button_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_pager_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\rb_pager_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\radiounck.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\radiounck.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_leftlist_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_leftlist_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_little_circle_corner_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_little_circle_corner_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_personal_selected.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_personal_selected.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sms_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sms_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_review_relative.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_review_relative.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_kakao.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_kakao.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\add_photo_button_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\add_photo_button_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_login_dialog_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_login_dialog_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_dynamic_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_laiwang_dynamic_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_3.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_3.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pinterest_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pinterest_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\product.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\product.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_progress_horizontal1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_progress_horizontal1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_comment_icon.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_comment_icon.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shake_umeng_socialize_shake_layout_corner.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\shake_umeng_socialize_shake_layout_corner.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\customization_btn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\customization_btn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_flickr_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_flickr_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_left_border_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_left_border_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_nobgd.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\bt_nobgd.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_checked_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\radio_checked_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_btn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_btn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_yixin_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_overflow__listview_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_overflow__listview_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_square_tag.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_square_tag.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_mark.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_location_mark.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\face_delete_select.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\face_delete_select.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\state_filter_subtractmark_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\state_filter_subtractmark_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tumblr.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_tumblr.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip3.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip3.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\s3.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\s3.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_yixin.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_calendar_cell_outrange.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_calendar_cell_outrange.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_calendar_cell_weekindex.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_calendar_cell_weekindex.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_back_arrow_white_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\bg_back_arrow_white_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_edit_text.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_edit_text.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_unlike.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_unlike.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_subject_tag.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_subject_tag.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_balloon_r_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_balloon_r_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\s5.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\s5.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_fetch_location_disabled.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_fetch_location_disabled.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_personal_more_titlecell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_personal_more_titlecell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\press_white_to_gray_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\press_white_to_gray_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_linkedin_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_linkedin_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip_blog_like_yesno_checkstate.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip_blog_like_yesno_checkstate.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_verify_dialog_disable.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_verify_dialog_disable.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_verify_dialog_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_verify_dialog_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_squre.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_squre.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_more.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_more.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_shap.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_shap.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_line.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_line.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\square_comm_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\square_comm_tab.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\community_title_text_color.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\community_title_text_color.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey.9.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip_home_checkstate.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip_home_checkstate.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\square_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\square_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ygq.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ygq.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\s1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\s1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_flickr.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_flickr.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\button_selector_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\experice.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\experice.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_line_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_line_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_gmail_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_gmail_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_buttong_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\radio_buttong_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_layout_personal_attention.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_layout_personal_attention.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_circle_corner_lit_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_circle_corner_lit_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_dash_line.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_dash_line.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_comment_item_bg_shape.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_comment_item_bg_shape.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_personalinfo_cell_focused.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_personalinfo_cell_focused.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_balloon_l_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_balloon_l_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_club_tag2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_club_tag2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\green_circle_corner_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\green_circle_corner_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_qzone_progressbar_drawable_default.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_qzone_progressbar_drawable_default.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\checkboxed2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\checkboxed2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_queding.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\bt_queding.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_photopreview_progress_horizontal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_photopreview_progress_horizontal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shaitu.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shaitu.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shake_umeng_socialize_close_button_style.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\shake_umeng_socialize_close_button_style.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_4.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_4.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_calendar_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_calendar_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_google.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_picnum_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_picnum_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_green_oval.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_green_oval.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_dialog_circle_progressbar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_dialog_circle_progressbar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_selected.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tuiguang.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_tuiguang.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_6.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_6.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_clubmeb_info_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_clubmeb_info_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\green_circle_corner_lit_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\green_circle_corner_lit_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_alipay_binded_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_alipay_binded_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\white_circle_corner_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\white_circle_corner_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\green_btn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\green_btn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_setting_dialog_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_setting_dialog_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_actionbar_bg.9.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_actionbar_bg.9.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\community_title_leftbtn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\community_title_leftbtn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bgd_relatly_line.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\bgd_relatly_line.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip_personalinfo_edittext_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip_personalinfo_edittext_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_info_relative.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_info_relative.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_dash_line_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\btn_dash_line_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ysy.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ysy.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_setting_update_version_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_setting_update_version_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_hot_topic_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_hot_topic_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\red_circle_side_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\red_circle_side_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_red_oval_small.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_red_oval_small.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_gray_oval.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_gray_oval.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_comment_selected.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_comment_selected.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_alipay_binded_commit_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_alipay_binded_commit_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_chat_bottombar_btn_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_chat_bottombar_btn_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_whatsapp.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_whatsapp.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\dash_line.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\dash_line.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\rg_text_color.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\rg_text_color.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\add_member_border.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\add_member_border.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\service_checkbox_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\service_checkbox_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shake_umeng_socialize_close_pressed.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\shake_umeng_socialize_close_pressed.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_pager_bg2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\rb_pager_bg2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\s4.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\s4.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\square1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\square1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_gmail_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_gmail_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_car_picked_btn_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_car_picked_btn_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\send_btn_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\send_btn_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_showright_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_showright_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip4.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip4.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\commendclubiamgeshape.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\commendclubiamgeshape.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_comment_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_comment_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\square_button_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\square_button_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_loading_view.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.lcodecorex\\tkrefreshlayout\\1.0.5\\res\\drawable\\anim_loading_view.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shap.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shap.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_circle_border_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_circle_border_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_search_cell_choice.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_search_cell_choice.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_progress_receivepic.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_progress_receivepic.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\sex_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\sex_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_quxiao.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\bt_quxiao.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip_service_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip_service_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_travel_info_item_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_travel_info_item_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\red_btn_selected_status.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\red_btn_selected_status.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_border_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_border_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_blog_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_blog_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_club_tag.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_club_tag.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_focous.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_focous.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\white_border_transparent_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\white_border_transparent_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_laiwang.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_contact_list_item_buddy_signature_text_color2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_contact_list_item_buddy_signature_text_color2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_kakao_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_kakao_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_green_rectangle.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_green_rectangle.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_like.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_like.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_sjc.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_sjc.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_checkbox_bg1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_checkbox_bg1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_person_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_person_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_findpwd_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_findpwd_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\fas_shape.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\fas_shape.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_checked.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_checked.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_circle_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_yixin_circle_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_instagram_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_instagram_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_logreg_btn_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_logreg_btn_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_circle_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_circle_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_calendar_cell_today.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_calendar_cell_today.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_linkedin.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_linkedin.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_border_transparent_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_border_transparent_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_showleft_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_showleft_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_x_button.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\backbutton.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\backbutton.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_personal_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_personal_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_search_friendship_cell_choice.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_search_friendship_cell_choice.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_loading_circle.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_loading_circle.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\color_cursor.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\color_cursor.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_button.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_button.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_calendar_cell_weekend.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_calendar_cell_weekend.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_sc_horizontalprogress.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_sc_horizontalprogress.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\text_while.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\text_while.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_list_selector_background.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_list_selector_background.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\text1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\text1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_club_meb_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_club_meb_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pinterest.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pinterest.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\really.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\really.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_less_gray_oval.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_less_gray_oval.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_red_radio.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_red_radio.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_search_icon.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\square.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\square.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_foursquare.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_foursquare.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\textcolor.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\textcolor.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shake_umeng_socialize_edittext_corner.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\shake_umeng_socialize_edittext_corner.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip_agent_buy_checkstate.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip_agent_buy_checkstate.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_whatsapp_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_whatsapp_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_personalinfo_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_personalinfo_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_laiwang_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\square2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\square2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\vehicle.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\vehicle.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_selector_rectangle.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\btn_green_selector_rectangle.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\micro_blogs_dash_line.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\micro_blogs_dash_line.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\checkboxrd_state.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\checkboxrd_state.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_evernote_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_evernote_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\relative_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\relative_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook_close.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_facebook_close.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_button.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_facebook_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tag.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_tag.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sms_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sms_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_black_textcolor_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\btn_black_textcolor_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_line.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_line.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pulltorefresh_arrow.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_circle.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_yixin_circle.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\trip_route_plan_checkstate.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\trip_route_plan_checkstate.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_share_selected.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_share_selected.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_linearlayout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_linearlayout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_emotion_del_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_emotion_del_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shake_umeng_socialize_imgview_border.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\shake_umeng_socialize_imgview_border.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_news_oval_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\sidebar_news_oval_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\itinerary_day_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\itinerary_day_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_dark_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\bg_dark_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_list_selector_background_disabled.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_list_selector_background_disabled.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\state_filter_addmark_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\state_filter_addmark_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_pop_btn_face_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_pop_btn_face_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_camera_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\btn_camera_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_ynote_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_ynote_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_circle_corner_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\blue_circle_corner_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_ynote.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_ynote.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pocket.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pocket.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_evernote.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_evernote.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\red_circle_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\red_circle_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_edittext_linearlayout_new.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_edittext_linearlayout_new.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_logreg_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_logreg_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_contact_list_item_buddy_name_text_color.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_contact_list_item_buddy_name_text_color.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pocket_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pocket_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_refersh.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\event_check_box_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\event_check_box_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_share_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_action_share_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_homepage_focus.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_homepage_focus.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shake_umeng_socialize_close.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\shake_umeng_socialize_close.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_zone_cell_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_zone_cell_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_white_oval.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_white_oval.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_unfocous_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_unfocous_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\btn_back_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\dash_rectangle.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\dash_rectangle.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\detail_button_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\detail_button_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient_discovery_locateproduct_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gradient_discovery_locateproduct_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\white_shap.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\white_shap.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\cashcard.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\cashcard.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_commnet_header_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_commnet_header_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\ge_contact_list_item_bg_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\ge_contact_list_item_bg_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_twitter.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_instagram_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_instagram_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\red_circle_corn_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\red_circle_corn_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tumblr_gray.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_tumblr_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\green_bottom_border_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\green_bottom_border_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_state.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\checkbox_state.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_5.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_5.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\white_top_circle_corner_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\white_top_circle_corner_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\relative_find_more.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\relative_find_more.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_radio3notseclend2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\shape_radio3notseclend2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\green_circle_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\green_circle_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pv.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pv.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_bg_border_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\gray_bg_border_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_add_pic.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\bt_add_pic.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\go_with_them_item_checkbox_bg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\drawable\\go_with_them_item_checkbox_bg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_off.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
+    }
+]

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 绑定第三方支付(当前局限于支付宝) -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <include
+            android:id="@+id/sec_titleBar_id"
+            layout="@layout/second_title_bar" />
+
+        <RelativeLayout
+            android:id="@+id/layout_alipay_binded_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/sec_titleBar_id"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <!-- 支付宝  图标 -->
+
+            <ImageView
+                android:id="@+id/alipay_binded_iv"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/alipay_binded_icon"
+                android:scaleType="fitCenter" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/alipay_binded_hint_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alipay_binded_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="@string/alipay_binded_hint_text"
+                android:textColor="@color/shadow_gray"
+                android:textSize="@dimen/dialog_user_name_size" />
+            <!-- 电子邮箱 -->
+
+            <com.bcinfo.tripaway.editText.DeletedEditText
+                android:id="@+id/alipay_binded_account_tv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/alipay_binded_hint_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape_alipay_binded_cell_normal"
+                android:hint="@string/alipay_binded_account_hint_text"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/comment_user_name_size" />
+            <!-- 提交 -->
+
+            <LinearLayout
+                android:id="@+id/layout_alipay_binded_commit_container"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/alipay_binded_account_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_alipay_binded_commit_cell_normal"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <!-- 提交  字样 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/alipay_binded_operate_commit_text"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/bootom_button_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.bcinfo.tripaway.view.MBProgressHUD.rotateProgressHUD
+        android:id="@+id/bind_alipay_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:visibility="gone" />
+
+</FrameLayout>

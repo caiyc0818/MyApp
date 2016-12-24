@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 航班选择  列表item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 航空公司   价格   时间 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:padding="10dp" >
+
+        <!-- 航空公司图标 -->
+
+        <ImageView
+            android:id="@+id/flight_agent_icon_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_launcher"
+            android:scaleType="center" />
+        <!-- 价格 -->
+
+        <LinearLayout
+            android:id="@+id/layout_flight_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <!-- rmb 符号 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/product_flight_rmb_symbol"
+                android:textColor="@color/red"
+                android:textSize="24sp" />
+            <!-- 价格  文本框 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_price_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3756"
+                android:textColor="@color/red"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <!-- 航空公司  航程时间 -->
+
+        <LinearLayout
+            android:id="@+id/layout_flight_schedual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/flight_agent_icon_iv"
+            android:orientation="vertical" >
+
+            <!-- 航空公司 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_agent_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="美国联合航空CA1848"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dialog_user_address_size" />
+            <!-- 航程时间 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="约4个小时"
+                android:textColor="@color/gray_border"
+                android:textSize="@dimen/dialog_user_address_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 灰色的分隔线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray_border" />
+    <!-- 具体航程路线 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <!-- 出发地 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_flight_departure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" >
+
+            <!-- 出发地 机场(中文) -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_airport_departure_zhCNName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="南京禄口机场T2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dialog_user_address_size" />
+            <!-- 出发地 机场(英文) -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_airport_departure_enUSName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/flight_airport_departure_zhCNName"
+                android:layout_below="@id/flight_airport_departure_zhCNName"
+                android:layout_marginTop="2dp"
+                android:text="NKG"
+                android:textColor="@color/gray_border"
+                android:textSize="@dimen/dialog_user_address_size" />
+            <!-- 出发时间 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_departure_startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/flight_airport_departure_enUSName"
+                android:layout_below="@id/flight_airport_departure_enUSName"
+                android:layout_marginTop="2dp"
+                android:text="14:00"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dialog_user_address_size" />
+        </RelativeLayout>
+        <!-- 航班箭头 -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/layout_flight_departure"
+            android:background="@drawable/arrow_flight"
+            android:scaleType="center" />
+        <!-- 目的地 -->
+
+        <RelativeLayout
+            android:id="@+id/layout_flight_destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp" >
+
+            <!-- 目的地 机场(中文) -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_airport_destination_zhCNName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="洛杉矶机场T2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dialog_user_address_size" />
+            <!-- 目的地 机场(英文) -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_airport_destination_enUSName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/flight_airport_destination_zhCNName"
+                android:layout_below="@id/flight_airport_destination_zhCNName"
+                android:layout_marginTop="2dp"
+                android:text="PEK"
+                android:textColor="@color/gray_border"
+                android:textSize="@dimen/dialog_user_address_size" />
+            <!-- 结束时间 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_destination_endTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/flight_airport_destination_enUSName"
+                android:layout_below="@id/flight_airport_destination_enUSName"
+                android:layout_marginTop="2dp"
+                android:text="18:00"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dialog_user_address_size" />
+            <!-- 附加的  天数 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/flight_delay_days_attach_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/flight_destination_endTime"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/flight_destination_endTime"
+                android:text="+1天"
+                android:textColor="@color/title_bg"
+                android:textSize="@dimen/date_time_picker_normal_size"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

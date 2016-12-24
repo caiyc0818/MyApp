@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context="com.bcinfo.tripaway.HomeActivity" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/youhave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="YOU&#160;&#160;&#160;&#160;HAVE" />
+    
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+        android:id="@+id/hometripaway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="TRIPWAY"
+        android:textScaleX="1.4"
+        android:layout_below="@id/youhave"
+        android:textSize="35sp"/>
+
+<GridView 
+    android:id="@+id/HomeGridview"
+    android:layout_below="@id/hometripaway"
+    android:numColumns="2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+</GridView>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:orientation="vertical" >
+   
+
+                <!-- <RelativeLayout
+                    android:id="@+id/left1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingTop="10dp" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/stay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="行程概要"
+                        android:textColor="@color/sliver_gray"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/sta2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="10dp"
+                        
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/close" />
+                </RelativeLayout> -->
+
+                <ListView
+                    android:id="@+id/left_drawer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:cacheColorHint="#00000000"
+                    android:listSelector="#00000000"
+                    android:choiceMode="singleChoice"
+                    android:scrollbars="none"
+                    android:dividerHeight="0dp" />
+            
+
+</LinearLayout>

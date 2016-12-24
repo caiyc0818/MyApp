@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/msg_send_success_logo"
+        android:layout_width="@dimen/detail_author_photo_size"
+        android:layout_height="@dimen/detail_author_photo_size"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        android:src="@drawable/mytrip_reserve" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/msg_send_success_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msg_send_success_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:text="报名请求已发送"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/detail_product_name_size" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/chenk_apply_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_below="@id/msg_send_success_text"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/gray_more"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chenk_apply_state"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="50dip"
+        android:background="@drawable/btn_bg_gray"
+        android:text="关闭"
+        android:textColor="@color/gray_more"
+        android:textSize="@dimen/commit_button_size" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_below="@id/cancel_button"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

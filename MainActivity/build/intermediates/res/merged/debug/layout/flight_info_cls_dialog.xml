@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义清除航班信息对话框 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_setting_dialog_normal"
+    android:orientation="vertical" >
+
+    <!-- 对话框主体内容 -->
+
+    <LinearLayout
+        android:id="@+id/content_clsDialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="40dp" >
+
+        <!-- 文本框  显示主题内容 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="6dp"
+            android:singleLine="false"
+            android:text="@string/product_flight_info_clsText"
+            android:textColor="@color/color_setting_cache_dialog_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <!-- 分隔线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_border" />
+    <!-- 确定  取消 -->
+
+    <LinearLayout
+        android:id="@+id/footer_clsDialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 确定 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/footer_clsDialog_confirm_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="@string/setting_exit_dialog_positive"
+            android:textColor="@color/title_bg"
+            android:textSize="20sp" />
+        <!-- 分隔线 -->
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_border" />
+        <!-- 取消 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/footer_clsDialog_cancel_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="@string/setting_exit_dialog_negative"
+            android:textColor="@color/color_setting_cache_dialog_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

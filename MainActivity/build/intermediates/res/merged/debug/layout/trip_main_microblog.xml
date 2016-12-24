@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 微游记主布局界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trip_main_microBlog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+ <FrameLayout 
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      
+        >
+        <!-- 显示 微游记数据的列表控件 -->
+        <com.bcinfo.tripaway.view.XListView.MicroBlogListView
+            android:id="@+id/trip_microBlog_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never"
+            android:fadingEdge="none"
+            
+           android:divider="@color/black"
+           android:scrollbars="none"
+            android:dividerHeight="0dp"
+            
+            />
+        
+        <!-- 向上出现的抽屉 -->
+        <SlidingDrawer 
+            android:id="@+id/upSlidingDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:handle="@+id/handler"
+            android:content="@+id/rel"
+            
+            android:layout_gravity="bottom"
+            android:allowSingleTap="false"
+            android:visibility="gone"
+            >
+            <!-- 点击或者拖动出现抽屉的柄 -->
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+                android:id="@+id/handler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@null"
+                android:textSize="0sp"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:focusableInTouchMode="false"
+                />
+            
+            <!-- 定义SlidingDrawer所要显示的内容 -->
+            <LinearLayout 
+                android:id="@+id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                
+                android:orientation="vertical"
+                >
+                <!-- 半透明的背景 -->
+               <LinearLayout 
+                   android:id="@+id/topPhotoLayout"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:orientation="vertical"
+                   android:layout_weight="3"
+                   android:background="@color/transparent_gray"
+                   >
+                   
+                   
+               </LinearLayout>
+               <!-- 照片选择控件 -->
+                 <LinearLayout 
+                   android:id="@+id/downPhotoLayout"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:orientation="vertical"
+                   android:layout_weight="2"
+                   android:background="@color/color_trip_blog_addPhoto"
+                   >
+                   <LinearLayout 
+                       android:id="@+id/photoFliterLayout1"
+                       android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="1"
+                       android:orientation="horizontal"
+                     
+                       >
+                       <!-- 单选按钮组 -->
+                       <RadioGroup 
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="horizontal"
+                           
+                           >
+                           <!-- 单选按钮 拍照 -->
+                           <RadioButton 
+                               android:id="@+id/rb1"
+                               android:layout_width="0dp"
+                               android:layout_height="match_parent"
+                               android:layout_weight="1"
+                               android:button="@null"
+                               android:text="@string/blog_taking_photos"
+                               android:textColor="@color/color_trip_blog_addPhotoText"
+                               android:gravity="center"
+                               android:padding="20dp"
+                               android:drawablePadding="5dp"
+                               />
+                            <View 
+                       android:layout_width="0.5dp"
+                       android:layout_height="match_parent"
+                       android:background="@color/color_trip_blog_separate_line"
+                       />
+                            
+                           <!-- 单选按钮  从相册选择 -->
+                            <RadioButton 
+                               android:id="@+id/rb2"
+                               android:layout_width="0dp"
+                               android:layout_height="match_parent"
+                               android:layout_weight="1"
+                               android:button="@null"
+                                android:gravity="center"
+                                 android:textColor="@color/color_trip_blog_addPhotoText"
+                               android:text="@string/blog_taking_photos"
+                                android:padding="20dp"
+                                android:drawablePadding="5dp"
+                               />
+                       </RadioGroup>
+                   </LinearLayout>
+                   <View 
+                       android:layout_width="match_parent"
+                       android:layout_height="0.5dp"
+                       android:background="@color/color_trip_blog_separate_line"
+                       />
+                     <LinearLayout 
+                        android:id="@+id/photoFliterLayout2"
+                       android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="1"
+                       android:orientation="horizontal"
+                       >
+                       
+                       
+                   </LinearLayout>
+                   
+               </LinearLayout>
+            </LinearLayout>
+            
+            
+        </SlidingDrawer>
+        <!-- 添加照片  图标 -->
+        <ImageView 
+            
+            android:id="@+id/addPhotoBtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+           android:background="@drawable/add_photo_button_selector"
+          android:scaleType="fitCenter"
+          
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="20dp"
+            
+            />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+     android:paddingLeft="20dp"
+    android:background="@color/white"
+  >        
+<com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/area_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:text="中国 "
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/detail_content_title_size" />
+<ImageView
+                        android:layout_width="12.5dp"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="10dp"
+                                    android:layout_centerVertical="true"
+                        android:id="@+id/arrow"
+                          android:layout_alignParentRight="true"
+                        android:src="@drawable/list_arrow" >
+                    </ImageView>
+</RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_trip_blog_publish_separate_line" />
+
+</LinearLayout>

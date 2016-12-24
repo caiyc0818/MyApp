@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 微游记标题栏 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/the_microblog_title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/title_bg"
+    android:orientation="horizontal" >
+
+    <!-- 相对布局 -->
+
+    <RelativeLayout
+        android:id="@+id/microblog_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical" >
+
+        <!-- 定义标题栏左边的一个"展开侧边栏"的图标  默认是不可见的 -->
+        <!--
+   <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+       android:id="@+id/blog_navSideBar"
+       android:layout_width="30dp"
+       android:layout_height="40dp"
+       
+       android:background="@drawable/nav_sidebar"
+       
+       android:layout_alignParentLeft="true"
+       android:singleLine="true"
+       android:layout_marginLeft="4dp"
+      
+       android:visibility="visible"
+       android:gravity="center_vertical"
+       android:layout_centerVertical="true"
+     />
+      -->
+        <!-- 在微游记标题栏的左边定义一个 返回 图标 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/blog_navBack"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/nav_back"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+             />
+
+        <!-- 文本框 显示"微游记"字样 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/blog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/blog_navBack"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="微游记"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size"
+              />
+        <!-- 在标题栏的右边显示 "发布"字样的文本框   默认是不可见的 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/blog_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="发布"
+            android:background="@drawable/button_selector_bg"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+             />
+    </RelativeLayout>
+
+</LinearLayout>

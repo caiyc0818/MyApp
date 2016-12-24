@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 微游记每个item项的布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trip_blog_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_blog_cell_normal"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/trip_blog_item_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <!-- 背景图片  全屏铺满 -->
+
+            <ImageView
+                android:id="@+id/img_item_trip_blog"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="center" />
+            <!-- 表示 是否喜欢的checkbox -->
+
+            <CheckBox
+                android:id="@+id/isLike_trip_blog"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/trip_blog_like_yesno_checkstate"
+                android:button="@null"
+                android:checked="false"
+                android:visibility="gone" />
+            <LinearLayout 
+                android:id="@+id/my_micro_delete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="bottom|right"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:gravity="center"
+                android:background="@drawable/date_selected">
+            <ImageView 
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/micro_dustbin"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottom_item_trip_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_below="@id/trip_blog_item_container"
+            android:background="@color/white" >
+
+            <!-- 线性布局   装文本框 -->
+
+            <LinearLayout
+                android:id="@+id/blog_content_container"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <!-- 微游记内容文本框 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/describe_trip_blog"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:singleLine="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <!-- 中间灰色的分隔线 -->
+
+            <View
+                android:id="@+id/blog_item_separate_line"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/blog_content_container"
+                android:background="@color/color_search_fonts" />
+            <!-- 线性布局  显示微游记作者的头像icon,姓名以及发布的时间 -->
+
+           <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/blog_item_separate_line"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+				  <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/time_trip_blog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:text="3分钟前"
+                        android:textColor="@color/shadow_gray"
+                        android:textSize="10sp" />
+                <!-- ImageView显示用户(包括服务者和游客)的圆形图标 -->
+
+             
+                <!-- 微游记作者姓名文本框 居中显示 -->
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

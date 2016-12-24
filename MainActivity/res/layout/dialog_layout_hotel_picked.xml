@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 产品-申请预订-选择酒店 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <!-- 欲选汽车的型号 -->
+
+    <LinearLayout
+        android:id="@+id/layout_hotel_picked_Name_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/picked_hotel_Name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="华盛顿格林豪泰酒店"
+            android:textColor="@color/black"
+            android:textSize="@dimen/comment_user_name_size" />
+    </LinearLayout>
+    <!-- 汽车简介 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/picked_hotel_introduce_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_hotel_picked_Name_container"
+        android:layout_marginTop="10dp"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:singleLine="false"
+        android:text="2014年的新型酒店,干净整洁的,酒店气氛浓厚,轻型商用车的典范之作,被誉为&quot;巴比伦空中花园&quot;。豪华配置,可推拉天窗,前后置空调,无线网络宽带,空调电热水器一应俱全,是您外出入住的最佳选择。"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/comment_user_name_size" />
+
+    <LinearLayout
+        android:id="@+id/layout_hotel_picked_tip_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picked_hotel_introduce_tv"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_hotel_picked_tip"
+            android:textColor="@color/black"
+            android:textSize="@dimen/comment_user_name_size" />
+    </LinearLayout>
+    <!-- 开始时间   结束时间 -->
+
+    <LinearLayout
+        android:id="@+id/layout_hotel_picked_time_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_hotel_picked_tip_container"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <!-- 开始时间 -->
+
+        <LinearLayout
+            android:id="@+id/layout_product_hotel_useage_startTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_logreg_btn_normal"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <!-- icon -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_car_usage_starttime"
+                android:scaleType="center" />
+            <!-- 开始时间 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/product_car_picked_startTime"
+                android:textColor="@color/white"
+                android:textSize="@dimen/comment_user_name_size" />
+            <!-- 冒号 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/product_car_picked_startTime_symbol1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="&#058;"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+            <!-- 日期   年-月-日 -->
+
+            <LinearLayout
+                android:id="@+id/layout_hotel_picked_date_container1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+
+                <!-- 年 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_hotel_picked_startyear_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+                <!-- - -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&#045;"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+                <!-- 月 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_hotel_picked_startmonth_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+                <!-- - -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&#045;"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+                <!-- 日 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_hotel_picked_startday_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 结束时间 -->
+
+        <LinearLayout
+            android:id="@+id/layout_product_hotel_useage_endTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_car_picked_btn_normal"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <!-- icon -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_car_usage_endtime"
+                android:scaleType="center" />
+            <!-- 开始时间 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/product_car_picked_endTime"
+                android:textColor="@color/black"
+                android:textSize="@dimen/comment_user_name_size" />
+            <!-- 冒号 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/product_car_picked_startTime_symbol2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="&#058;"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+            <!-- 日期   年-月-日 -->
+
+            <LinearLayout
+                android:id="@+id/layout_hotel_picked_date_container2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <!-- 年 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_hotel_picked_endyear_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+                <!-- - -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&#045;"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+                <!-- 月 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_hotel_picked_endmonth_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+                <!-- - -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&#045;"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+                <!-- 日 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_hotel_picked_endday_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/comment_user_name_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 底端的  确定  取消 layout -->
+
+    <LinearLayout
+        android:id="@+id/layout_footer_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <!-- 灰色分隔线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_border" />
+        <!-- 确定  取消 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- 确定 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/product_hotel_picked_confirm_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/setting_exit_dialog_positive"
+                android:textColor="@color/black"
+                android:textSize="@dimen/comment_user_name_size" />
+            <!-- 分隔线 -->
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray_border" />
+            <!-- 取消 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/product_hotel_picked_cancel_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/setting_exit_dialog_negative"
+                android:textColor="@color/black"
+                android:textSize="@dimen/comment_user_name_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

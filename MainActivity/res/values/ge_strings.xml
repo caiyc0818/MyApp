@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="net_error_tip">当前网络不可用，请检查你的网络设置</string>
+    <string name="center_title_name">最近会话</string>
+    <string name="no_chat">暂时没有新消息</string>
+    <!-- 上拉下拉 -->
+
+</resources>

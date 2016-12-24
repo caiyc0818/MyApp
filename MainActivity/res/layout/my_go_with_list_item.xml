@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/press_white_to_gray_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="10dip"
+        android:background="@color/gray_bg" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:background="@color/gray_border" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip" >
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            android:id="@+id/author_photo"
+            android:layout_width="@dimen/comment_user_photo_size"
+            android:layout_height="@dimen/comment_user_photo_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/user_defult_photo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@id/author_photo"
+            android:orientation="vertical" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:text="jeck"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/comment_user_name_size" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/create_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip"
+                android:text="2014-1-1"
+                android:textColor="@color/gray_more"
+                android:textSize="@dimen/comment_date_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_invite_people_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/invite_people_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="@color/event_red"
+                android:textSize="@dimen/comment_date_size" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人被邀请"
+                android:textColor="@color/gray_more"
+                android:textSize="@dimen/comment_date_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/layout_invite_people_number"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/responce_people_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="@color/event_red"
+                android:textSize="@dimen/comment_date_size" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="条回应"
+                android:textColor="@color/gray_more"
+                android:textSize="@dimen/comment_date_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/go_with_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:text="2014-1-1"
+        android:textColor="@color/dark_gray"
+        android:textSize="17sp" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/go_with_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:lineSpacingExtra="5dip"
+        android:text="2014-1-1"
+        android:textColor="@color/gray_more"
+        android:textSize="@dimen/comment_content_size" />
+
+    <LinearLayout
+        android:id="@+id/layout_come_from"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#ffeacf"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo_gowith" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/go_with_come_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:text="来自mobel的邀请"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/detail_content_title_size" />
+    </LinearLayout>
+
+</LinearLayout>

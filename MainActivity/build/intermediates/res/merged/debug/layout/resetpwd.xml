@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resetPwdLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milk_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/logreg_title" />
+
+    <RelativeLayout
+        android:id="@+id/topResetPwdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+         <LinearLayout
+            android:id="@+id/resetLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:orientation="horizontal" >
+
+            <!-- 其中定义一个textview显示图标和一个垂直的分隔条 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/smart_phone_protection"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <View
+                 android:layout_width="0.5dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:background="@color/shadow_gray" />
+
+            <!-- 自定义editText控件  实现删除功能 -->
+
+            <com.bcinfo.tripaway.view.editText.DeletedEditText
+                android:id="@+id/inputPhoneAuthCode"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:drawableRight="@drawable/login_delete"
+                android:hint="@string/inputPhoneAutjCodeText"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/shadow_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resetLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+             android:layout_below="@id/resetLayout1"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:orientation="horizontal" >
+
+            <!-- 其中定义一个textview显示图标和一个垂直的分隔条 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/lgoin_password"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:background="@color/shadow_gray" />
+
+            <!-- 自定义editText控件  实现删除功能 -->
+
+            <com.bcinfo.tripaway.view.editText.DeletedEditText
+                android:id="@+id/inputNewPwd"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:drawableRight="@drawable/login_delete"
+                android:hint="@string/inputNewPwd"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/shadow_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resetLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resetLayout2"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:orientation="horizontal" >
+
+            <!-- 其中定义一个textview显示图标和一个垂直的分隔条 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/lgoin_password"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:background="@color/shadow_gray" />
+            <!-- 自定义editText控件  实现删除功能 -->
+
+            <com.bcinfo.tripaway.view.editText.DeletedEditText
+                android:id="@+id/inputNewPwdAgain"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:drawableRight="@drawable/login_delete"
+                android:hint="@string/inputNewPwdAgain"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/shadow_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 定义重置密码控件 -->
+
+        <LinearLayout
+            android:id="@+id/resetBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/resetLayout3"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_logreg_btn_normal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="@string/commitPassword"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

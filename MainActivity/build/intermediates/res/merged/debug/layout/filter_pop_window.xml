@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.bcinfo.tripaway.view.FilterLayout
+        android:id="@+id/filterLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+       </com.bcinfo.tripaway.view.FilterLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dip"
+    android:paddingBottom="20dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/flag_scenic_spots" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:orientation="vertical" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/scenic_spots_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="鲸鱼和海豹"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/scenic_spots_des"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:lineSpacingExtra="5dip"
+            android:text="这里的海域栖息着丰富的海洋哺乳动物和海鸟"
+            android:lines="4"
+            android:ellipsize="end"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/detail_content_size" />
+       <!-- 存放景点照片的线性布局 -->
+        <LinearLayout
+            android:id="@+id/scenic_spots_photo_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

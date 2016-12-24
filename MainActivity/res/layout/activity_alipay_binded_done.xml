@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 绑定支付宝-成功 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#1cce6f"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+	<LinearLayout 
+            android:id="@+id/alipay_bind_done_cancel_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cancel_x_icon"
+            android:scaleType="fitCenter" />
+        </LinearLayout>
+        <!-- 绑定成功  图标 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <!-- 支付宝绑定成功  图标 -->
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/alipay_binded_done_icon"
+                android:scaleType="fitCenter" />
+            <!-- 绑定成功 标识icon -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/bind_done_icon"
+                android:scaleType="fitCenter" />
+            <!-- app绑定成功 图标 -->
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/app_binded_done_icon"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/alipay_binded_operate_done_titleBar_text"
+            android:textColor="@color/shadow_black"
+            android:textSize="@dimen/dialog_user_name_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:lineSpacingMultiplier="1.5"
+            android:singleLine="false"
+            android:text="@string/alipay_binded_operate_done_text"
+            android:textColor="@color/shadow_black"
+            android:textSize="@dimen/comment_user_name_size" />
+        <!-- 确定 -->
+
+        <LinearLayout
+            android:id="@+id/layout_bind_done_container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_alipay_binded_cell_normal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_exit_dialog_positive"
+                android:textSize="18sp"
+                android:textColor="@color/shadow_black" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

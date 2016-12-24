@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/main_radiogroup_root1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/tab_radioGroup_text_root1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+                <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1" >
+
+                <com.bcinfo.tripaway.view.DrawableCenterRadioButton
+                    android:id="@+id/radio_0_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="游记"
+                    android:textColor="#333333" >
+                </com.bcinfo.tripaway.view.DrawableCenterRadioButton>
+
+                <View
+                    android:layout_width="44dp"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/horizontal_line01"
+                    android:background="#1cce6f" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#979797" >
+            </LinearLayout>
+            
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                 android:visibility="gone"
+                 android:id="@+id/driver_nav_layout1"
+                android:layout_weight="1" >
+
+                <com.bcinfo.tripaway.view.DrawableCenterRadioButton
+                    android:id="@+id/radio_1_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="车辆"
+                    android:textColor="@color/gray_text" >
+                </com.bcinfo.tripaway.view.DrawableCenterRadioButton>
+
+                <View
+                    android:layout_width="44dp"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                     android:id="@+id/horizontal_line11"
+                     android:visibility="gone"
+                    android:background="#1cce6f" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                 android:visibility="gone"
+                 android:orientation="vertical"
+                 android:id="@+id/vertical_line11"
+                android:background="#979797" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1" >
+
+                <com.bcinfo.tripaway.view.DrawableCenterRadioButton
+                    android:id="@+id/radio_2_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="旅历"
+                    android:textColor="@color/gray_text" >
+                </com.bcinfo.tripaway.view.DrawableCenterRadioButton>
+
+                <View
+                    android:layout_width="44dp"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                     android:id="@+id/horizontal_line21"
+                      android:visibility="gone"
+                    android:background="#1cce6f" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#979797" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1" >
+
+                <com.bcinfo.tripaway.view.DrawableCenterRadioButton
+                    android:id="@+id/radio_3_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_centerInParent="true"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="产品"
+                    android:textColor="@color/gray_text" >
+                </com.bcinfo.tripaway.view.DrawableCenterRadioButton>
+
+                <View
+                    android:layout_width="44dp"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                     android:id="@+id/horizontal_line31"
+                      android:visibility="gone"
+                    android:background="#1cce6f" />
+            </RelativeLayout>
+        </RadioGroup>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

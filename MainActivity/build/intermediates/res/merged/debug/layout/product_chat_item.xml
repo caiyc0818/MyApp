@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="10dp">
+      
+        <RelativeLayout
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+              <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:text="12-20 17:32"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/send_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/service_car" />
+  					<com.bcinfo.tripaway.view.textview.NormalTfTextView
+		            android:id="@+id/send_name"
+		            android:layout_alignParentTop="true"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text=""
+		            android:layout_marginLeft="10dp"
+		            android:layout_toRightOf="@id/send_icon"
+		            android:textColor="#333333"
+		            android:textSize="12sp" />
+            <RelativeLayout 
+                android:layout_marginTop="10dp"
+                android:id="@+id/product_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/send_icon"
+                android:layout_below="@+id/send_name"
+                 android:gravity="center_vertical"
+                 android:background="@drawable/talk_wihte"
+                android:layout_marginLeft="5dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp">
+                <ImageView 
+                    android:id="@+id/product_post"
+                    android:layout_width="96dp"
+                    android:layout_height="65dp"
+                    android:scaleType="fitXY"/>
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+                    android:id="@+id/product_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/product_post"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="洛杉矶荣耀11旅行"/>
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+                    android:id="@+id/product_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/product_post"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="荷兰·亲子·通话·欧洲"/>
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/product_post"
+                    android:layout_alignBottom="@+id/product_post"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+                    <!-- 行程天数 -->
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/service_product_day_schedual"
+                    android:scaleType="center" />
+                <!-- 里程天数 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="7天"
+                    android:textSize="14sp"
+                    android:textColor="@color/gray" />
+                <!-- 距离  图标 -->
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/map_location_icon"
+                    android:scaleType="center" />
+                <!-- 距离值 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="1298Km"
+                    android:textSize="14sp"
+                    android:textColor="@color/gray" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="17dip" >
+
+        <LinearLayout
+            android:layout_width="8dip"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+              <ImageView
+                    android:layout_width="1dip"
+                    android:layout_height="6dp"
+                    android:id="@+id/line1"
+                    android:layout_centerHorizontal="true"
+                    android:background="#c8c8c8" />
+
+                <ImageView
+                    android:layout_width="8dip"
+                    android:layout_height="8dip"
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/summit_step"
+                    android:src="@drawable/change_state_select" />
+                  <ImageView
+                    android:layout_width="1dip"
+                    android:layout_height="32dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                     android:id="@+id/line2"
+                    android:background="#c8c8c8" /> 
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical|top"
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            android:paddingRight="10dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:orientation="horizontal" >
+
+                <!-- <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/trip_item_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="第一天:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" /> -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="定制已提交"
+                    android:id="@+id/summit_title"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="14sp" />
+
+           <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/summit_createTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="(2015-10-16 10:10:10)"
+                    android:textColor="@color/black_gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:lineSpacingExtra="2dp"
+                    android:maxLines="3"
+        			android:ellipsize="end"
+                    android:text="请耐心等待客服确认"
+                    android:id="@+id/summit_status"
+                    android:textColor="@color/black_gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <!-- 存放景点照片的线性布局 -->
+
+           
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

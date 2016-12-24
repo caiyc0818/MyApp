@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设置-版本升级 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/setting_second_titlebar"
+        layout="@layout/second_title_bar" />
+
+    <!-- 远行 图标 -->
+
+    <ImageView
+        android:id="@+id/setting_app_icon_iv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/setting_second_titlebar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logoapp" />
+    <!-- 当前的版本号 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/setting_app_version_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_app_icon_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="V1.0.0.0.1"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/comment_user_name_size" />
+    <!-- 检查新版本 -->
+
+    <LinearLayout
+        android:id="@+id/layout_update_version_container"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_app_version_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_setting_update_version_cell_normal"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <!-- 检查新版本 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_check_new_version_text"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/dialog_user_name_size" />
+    </LinearLayout>
+    <!-- 底部  版本说明 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <!-- 使用条款和隐私策略 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal" >
+
+            <!-- 使用条款 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/setting_usage_introduce_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_check_new_version_usage_introduce_text"
+                android:textColor="@color/colorlist_setting_update_version"
+                android:textSize="@dimen/dialog_user_name_size" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_check_new_version_and_text"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/dialog_user_name_size" />
+            <!-- 隐私策略 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/setting_private_policy_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_check_new_version_private_policy_text"
+                android:textColor="@color/colorlist_setting_update_version"
+                android:textSize="@dimen/dialog_user_name_size" />
+        </LinearLayout>
+        <!-- 所属公司 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/setting_check_new_version_company_version_text"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/commit_button_size" />
+    </LinearLayout>
+
+</RelativeLayout>

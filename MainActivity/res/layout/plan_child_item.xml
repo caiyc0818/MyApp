@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/plan_child_item_height"
+    android:orientation="horizontal" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/plan_things_index"
+        android:layout_width="24dip"
+        android:layout_height="24dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="5dip"
+        android:background="@drawable/thing_index_bg"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/plan_things_content"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/plan_child_item_height"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="洛杉矶环球影城"
+        android:textColor="@color/gray_more_5"
+        android:textSize="14sp" />
+
+</LinearLayout>

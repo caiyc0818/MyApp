@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/day_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:button="@null"
+        android:checked="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@drawable/itinerary_day_selector"
+        android:gravity="center"
+        android:textColor="@drawable/itinerary_day_textcolor"
+        android:textSize="22sp" />
+
+</LinearLayout>

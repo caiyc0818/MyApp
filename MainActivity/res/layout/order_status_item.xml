@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dip" >
+
+    <LinearLayout
+        android:id="@+id/left_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:id="@+id/kongxin_yuan"
+            android:src="@drawable/kongxinyuan" />
+        
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+            android:layout_width="1dp"
+            android:layout_height="45dip"
+            android:background="@color/gray_border"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/trace_status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/left_pic"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/trace_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/trace_status_tv"
+        android:text=""
+        android:textColor="@color/gray_little"
+        android:textSize="10sp" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/trace_desc_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trace_status_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/left_pic"
+        android:text=""
+        android:textColor="@color/gray_more"
+        android:textSize="12sp" />
+
+</RelativeLayout>

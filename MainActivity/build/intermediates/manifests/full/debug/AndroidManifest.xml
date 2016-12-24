@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bcinfo.tripaway"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="24" />
+
+    <!-- ###############   uMeng   #################### -->
+    <!-- 人人 -->
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <!-- ###############   uMeng   #################### -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+ <!-- 允许访问摄像头拍照 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 个推SDK权限配置开始 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+ <!-- 允许震动的权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- <uses-permission android:name="getui.permission.GetuiService.第三方包名" /> -->
+    <uses-permission android:name="getui.permission.GetuiService.com.bcinfo.tripaway" />
+    <!-- 自定义  权限 -->
+    <permission
+        android:name="getui.permission.GetuiService.com.bcinfo.tripaway"
+        android:protectionLevel="normal" >
+    </permission>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.bcinfo.tripaway.TripawayApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+
+        <!-- 渠道商编号 -->
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="official" />
+        <!-- 您从百度网站获取的APP KEY -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="d5fa2f7279" />
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true" />
+        <!-- 日志发送策略，可选值：APP_START、ONCE_A_DAY、SET_TIME_INTERVAL，默认为APP_START -->
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START" />
+        <!-- 日志发送策略 为SET_TIME_INTERVAL时，需设定时间间隔(取消下行注释)。取值为1-24的整数，默认为1 -->
+        <meta-data
+            android:name="BaiduMobAd_TIME_INTERVAL"
+            android:value="1" />
+        <!-- 日志仅在wifi网络下发送，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="false" />
+        <!-- 是否获取基站位置信息 ,默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="true" />
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true" />
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true" />
+
+        <activity
+            android:name="com.bcinfo.tripaway.activity.LoadingActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/ContentOverlay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 主页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ResultActivity"
+            android:parentActivityName="com.bcinfo.tripaway.activity.MainActivity" >
+        </activity>
+        <!-- 个人主页-更多 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalInfoMoreActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- 圈子 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ZoneListActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- 目的地-国家详情 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.LocationCountryDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 详情个人主页 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalHomepageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 详情个人主页 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalHomepageActivity1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 详情个人主页 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.UserMicroCommentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" >
+        </activity>
+        <!-- 详情个人主页 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 详情个人主页 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.LocationCountryTipActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 详情个人主页 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PriceTipActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 详情个人主页 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.WarmpromptTipActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- TA的旅行经历 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TravelExperienceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 行程日历 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.InGroupDataDetail"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 预订的行程日历 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.InGroupDataDetail2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 支付成功界面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PaySuccessAcivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 支付确认页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ConfirmOrderActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <!-- 选择航班对话框样式Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.FlightPickedDialogActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_flight_Dialog_Style" >
+        </activity>
+        <!-- 选择交通工具-汽车  对话框样式Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.TrafficToolsPickedDialogActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_flight_Dialog_Style" >
+        </activity>
+        <!-- 选择酒店  对话框样式Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.HotelPickedDialogActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_flight_Dialog_Style" >
+        </activity>
+        <!-- 登录页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注册页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.RegisterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 验证码页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.VerifyCodeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注册 侧边栏-头像点击 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SideBarInfoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- 具体月份下面的产品列表 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TravelPeriodProductListActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.bcinfo.imageviewer.activity.ImageViewerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AddScheduleEventActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductAffirmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.FriendActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductDetailNewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.CarProductDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.HouseProductDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyJourneyDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductServiceActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TipsDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.DescriptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.CarInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TripPlanDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TripPlanDetailNewActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyJourneyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyOrderDetailActivity"
+            android:parentActivityName="com.bcinfo.tripaway.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bcinfo.tripaway.activity.MainActivity" >
+            </meta-data>
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyMicroBlogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyItineraryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.UserCommentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ApplyProductActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PaidSuccessActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GrouponProductDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GrouponProductNewDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GrouponProductNewDetailActivity2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GrouponProductApplyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GrouponApplySuccessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyJourneyRemarkActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TravelItineraryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 产品下架的页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductOutTimeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyItineraryDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductAuthorBriefActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GrouponMemberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyGoWithActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyGoWithDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.InviteGoWithDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AddGoWithActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GoWithDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AllResponceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GoWithThemeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.GrouponApplaySendDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_Dialog_Style" />
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.AlarmDialog"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.ApplyDetailDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_Dialog_Style" />
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.AffirmDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_Dialog_Style" />
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.ChangeProductStateDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_Dialog_Style" />
+        <!-- 产品-显示个人信息对话框 -->
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.ServicerPersonInfoDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_Dialog_Style" >
+        </activity>
+        <!-- 注册精选-目的地产品结果页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PickedDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- 注册发现-搜索结果页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.DiscoveryResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.MyJourneyPayDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_Dialog_Style" />
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.MyJourneyPaySuccessDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_Dialog_Style" />
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.MyJourneyCheckRemarkDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Affirm_Dialog_Style" />
+        <!-- 注册 个人资料Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 系统相册Activity 1 -->
+        <activity
+            android:name="com.bcinfo.tripaway.camera.ImageGridActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 系统相册Activity 2 -->
+        <activity
+            android:name="com.bcinfo.tripaway.camera.TestPicActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 注册-新个人资料Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalInfoNewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 目的地-城市详情Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.LocationCityDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 注册 设置-帮助 Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SettingHelpActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注册 设置-关于我们 Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SettingAboutUsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 版本升级 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SettingUpdateVersionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注册微游记记录详情Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.BlogDetailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 搜索默认二级Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.DiscoveryDefaultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <!-- 搜索默认结果Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.DiscoveryDefaultsolresultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <!-- 注册发现-全部主题Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.DiscoverAllThemesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- new注册发现-全部主题Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AllThemesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注册发现-全部目的地Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.DiscoverAllLocationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 全部人物志Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AllPersonActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- new注册发现-全部目的地Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AllLocationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 注册发现-单一主题产品列表 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ThemeProductListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductJoinMebActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!--
+        <receiver android:name="com.bcinfo.tripaway.receiver.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="com.bcinfo.tripaway.ALARM_ALERT" />
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.bcinfo.tripaway.service.AlarmService" >
+            <intent-filter>
+                <action android:name="com.bcinfo.tripaway.ALARM_ALERT" />
+            </intent-filter>
+        </service>
+        -->
+
+        <provider
+            android:name="com.bcinfo.tripaway.AlarmProvider"
+            android:authorities="com.bcinfo.tripaway"
+            android:exported="false" />
+        <!-- 注册  "找回密码"(手机找回)的Activity界面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.FindPassWordActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- 注册 "找回密码"(邮箱找回)的Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.FindPassWordByEmailActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- 注册"重置密码"的Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ResetPassWordActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 注册 "筛选条件"的Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TripFilterConditionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 注册 "微游记 发布" Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MicroBlogPublishedActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|navigation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <!-- 产品-概念-交通Activity -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductExtraInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 好友 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GoodFriendsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 关注列表 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.FollowMemberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 粉丝 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.FansMemberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 订购 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ConfirmPayActivity3"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.OrderStatusFollowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 添加同行人 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AddMemberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 照片浏览 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 时间浏览 -->
+        <activity
+            android:name="com.bcinfo.tripaway.view.dialog.ExpPeriodTimeDialog"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 设置个人信息页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SettingUserInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 设置单个信息页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ModifyInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 选择地区页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SelectAreaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 选择地区页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.LocationSelectAreaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 选择地区 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AreaListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 选择地区 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.LocationListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 定制 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalCustomizationStepOne"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 定制 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalCustomizationStepTwo"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 定制 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalCustomizationStepThree"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 定制 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.PersonalCustomizationStepEnd"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 聊天界面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ChatActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.bcinfo.tripaway.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bcinfo.tripaway.activity.MainActivity" >
+            </meta-data>
+        </activity>
+        <!-- 查看外部资源链接页面 -->
+        <activity
+            android:name="com.bcinfo.tripaway.activity.LinkDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <!-- 个推SDK配置开始 -->
+        <!-- 配置个推的第三方参数属性 -->
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="DBb9N20cK4673oC0L5d8j5" />
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="LJD278tqil6pwG0z3Wzqy8" />
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="9XYCJd9HEd8Xl7xSkgjMT8" />
+        <meta-data
+            android:name="PUSH_GROUPID"
+            android:value="" />
+
+        <!-- 配置第三方Receiver -->
+        <receiver
+            android:name="com.bcinfo.tripaway.getui.receiver.PushDemoReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.DBb9N20cK4673oC0L5d8j5" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 配置SDK核心服务 -->
+        <service
+            android:name="com.igexin.sdk.PushService"
+            android:exported="true"
+            android:label="NotificationCenter"
+            android:process=":pushservice" >
+        </service>
+
+        <receiver android:name="com.igexin.sdk.PushReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.igexin.sdk.action.refreshls" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.PushManagerReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.pushmanager" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.igexin.sdk.PushActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice" />
+
+        <receiver android:name="com.igexin.download.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:authorities="downloads.com.bcinfo.tripaway"
+            android:process=":pushservice" />
+        <!-- android:authorities="downloads.第三方包名" -->
+
+        <activity
+            android:name="com.igexin.getuiext.activity.GetuiExtActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="android.task.myServicetask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.igexin.getuiext.service.PayloadReceiver"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- 这个com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4固定，不能修改 -->
+                <action android:name="com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4" />
+                <!-- android:name="com.igexin.sdk.action.第三方的appId" -->
+                <action android:name="com.igexin.sdk.action.DBb9N20cK4673oC0L5d8j5" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.igexin.getuiext.service.GetuiExtService"
+            android:process=":pushservice" />
+
+        <!-- 个推SDK配置结束 -->
+        <!-- 百度定位 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="mHLd6hIVbwew5qdbGdw8rIbK" />
+
+        <!-- ###################注册SDK使用的Activity###################### -->
+        <!-- 分享编辑页 -->
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID -->
+                <data android:scheme="1104713805" />
+            </intent-filter>
+        </activity>
+        <!-- 微信回调activity -->
+        <activity
+            android:name="com.bcinfo.umeng.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- 人人网 -->
+        <activity
+            android:name="com.renn.rennsdk.oauth.OAuthActivity"
+            android:configChanges="orientation|navigation|keyboardHidden" />
+        <!-- ###################添加UmengAppkey###################### -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55bec26967e58e7087002f94" >
+        </meta-data>
+
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyInvoiceActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyPartenerAddActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyInvoice2Activity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyInvoiceAddActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.CommonInfoActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyCollectionActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SettingActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.HelpActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.HelpDetailActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ConsultOrComplaintActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ConsultOrComplaintDetailActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ReplayActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ClubHomepageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ClubMebHomepageActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ClubMebMoreInfoActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.CatsInfoActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ClubMebActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ContentActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TourGuiderHomepageActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ClubFirstPageActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MessageActivity1"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.CustomerHomePageActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.CompanyInfoActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.OrgListActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.RecommendProductActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ShowQualificationInfoActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ThemeDetailActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MicroBlogsNewInfoActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SubjectDetailActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.GroupProductNewestActivtiy"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AreaSelectActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TripOrdeDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyScheduletActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquarePicPublishedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareSerialPublishedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareSerialPreviewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareSerialPreview1Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquarePicDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareMusicOrBookOrMusicAddActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareMusicOrBookOrMusicDetailActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareSerialDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.photoselector.ui.PhotoPreviewActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.photoselector.ui.PhotoSelectorActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.photoselector.ui.BasePhotoPreviewActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AlipayBindDoneActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AliPayBindedActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyAccountActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyAccountActivity2"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.MyMoreFac"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AccountDefaultActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareOldPicActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareThemeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.SquareHotTheme"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.AddSeriesActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.CashCardActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.TouristHomepageActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.FootprintActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.ProductCashCardActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.activity.squareText"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="com.baidu.bottom.service.BottomReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.bcinfo.tripaway.activity.FollowOrFansActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcinfo.tripaway.fragment.CustomizeRequireFragment"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

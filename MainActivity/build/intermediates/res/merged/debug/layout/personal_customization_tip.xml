@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 服务者端-个人定制第一步布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c4045"
+    android:id="@+id/tipLayout"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="简单三步免费旅行定制"
+        android:textColor="#1cce6f"
+        android:textSize="@dimen/prsonal_customization_text_size_big"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_dash_line_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" >
+<ImageView    android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/first"/>
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:text="2分钟，提交你的出行需求"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+       android:src="@drawable/first_arrow"></ImageView>
+
+     <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_dash_line_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" >
+<ImageView    android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/second"/>
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:text="4小时，与您电话沟通"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+       android:src="@drawable/first_arrow"></ImageView>
+    
+     <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_dash_line_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" >
+<ImageView    android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/third"/>
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:text="48小时内，获得专属方案"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+      <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:text="特别提醒："
+             
+            android:textColor="@color/gray_little"
+            android:textSize="14sp" />
+      <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginTop="10dp"
+            android:text="1、遇到节假日，电话沟通和获得专属定制方案的时间顺延；"
+            android:textColor="@color/gray_little"
+            android:textSize="12sp" />
+      <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginTop="10dp"
+            android:text="2、为了不打扰你休息，我们电话沟通时间会选择在9-22点。"
+            android:textColor="@color/gray_little"
+            android:textSize="12sp" />
+
+      <Button
+            android:id="@+id/nextStep"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+              android:layout_marginTop="20dp"
+            android:background="#64acff"
+            android:text="立即定制"
+            android:textColor="@color/white"
+            android:textSize="@dimen/prsonal_customization_text_size_big" >
+        </Button>
+</LinearLayout>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设置 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/search_separate_view_color"
+    android:orientation="vertical" >
+
+    <!-- include 标题栏 -->
+
+
+    <!-- <include layout="@layout/second_title_bar" /> -->
+    <!-- 空白分隔条 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/setting_separate_height"
+        android:background="@color/search_separate_view_color" />
+    <!-- 第一个相对布局  显示"图片上传条件"和"清除缓存"内容 -->
+
+    <RelativeLayout
+        android:id="@+id/user_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white" >
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user_photo"
+            android:layout_width="@dimen/detail_author_photo_size"
+            android:layout_height="@dimen/detail_author_photo_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/user_defult_photo"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/user_photo"
+            android:orientation="vertical" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/nick_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/color_trip_blog_publish_font_color"
+                android:textSize="20sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/user_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 空白分隔条 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/setting_separate_height"
+        android:background="@color/search_separate_view_color" />
+    <!-- 第二个相对布局 显示 "关于我们","版本检查","去评价"内容 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <!-- 关于我们 -->
+
+        <RelativeLayout
+            android:id="@+id/setting_AboutUs"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <!-- 关于我们 image -->
+
+            <ImageView
+                android:id="@+id/aboutUsIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/aboutwe" />
+            <!-- 关于我们 字样 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/aboutUsText"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/aboutUsIcon"
+                android:gravity="center_vertical"
+                android:text="@string/setting_aboutUs_text"
+                android:textColor="@color/color_trip_blog_publish_font_color"
+                android:textSize="@dimen/setting_font_size" />
+            <!-- 向右的箭头 -->
+
+            <ImageView
+                android:id="@+id/imgrightView2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/list_arrow" />
+        </RelativeLayout>
+        <!-- 灰色分隔线 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/separate_lineLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_below="@id/setting_AboutUs"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/color_trip_blog_publish_separate_line" />
+
+        <!-- 版本检查 -->
+
+        <RelativeLayout
+            android:id="@+id/setting_CheckForUpdate"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/separate_lineLayout2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <!-- 版本检查 image -->
+
+            <ImageView
+                android:id="@+id/updateIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/set_bbjc" />
+            <!-- 版本检查字样 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/updateText"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/updateIcon"
+                android:gravity="center_vertical"
+                android:text="@string/setting_checkForUpdate_text"
+                android:textColor="@color/color_trip_blog_publish_font_color"
+                android:textSize="@dimen/setting_font_size" />
+            <!-- 一个向右指向的箭头 -->
+
+            <ImageView
+                android:id="@+id/imgrightView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/list_arrow" />
+            <!-- 版本更新时的提示信息 -->
+
+            <LinearLayout
+                android:id="@+id/updateTip"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/updateText"
+                android:orientation="horizontal" >
+
+                <!-- NEW 的提示信息 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/updateNewTip"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/shape_setting_update_normal"
+                    android:gravity="center"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:text="@string/setting_new_mark"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- 分隔线 -->
+        <!-- 灰色分隔线 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/separate_lineLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/setting_CheckForUpdate"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/color_trip_blog_publish_separate_line" />
+        <!-- 去评价 -->
+
+        <RelativeLayout
+            android:id="@+id/setting_Evaluate"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/separate_lineLayout3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:visibility="gone"
+            android:paddingRight="15dp" >
+
+            <!-- 去评价 image -->
+
+            <ImageView
+                android:id="@+id/evaluateIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gomessage" />
+            <!-- 版本检查字样 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/evaluateText"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/evaluateIcon"
+                android:gravity="center_vertical"
+                android:text="@string/setting_evaluate_text"
+                android:textColor="@color/color_trip_blog_publish_font_color"
+                android:textSize="@dimen/setting_font_size" />
+            <!-- 一个向右指向的箭头 -->
+
+            <ImageView
+                android:id="@+id/imgrightView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/list_arrow" />
+        </RelativeLayout>
+        <!-- 灰色分隔线 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/separate_lineLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/setting_Evaluate"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/color_trip_blog_publish_separate_line" />
+        <!-- 帮助 -->
+
+        <RelativeLayout
+            android:id="@+id/setting_Help"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/separate_lineLayout4"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:paddingLeft="15dp"
+            
+            android:paddingRight="15dp" >
+
+            <!-- 帮助 image -->
+
+            <ImageView
+                android:id="@+id/helpIcon"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/set_help" />
+            <!-- 版本检查字样 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/helpText"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="19dp"
+                android:layout_toRightOf="@id/helpIcon"
+                android:gravity="center_vertical"
+                android:text="@string/setting_help_text"
+                android:textColor="@color/color_trip_blog_publish_font_color"
+                android:textSize="@dimen/setting_font_size" />
+            <!-- 一个向右指向的箭头 -->
+
+            <ImageView
+                android:id="@+id/imgrightView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/list_arrow" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- 空白分隔块 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/setting_separate_height"
+        android:background="@color/search_separate_view_color" />
+        <!-- 退出 -->
+
+        <RelativeLayout
+            android:id="@+id/exitLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/ge_list_newmessage2"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <!-- 退出 image -->
+            <!-- 退出 字样 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/exitText"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:layout_centerHorizontal="true"
+                android:text="@string/setting_exit_text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/setting_font_size" />
+
+            <!-- 一个向右指向的箭头 -->
+        </RelativeLayout>
+
+</LinearLayout>

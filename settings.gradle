@@ -1,0 +1,2 @@
+include ':MainActivity'
+include ':social_sdk_library_project'

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 在一个布局界面中同时设置两种布局  设置其中一个布局隐藏 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/press_white_to_gray_bg"
+    android:orientation="vertical" >
+
+    <!-- 团购产品 布局 默认显示 -->
+
+    <RelativeLayout
+        android:id="@+id/personal_products_item_container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:visibility="visible" >
+
+        <!-- 显示产品图片的imageview -->
+
+        <ImageView
+            android:id="@+id/personal_product_icon1"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop" />
+        <!-- 显示产品信息的线性布局 -->
+
+        <LinearLayout
+            android:id="@+id/personal_product_infos"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/personal_product_icon1"
+            android:orientation="vertical" >
+
+            <!-- 产品名字 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/personal_product_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:text="温哥华丛林探险狩猎之旅温哥华丛林探险狩猎之旅"
+                android:textColor="@color/shadow_black"
+                android:textSize="16sp" />
+            <!-- 产品截止日期 -->
+
+            <LinearLayout
+                android:id="@+id/personal_product_timePlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <!-- 开始时间   截止时间 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/personal_product_time1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="10.11-10.15"
+                    android:textColor="@color/color_trip_blog_photoDescript"
+                    android:textSize="12sp" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/personal_product_time2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="15dp"
+                    android:text="11.11-11.16"
+                    android:textColor="@color/color_trip_blog_photoDescript"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 个人订购产品 布局  默认隐藏 gone -->
+
+    <RelativeLayout
+        android:id="@+id/personal_products_item_container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:visibility="gone" >
+
+        <!-- 在相对布局的左边定义一个ImageView显示远行产品的图片 -->
+
+        <ImageView
+            android:id="@+id/personal_product_icon2"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            
+            android:background="@drawable/ic_launcher"
+            android:scaleType="centerCrop" />
+        <!-- 定义一个线性布局 -->
+
+        <LinearLayout
+            android:id="@+id/personal_product_infors_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/personal_product_icon2"
+            android:orientation="vertical" >
+
+            <!-- 旅游产品标题 -->
+
+            <LinearLayout
+                android:id="@+id/personal_product_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/personal_product_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="温哥华丛林探险狩猎之旅"
+                    android:textColor="@color/shadow_black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <!-- 旅游产品 简要信息 -->
+
+            <LinearLayout
+                android:id="@+id/personal_product_middle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal" >
+
+                <!-- 显示 线路  车辆  评价数   服务商 -->
+                <!-- 产品线路 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/personal_product_route"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/trip_route"
+                    android:textColor="@color/shadow_gray"
+                    android:textSize="12sp" />
+
+                <!-- 圆点 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/dot"
+                    android:textColor="@color/shadow_gray" />
+                <!-- 产品车辆 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/personal_product_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/trip_car"
+                    android:textColor="@color/shadow_gray"
+                    android:textSize="12sp" />
+                <!-- 圆点 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/dot"
+                    android:textColor="@color/shadow_gray" />
+                <!-- 产品评价数 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/personal_product_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/trip_comments"
+                    android:textColor="@color/shadow_gray"
+                    android:textSize="12sp" />
+                <!-- 圆点 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/dot"
+                    android:textColor="@color/shadow_gray" />
+                <!-- 产品服务商 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/personal_product_servicer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:text="Victory"
+                    android:textColor="@color/shadow_gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <!-- 产品价格 -->
+
+            <LinearLayout
+                android:id="@+id/product_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <!-- 人民币符号 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥"
+                    android:textColor="@color/dark_pink"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical"
+                      />
+                <!-- 产品价格 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/personal_product_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="1566"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/dark_pink"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
