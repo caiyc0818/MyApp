@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设置-关于我们 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- include 一个二级标题栏 -->
+   <include layout="@layout/second_title_bar"/>
+   <!-- 相对布局 -->
+   <RelativeLayout 
+       android:id="@+id/aboutUs_setting_container"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:paddingTop="10dp"
+       android:paddingLeft="25dp"
+       android:paddingRight="25dp"
+       android:background="@color/color_trip_blog_publish_separate_view"
+       >
+       <!-- 远行 图标 -->
+       <ImageView 
+           android:id="@+id/appIcon"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:scaleType="fitCenter"
+           android:src="@drawable/logoapp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="10dp"
+           />
+       <!-- 文本框  显示产品简介 -->
+       <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/appIcon"
+           android:maxLines="5"
+           android:layout_marginTop="25dp"
+           android:text="@string/setting_aboutUs_content"
+           android:textColor="@color/color_setting_aboutUs_fontColor"
+           android:textSize="16sp"
+           android:paddingTop="5dp"
+           android:singleLine="false"
+           android:lineSpacingExtra="7dp"
+           />
+   </RelativeLayout>
+</LinearLayout>

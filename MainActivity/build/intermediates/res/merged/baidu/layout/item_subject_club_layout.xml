@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 服务者发布的产品列表item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/reason_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/quotation" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="很专业，很风趣的一个菇凉。为人热情诚恳，深得游客的喜爱。"
+            android:textColor="#666666"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <!-- 相对布局 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp" >
+
+        <!-- 左边-服务者产品图片 -->
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            android:id="@+id/club_icon_iv"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_centerVertical="true"
+            android:src="@drawable/user_defult_photo" />
+        <!-- 右边-产品名称 简介 -->
+
+        <LinearLayout
+            android:id="@+id/layout_product_servicer_introduct_container"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/club_icon_iv"
+            android:orientation="vertical" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/club_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:text="川藏老兵俱乐部"
+                android:textColor="@color/dark_gray"
+                android:textSize="15sp" />
+             <com.wefika.flowlayout.FlowLayout
+                    android:id="@+id/tags"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

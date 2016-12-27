@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/second_title"
+        layout="@layout/second_title_bar" />
+   <EditText
+            android:id="@+id/content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:hint="你留下的每个字都将帮助改善我们的产品，期待你的反馈！（内容不得少于5个字）"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:gravity="top"
+            android:textColor="@color/gray_more"
+            android:textColorHint="@color/shadow_gray"
+            android:textSize="14sp" />
+   <Button
+    android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#6599ff"
+        android:text="提交"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/prsonal_customization_text_size_big" >
+    </Button>
+     <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="如需及时解决问题，请致电客服电话或QQ咨询！ "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+               android:layout_marginTop="20dp"
+            />
+     
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_vertical"
+     android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+       <ImageView 
+              android:layout_width="20dp"
+              android:layout_height="20dp"
+              android:src="@drawable/consult_phone"
+              />
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+             android:layout_marginLeft="2dp"
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400-9288778 "
+            android:autoLink="phone"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            /> 
+          <ImageView 
+              android:layout_marginLeft="50dp"
+              android:layout_width="20dp"
+              android:layout_height="20dp"
+              android:src="@drawable/consult_qq"
+              />
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/qq"
+             android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3059544566 "
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            /> 
+    </LinearLayout> 
+</LinearLayout>

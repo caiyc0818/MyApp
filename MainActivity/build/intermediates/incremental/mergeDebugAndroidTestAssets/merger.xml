@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="H:\gitHub\tripAway\MainActivity\src\androidTest\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="H:\gitHub\tripAway\MainActivity\src\androidTest\assets"/><source path="H:\gitHub\tripAway\MainActivity\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

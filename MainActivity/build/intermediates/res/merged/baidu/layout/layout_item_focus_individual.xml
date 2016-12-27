@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 新个人资料-关注item布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 圆形头像  无边框样式 -->
+
+    <com.bcinfo.tripaway.view.image.RoundImageView
+        android:id="@+id/individual_focus_headIcon_iv"
+        android:layout_width="@dimen/dialog_photo_size"
+        android:layout_height="@dimen/dialog_photo_size"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher"
+        imagecontrol:border_inside_color="@color/white"
+        imagecontrol:border_thickness="0dp" />
+    <!-- 显示关注着的名字 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/individual_focus_headName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</LinearLayout>

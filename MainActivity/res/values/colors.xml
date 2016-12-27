@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#00897b</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="textColorPrimary">#FFFFFF</color>
 
-<color name="red2">#fe3332</color>
+    <color name="accent">#ffb74d</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="light_grey">#E8E8E8</color>
 
-<color name="black2">#ff909090</color>
-   <color name="green2">#1cce6f</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="tab_bgcolor">#eeeeee</color>
+
+    <color name="google_red">#d62d20</color>
+    <color name="google_blue">#0057e7</color>
+    <color name="google_green">#008744</color>
+    <color name="google_yellow">#ffa700</color>
+    <color name="red2">#fe3332</color>
+    <color name="colorPrimary">#353536</color>
+    <color name="colorPrimaryDark">#262626</color>
+    <color name="colorAccent">#e75946</color>
+    <color name="black2">#ff909090</color>
+    <color name="green2">#1cce6f</color>
     <color name="light_blue">#6593cb</color>
     <color name="experiod_transparent">#90ffffff</color>
     <color name="white">#FFFFFF</color>
@@ -182,7 +202,7 @@
     <color name="software_textColor_selected">#66667d</color>
     <color name="software_textColor_unselected">#cdcdcd</color>
     <color name="alone_bg">#9d9d9d</color>
-     <color name="bg">#FFFFFF</color>
-     <color name="half_transparent_black">#75000000</color>
+    <color name="bg">#FFFFFF</color>
+    <color name="half_transparent_black">#75000000</color>
 
 </resources>

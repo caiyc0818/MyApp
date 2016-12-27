@@ -1,17 +1,15 @@
 package com.bcinfo.tripaway.adapter;
 
-import java.util.ArrayList;
-
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.app.FragmentTransaction;
-import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
 
 public class SquareFragmentPagerAdapter extends FragmentStatePagerAdapter {
 	private ArrayList<Fragment> fragments;
+	private String[] mTitles =new  String[30];
 	private FragmentManager fm;
 
 	public SquareFragmentPagerAdapter(FragmentManager fm) {
@@ -19,10 +17,11 @@ public class SquareFragmentPagerAdapter extends FragmentStatePagerAdapter {
 		this.fm = fm;
 	}
 
-	public SquareFragmentPagerAdapter(FragmentManager fm, ArrayList<Fragment> fragments) {
+	public SquareFragmentPagerAdapter(FragmentManager fm, ArrayList<Fragment> fragments,String[] mTitles) {
 		super(fm);
 		this.fm = fm;
 		this.fragments = fragments;
+		this.mTitles = mTitles;
 	}
 
 	@Override
@@ -40,6 +39,10 @@ public class SquareFragmentPagerAdapter extends FragmentStatePagerAdapter {
 		return POSITION_NONE;
 	}
 
+	@Override
+	public CharSequence getPageTitle(int position) {
+		return mTitles[position];
+	}
 //	public void setFragments(ArrayList<Fragment> fragments) {
 //		if (this.fragments != null) {
 //			FragmentTransaction ft = fm.beginTransaction();

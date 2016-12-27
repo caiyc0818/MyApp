@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="20dip"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                         android:id="@+id/lin_grenn"
+                        android:layout_width="0.1dip"
+                        android:layout_height="match_parent"
+                         android:visibility="visible"
+                        android:layout_centerHorizontal="true"
+                          android:background="@drawable/lan"
+                       />
+                    
+                    <!-- 灰色线 -->
+                    <ImageView
+                        android:id="@+id/lin_grey"
+                        android:layout_width="0.1dip"
+                        android:visibility="gone"
+                        android:layout_height="fill_parent"
+                        android:layout_centerHorizontal="true"
+                         android:background="@drawable/wx_vertical_divider" 
+                       />
+<!--   android:layout_centerInParent="true"-->
+                    <ImageView
+                        android:layout_width="15dip"
+                        android:layout_height="15dip"
+                        android:src="@drawable/kongxinyuan" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/trip_item_index"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:singleLine="true"
+                        android:text="第一天:"
+                        android:textColor="@color/sliver_gray"
+                        android:textSize="16sp" />
+                     <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/trip_item_title"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        
+                        android:text="全国各地清迈"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    
+                    
+
+                  
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+                     <!-- 存放景点照片的线性布局 -->
+                      <LinearLayout
+            android:id="@+id/scenic_spots_photo_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            </LinearLayout>
+           
+        </LinearLayout>
+        </LinearLayout>
+
+</RelativeLayout>

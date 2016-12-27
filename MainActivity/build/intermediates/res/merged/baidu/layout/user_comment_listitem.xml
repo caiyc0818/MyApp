@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/press_white_to_gray_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip" >
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            android:id="@+id/comment_user_photo"
+            android:layout_width="@dimen/comment_user_photo_size"
+            android:layout_height="@dimen/comment_user_photo_size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_defult_photo" />
+
+        <LinearLayout
+            android:id="@+id/layout_user_info"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/comment_user_photo_size"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/comment_user_photo"
+            android:orientation="vertical" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/comment_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:text="最新"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/comment_user_name_size" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/comment_user_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dip"
+                android:text="2014-1-1"
+                android:textColor="@color/gray_more"
+                android:textSize="@dimen/comment_date_size" />
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/comment_user_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/layout_user_info"
+            android:layout_below="@id/layout_user_info"
+            android:gravity="left|top"
+            android:lineSpacingExtra="5dip"
+            android:text="服务特别热情"
+            android:textColor="@color/gray_more_5"
+            android:textSize="@dimen/comment_content_size" />
+    </RelativeLayout>
+
+</LinearLayout>

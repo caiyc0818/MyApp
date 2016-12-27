@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:baselineAligned="true"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/old1" >
+
+            <ImageView
+                android:layout_width="62dp"
+               android:id="@+id/oldPic"
+                android:layout_height="62dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:id="@+id/relative"
+                android:layout_width="30dp"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_picnum_bg"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/addpic" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/tv_picnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="9sp" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="张"
+                    android:textColor="@color/white"
+                    android:textSize="9sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/oldTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:maxLines="2"
+                android:text=""
+                android:ellipsize="end"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/oldTime"
+                android:text="发布于"
+                android:layout_below="@id/oldTitle"
+                android:textColor="@color/gray_text"
+                android:textSize="12sp" />
+
+            <CheckBox
+             android:layout_alignParentRight="true"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="right"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/checkboxed2"
+                android:button="@null"
+                android:id="@+id/check"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+   
+
+</LinearLayout>

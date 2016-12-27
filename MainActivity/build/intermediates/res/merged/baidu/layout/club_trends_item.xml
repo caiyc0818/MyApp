@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 该布局下有三个布局    其中第一个指的是普通产品布局;第二个指的是微游记布局;第三个指的是用户 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 1.item:普通产品 -->
+
+    <LinearLayout
+        android:id="@+id/club_trend_product_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/club_trend_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布了新产品"
+                android:textColor="#666666"
+                android:textSize="16sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/club_trend_pro_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/club_trend_pro"
+                android:text="2015-15-10 06:00:00" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/club_trend_pro_img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/club_trend_pro_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/club_trend_pro_img"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="23123"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 关注 -->
+    <LinearLayout
+        android:id="@+id/club_trend_user_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/club_trend_focus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加了新关注"
+                android:textColor="#666666"
+                android:textSize="16sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/club_trend_focus_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/club_trend_focus"
+                android:text="2015-15-10 06:00:00" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.image.RoundImageView
+                xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/club_trend_focus_photo"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/user_defult_photo"
+                app:border_inside_color="@color/white"
+                app:border_thickness="0dip" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/club_trend_focus_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="1234"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/club_trend_focus_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/club_trend_focus_name"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#666666"
+                    android:text="导游 · 丽江"
+                    android:textSize="13sp" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/club_trend_focus_add"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/gray_border_transparent_bg"
+                    android:gravity="center"
+                    android:text="+关注" />
+            </RelativeLayout>
+        </LinearLayout>
+        </LinearLayout>
+    <!-- 3. item:微游记 -->
+<LinearLayout
+        android:id="@+id/club_trend_story_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/club_trend_story"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布了新游记"
+                android:textColor="#666666"
+                android:textSize="16sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/club_trend_story_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/club_trend_story"
+                android:text="2015-15-10 06:00:00" />
+        </RelativeLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textSize="14sp"
+            android:id="@+id/club_trend_story_content"
+            />
+        
+        
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/club_trend_story_imgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

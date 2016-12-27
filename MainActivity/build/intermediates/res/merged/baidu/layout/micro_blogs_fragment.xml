@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/micro_blogs_bg"
+    android:orientation="vertical" >
+
+    <com.bcinfo.tripaway.view.refreshandload.XListView
+        android:id="@+id/my_travels_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/white"
+        android:divider="@color/micro_blogs_bg"
+        android:dividerHeight="8.5dp"
+        android:listSelector="@color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <com.bcinfo.tripaway.view.MBProgressHUD.MyMBProgressHUD
+        android:id="@+id/myfooterBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

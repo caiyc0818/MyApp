@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+
+    <com.bcinfo.tripaway.view.ScrollView.ScrollViewExtend
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+           <!-- 日历头 布局  layout -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_height"
+                android:background="@color/gray_bg" >
+                <!-- 向左的月份箭头 -->
+                <ImageView
+                    android:id="@+id/imgPreviousMonth"
+                    android:layout_width="@dimen/title_height"
+                    android:layout_height="fill_parent"
+                    android:padding="12dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:contentDescription="@string/desc_previous_month"
+                    android:src="@drawable/date_before" />
+                 <!-- 分隔线 -->
+                <ImageView
+                    android:layout_width="@dimen/border_width"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@id/imgPreviousMonth"
+                    android:background="@color/gray_border" />
+                <!-- 当前的日期 :  年-月 -->
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/txtTitleGregorian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/demo"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="20sp" />
+                 <!-- 向右的箭头 -->
+                <ImageView
+                    android:id="@+id/imgNextMonth"
+                    android:layout_width="@dimen/title_height"
+                    android:layout_height="fill_parent"
+                    android:padding="12dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/desc_next_month"
+                    android:src="@drawable/date_next" />
+                 <!-- 分隔线 -->
+                <ImageView
+                    android:layout_width="@dimen/border_width"
+                    android:layout_height="fill_parent"
+                    android:layout_toLeftOf="@id/imgNextMonth"
+                    android:background="@color/gray_border" />
+            </RelativeLayout>
+            <!-- 显示日期切换的viewPager -->
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:orientation="vertical" >
+                <!-- 事件  标题 -->
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/schedule_event_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:text=""
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/title_size" />
+                 <!-- 日程列表  listview -->
+                <ListView
+                    android:id="@+id/event_listview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip"
+                    android:fadingEdge="none"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:background="@color/gray_bg"
+                    android:divider="@color/gray_bg"
+                    android:dividerHeight="0px"
+                    android:listSelector="@color/gray_bg"
+                    android:scrollbars="none" />
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:visibility="visible"
+                android:background="@drawable/dash_line" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:layout_marginBottom="20dip"
+                android:visibility="visible"
+                android:orientation="horizontal" >
+                 <!-- 天气  图标 -->
+                <ImageView
+                    android:id="@+id/weather_state_img"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dip"
+                    android:orientation="vertical" >
+                    <!-- 城市名 -->
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/city_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="南京"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/detail_content_title_size" />
+                    <!-- 当前的天气数据 -->
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/weather_state_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_more"
+                        android:text="9~3C 小雨 东风3~4级"
+                        android:textSize="@dimen/detail_content_size" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.bcinfo.tripaway.view.ScrollView.ScrollViewExtend>
+
+</LinearLayout>

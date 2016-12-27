@@ -39,6 +39,7 @@ import com.bcinfo.tripaway.view.refreshandload.PullToRefreshLayout.OnRefreshList
 import com.lcodecore.tkrefreshlayout.Footer.LoadingView;
 import com.lcodecore.tkrefreshlayout.RefreshListenerAdapter;
 import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
+import com.lcodecore.tkrefreshlayout.header.progresslayout.ProgressLayout;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
@@ -91,16 +92,13 @@ public class AllPersonActivity extends BaseActivity implements
         orgUrl();
         refreshLayout = (TwinklingRefreshLayout) findViewById(R.id.refreshLayout);
         refreshLayout.startRefresh();
-         headerView = new NewSinaRefreshView(this);
-        headerView.setArrowResource(R.drawable.arrow);
-        headerView.setTextColor(0xff745D5C);
-//        TextHeaderView headerView = (TextHeaderView) View.inflate(this,R.layout.header_tv,null);
-        refreshLayout.setHeaderView(headerView);
-
-        LoadingView loadingView = new LoadingView(this);
-        refreshLayout.setBottomView(loadingView);
-
-//        refreshLayout.setFloatRefresh(false);
+        ProgressLayout header = new ProgressLayout(this);
+        refreshLayout.setHeaderView(header);
+        refreshLayout.setFloatRefresh(true);
+        refreshLayout.setOverScrollRefreshShow(false);
+        refreshLayout.setHeaderHeight(140);
+        refreshLayout.setWaveHeight(240);
+        refreshLayout.setOverScrollHeight(200);
         refreshLayout.setPureScrollModeOn(false);
 //        refreshLayout.setEnableOverlayRefreshView(false);
         refreshLayout.setAutoLoadMore(true);
@@ -364,9 +362,16 @@ public class AllPersonActivity extends BaseActivity implements
                 // break;
                 // }
                 // }
+
                 orgList.add(pushResource);
 
             }
+        }
+        if(orgList.size()<=10){
+            refreshLayout.setEnableLoadmore(false);
+        }else{
+            pageNum++;
+            refreshLayout.setEnableLoadmore(true);
         }
         orgListUser.addAll(orgList);
 //		// 发现页最多显示三个

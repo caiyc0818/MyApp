@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义一个水平方向的相对布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/second_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_bg" >
+
+        <LinearLayout
+            android:id="@+id/layout_back_button"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_selector_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="@dimen/back_button_height"
+                android:layout_height="@dimen/back_button_height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/nav_back"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/second_title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="54dp"
+            android:layout_toRightOf="@id/layout_back_button"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="二级标题"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+        <ImageView
+            android:id="@+id/user_info_button"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dip"
+            android:gravity="center"
+            android:src="@drawable/nav_user"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="20dp"
+        android:text="认证信息"
+        android:textColor="#66666d"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="身份证"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/idVerifyLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="14sp"
+                android:layout_height="14sp"
+                android:src="@drawable/check_true" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:text="已认证"
+                android:textColor="#5fce6f"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idVerifyLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未认证"
+                android:textColor="#999999"
+                android:textSize="15sp"
+              />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#cecece" >
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="手机号"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/phoneVerifyLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="14sp"
+                android:layout_height="14sp"
+                android:src="@drawable/check_true" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:text="已认证"
+                android:textColor="#5fce6f"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phoneVerifyLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未认证"
+                android:textColor="#999999"
+                android:textSize="15sp"
+                 />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#cecece" >
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="邮箱"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/emailVerifyLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="14sp"
+                android:layout_height="14sp"
+                android:src="@drawable/check_true" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:text="已认证"
+                android:textColor="#5fce6f"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/emailVerifyLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未认证"
+                android:textColor="#999999"
+                android:textSize="15sp"
+                 />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="20dp"
+        android:text="更多资质"
+        android:textColor="#66666d"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="驾驶证"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/driverCardVerifyLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="14sp"
+                android:layout_height="14sp"
+                android:src="@drawable/check_true" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:text="已认证"
+                android:textColor="#5fce6f"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/driverCardVerifyLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未认证"
+                android:textColor="#999999"
+                android:textSize="15sp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#cecece" >
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="导游证"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/guideCardVerifyLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="14sp"
+                android:layout_height="14sp"
+                android:src="@drawable/check_true" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:text="已认证"
+                android:textColor="#5fce6f"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/guideCardVerifyLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未认证"
+                android:textColor="#999999"
+                android:textSize="15sp"
+             />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

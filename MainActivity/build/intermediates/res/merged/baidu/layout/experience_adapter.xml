@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView android:id="@+id/experience_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="1111111111111"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <com.bcinfo.tripaway.view.MyGridView android:id="@+id/journey_grid_view"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:gravity="center"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:listSelector="#00000000"
+        android:cacheColorHint="#00000000"/>
+
+</LinearLayout>
+

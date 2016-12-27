@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设置 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pad_success_view_colornew"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_bg" >
+
+        <LinearLayout
+            android:id="@+id/layout_back_button"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_selector_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/pay_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/setting_pad_success_close"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title_size_small" />
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/pay_second_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/setting_pad_success_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/pad_state_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/setting_pad_success_text"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="@dimen/comment_date_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/pay_success_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/pad_success_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:orientation="horizontal" >
+
+                <!-- 白色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+                <!-- 灰色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="22"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <!-- 退出 image -->
+
+                <ImageView
+                    android:id="@+id/pad_alipay_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@string/setting_pad_success_alipay"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/alipay_icon" />
+                <!-- 退出 字样 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@id/pad_alipay_iv"
+                    android:gravity="center_vertical"
+                    android:text="@string/setting_pad_success_alipay"
+                    android:textColor="@color/color_trip_blog_publish_font_color"
+                    android:textSize="@dimen/comment_date_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/transparent" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/get_pad_success_paytime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/setting_pad_success_paytime"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="@dimen/comment_content_size" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/set_pad_success_paytime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/get_pad_success_paytime"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/comment_content_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:orientation="horizontal" >
+
+                <!-- 白色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+                <!-- 灰色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="22"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/get_pad_success_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/setting_pad_success_no"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="@dimen/comment_content_size" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/set_pad_success_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/get_pad_success_no"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/comment_content_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/transparent" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/get_pad_success_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/setting_pad_success_name"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="@dimen/comment_content_size" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/set_pad_success_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/get_pad_success_name"
+                    android:gravity="center_vertical"
+                    android:maxWidth="180dp"
+                    android:singleLine="true"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/comment_content_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:orientation="horizontal" >
+
+                <!-- 白色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+                <!-- 灰色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="22"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/get_pad_success_starttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/setting_pad_success_starttime"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="@dimen/comment_content_size" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/set_pad_success_starttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/get_pad_success_starttime"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/comment_content_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:orientation="horizontal" >
+
+                <!-- 白色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+                <!-- 灰色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="22"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/get_pad_success_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/setting_pad_success_num"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="@dimen/comment_content_size" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/set_pad_success_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/get_pad_success_num"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/comment_content_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:orientation="horizontal" >
+
+                <!-- 白色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+                <!-- 灰色分隔线 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="22"
+                    android:background="@color/color_trip_blog_publish_separate_line" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/get_pad_success_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/setting_pad_success_message"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="@dimen/comment_content_size" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/set_pad_success_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/get_pad_success_message"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/comment_content_size" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_trip_blog_publish_separate_line" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

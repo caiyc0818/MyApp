@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="张小暖"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp"
+            android:layout_marginLeft="5dp"
+            android:hint="特别有意思的一次旅行！特别有意思的一次旅行特别有意思的一次旅行特别有意思的一次旅行"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+       android:background="#eeeeee"
+     >
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="90dp"
+     android:id="@+id/relly"
+   android:background="@color/white"
+    >
+  <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="17dp"
+android:layout_alignParentRight="true"
+android:layout_marginRight="3dp"
+        android:id="@+id/type"
+        android:background="@drawable/wcx"
+         />
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:text="体验东北雪乡穿越浪漫之旅啦啦啦啦阿里啦啦,享受自虐与腐败"
+        android:textColor="#000000" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/beginTime"
+         android:textSize="13sp"
+        android:layout_marginTop="60dp"
+        android:text="出行时间: 2016/01/27 周日"
+        android:textColor="@color/gray_text" />
+
+  
+</RelativeLayout>
+
+</LinearLayout>

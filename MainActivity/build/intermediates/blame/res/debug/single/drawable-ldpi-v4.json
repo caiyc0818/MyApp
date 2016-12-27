@@ -8,6 +8,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_btn_radio_on_mtrl.png"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_search_api_material.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_search_api_material.png"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_menu_copy_material.png",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_copy_material.png"
     },
@@ -24,12 +28,24 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_paste_material.png"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_arrow_drop_right_black_24dp.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_arrow_drop_right_black_24dp.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_vector_test.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_vector_test.png"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_ab_back_material.png",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_ab_back_material.png"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_menu_share_material.png",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_menu_share_material.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\design_ic_visibility.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\design_ic_visibility.png"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_btn_checkbox_checked_mtrl.png",
@@ -50,6 +66,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_voice_search_api_material.png",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\abc_ic_voice_search_api_material.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\sprite_check.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\drawable-ldpi-v4\\sprite_check.png"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_btn_checkbox_unchecked_mtrl.png",

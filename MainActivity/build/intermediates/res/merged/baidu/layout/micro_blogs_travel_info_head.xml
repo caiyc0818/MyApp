@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/micro_blogs_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="8.5dp"
+        android:background="@drawable/shape_linearlayout"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.image.RoundImageView
+                xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/product_servicer_icon_iv"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/product_servicer_icon_iv"
+                    android:orientation="horizontal" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxEms="8"
+                        android:singleLine="true"
+                        android:text="卓玛扎金 "
+                        android:textColor="@color/gray_text"
+                        android:textSize="16sp" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/tvPost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvName"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toRightOf="@+id/tvName"
+                        android:text="(领队)"
+                        android:textColor="@color/gray_text"
+                        android:textSize="11sp" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tvName"
+                        android:layout_alignParentRight="true"
+                        android:text="5分钟前"
+                        android:textColor="@color/gray_themore"
+                        android:textSize="11sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/tvType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="发表微游记"
+                        android:textColor="@color/gray_themore"
+                        android:textSize="11sp" 
+                        android:visibility="gone"/>
+
+                    <ImageView
+                        android:id="@+id/map_location"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/map_location_text"
+                        android:src="@drawable/map_black" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/map_location_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:maxEms="12"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="中国西藏日喀则中国西藏日喀则中国西藏日喀则中国西藏日喀则"
+                        android:textColor="@color/gray_themore" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/micro_blogs_dash_line" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="13dp"
+            android:text="和咯会撒娇客服哈萨克法师方式开发部 和咯会撒娇客服哈萨克法师方式开发部"
+            android:textColor="@color/gray_text"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:id="@+id/imageall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_linearlayout"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:text="评论( "
+                android:textColor="@color/gray_text"
+                android:textSize="15sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/text1"
+                android:text="0"
+                android:textColor="@color/gray_text"
+                android:textSize="15sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/text2"
+                android:text="条 )"
+                android:textColor="@color/gray_text"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

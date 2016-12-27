@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+         >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/seriesTitle"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:maxLines="2"
+                android:layout_centerVertical="true"
+                
+                android:text="旅行的意义"
+                android:textColor="@color/gray_text"
+                android:textSize="14sp" />
+
+            <RadioButton
+        
+             android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/square1"
+                android:button="@null"
+                android:id="@+id/check"
+                android:checked="false" />
+        </RelativeLayout>
+    </LinearLayout>
+
+   
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tab_speech_select.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\tab_speech_select.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tab_speech_unselect.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\tab_speech_unselect.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tab_contact_unselect.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\tab_contact_unselect.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tab_contact_select.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\tab_contact_select.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tab_more_unselect.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\tab_more_unselect.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tab_home_select.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\tab_home_select.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tab_more_select.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\tab_more_select.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tab_home_unselect.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\tab_home_unselect.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

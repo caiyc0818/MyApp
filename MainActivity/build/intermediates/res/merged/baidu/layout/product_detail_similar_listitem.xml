@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/press_white_to_gray_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/simillar_product_item_height"
+        android:layout_marginLeft="10dip" >
+
+        <ImageView
+            android:id="@+id/similar_product_logo"
+            android:layout_width="120dip"
+            android:layout_height="90dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/similar_product_logo"
+            android:orientation="vertical" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/similar_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dip"
+                android:gravity="center_vertical"
+                android:text="温哥华丛林探险"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/similar_product_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/similar_product_name"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="线路.车辆.规划.23条评价"
+                android:textColor="@color/gray"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/product_end_date_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/similar_product_name"
+                android:layout_marginTop="8dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/sidebar_richeng" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/product_end_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="2015.02.03"
+                    android:textColor="@color/gray"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/similar_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_vertical"
+                android:fadingEdge="none"
+                android:text="￥3,888"
+                android:textColor="@color/gray_more"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

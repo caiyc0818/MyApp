@@ -22,6 +22,7 @@ public class NewSinaRefreshView extends FrameLayout implements IHeaderView {
     private ImageView refreshArrow;
     private ImageView loadingView;
     private TextView refreshTextView;
+    private boolean isFirst=true;
 
     public NewSinaRefreshView(Context context) {
         this(context, null);
@@ -75,6 +76,9 @@ public class NewSinaRefreshView extends FrameLayout implements IHeaderView {
 
     @Override
     public void onPullingDown(float fraction, float maxHeadHeight, float headHeight) {
+        isFirst = true;
+       if(refreshTextView.getVisibility()==GONE) refreshTextView.setVisibility(VISIBLE);
+       if(refreshArrow.getVisibility()==GONE) refreshArrow.setVisibility(VISIBLE);
         if (fraction < 1f) refreshTextView.setText(pullDownStr);
         if (fraction > 1f) refreshTextView.setText(releaseRefreshStr);
         refreshArrow.setRotation(fraction * headHeight / maxHeadHeight * 180);
@@ -82,14 +86,17 @@ public class NewSinaRefreshView extends FrameLayout implements IHeaderView {
 
     @Override
     public void onPullReleasing(float fraction, float maxHeadHeight, float headHeight) {
-        if (fraction < 1f) {
-            refreshTextView.setText(pullDownStr);
-            if (refreshArrow.getVisibility() == GONE) {
-                refreshArrow.setVisibility(VISIBLE);
-                loadingView.setVisibility(GONE);
-            }
-            refreshArrow.setRotation(fraction * headHeight / maxHeadHeight * 180);
-        }
+       if(isFirst){
+           if (fraction < 1f) {
+               refreshTextView.setText(pullDownStr);
+               if (refreshArrow.getVisibility() == GONE) {
+                   refreshArrow.setVisibility(VISIBLE);
+                   loadingView.setVisibility(GONE);
+               }
+               refreshArrow.setRotation(fraction * headHeight / maxHeadHeight * 180);
+           }
+       }
+
     }
 
     @Override
@@ -102,12 +109,14 @@ public class NewSinaRefreshView extends FrameLayout implements IHeaderView {
 
     @Override
     public void onFinish(final OnAnimEndListener listener) {
+        isFirst=false;
         refreshTextView.setText("刷新成功");
         ((AnimationDrawable) loadingView.getDrawable()).stop();
         loadingView.setVisibility(GONE);
         new Handler().postDelayed(new Runnable() {
             public void run() {
-
+                refreshTextView.setVisibility(GONE);
+                refreshArrow.setVisibility(GONE);
                 listener.onAnimEnd();
             }
         }, 5000);
@@ -116,10 +125,15 @@ public class NewSinaRefreshView extends FrameLayout implements IHeaderView {
 
     @Override
     public void reset() {
-        refreshArrow.setVisibility(VISIBLE);
-        loadingView.setVisibility(GONE);
-        refreshTextView.setText(pullDownStr);
+
     }
+
+//    @Override
+//    public void reset() {
+//        refreshArrow.setVisibility(VISIBLE);
+//        loadingView.setVisibility(GONE);
+//        refreshTextView.setText(pullDownStr);
+//    }
 
 
 }

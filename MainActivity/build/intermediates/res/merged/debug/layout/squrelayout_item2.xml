@@ -1,38 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 目的地-国家-详情页面 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#dedede"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
-    <View
-        android:id="@+id/login_loading"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:background="@anim/loading" />
-
-    <com.bcinfo.tripaway.view.refreshandload.XListView
-        android:id="@+id/all_square_listview"
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+        android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:cacheColorHint="@android:color/transparent"
-        android:divider="#dedede"
-        android:dividerHeight="8dp"
-        android:fadingEdge="none"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:footerDividersEnabled="false"
-        android:headerDividersEnabled="false"
-        android:listSelector="@color/transparent"
-        android:overScrollMode="never"
-        android:scrollbars="none" />
+        android:layout_marginRight="5dp">
+
+        <ListView
+            android:id="@+id/all_square_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#dedede"
+            android:dividerHeight="8dp"
+            android:fadingEdge="none"
+            android:focusable="false"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:visibility="gone" />
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
 
 </LinearLayout>

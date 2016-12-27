@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_bg" >
+
+        <LinearLayout
+            android:id="@+id/layout_back_button"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="fill_parent"
+            android:background="@drawable/button_selector_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/back_button_height"
+                android:layout_height="@dimen/back_button_height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/nav_back"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/layout_back_button"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="结伴详情"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom_responce"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_button_height"
+        android:layout_alignParentBottom="true" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/border_width"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/responce_commit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/gray_border_bg"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="回应"
+            android:textColor="@color/gray_more_5" />
+
+        <EditText
+            android:id="@+id/responce_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@id/responce_commit_button"
+            android:background="@drawable/gray_border_bg"
+            android:gravity="center_vertical"
+            android:hint="写下你的回应吧"
+            android:paddingLeft="10dip"
+            android:textColor="@color/dark_gray"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/responce_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/layout_bottom_responce"
+        android:layout_below="@id/layout_title"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/gray_little"
+        android:dividerHeight="0px"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+</RelativeLayout>

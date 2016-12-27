@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_tint_default.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_tint_spinner.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_tint_switch_track.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_color_highlight_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\design_tint_password_toggle.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_tint_edittext.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    }
+]

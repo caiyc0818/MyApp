@@ -17,11 +17,10 @@ import com.bcinfo.tripaway.net.Urls;
 import com.bcinfo.tripaway.utils.ActivityUtil;
 import com.bcinfo.tripaway.utils.JsonUtil;
 import com.bcinfo.tripaway.utils.LogUtil;
-import com.bcinfo.tripaway.view.NewSinaRefreshView;
 import com.bcinfo.tripaway.view.refreshandload.PullableGridView;
-import com.lcodecore.tkrefreshlayout.Footer.LoadingView;
 import com.lcodecore.tkrefreshlayout.RefreshListenerAdapter;
 import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
+import com.lcodecore.tkrefreshlayout.header.progresslayout.ProgressLayout;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
@@ -55,7 +54,6 @@ public class AllThemesActivity extends BaseActivity implements
 
 
     private TwinklingRefreshLayout refreshLayout;
-    private NewSinaRefreshView headerView;
 
     @Override
     protected void onCreate(Bundle bundle) {
@@ -88,18 +86,13 @@ public class AllThemesActivity extends BaseActivity implements
         testAllTopicsUrl();
         refreshLayout = (TwinklingRefreshLayout) findViewById(R.id.refreshLayout);
         refreshLayout.startRefresh();
-//        ProgressLayout headerView = new ProgressLayout(this);
-////        BezierLayout headerView = new BezierLayout(this);
-//        refreshLayout.setHeaderView(headerView);
-        headerView = new NewSinaRefreshView(this);
-        headerView.setArrowResource(R.drawable.arrow);
-        headerView.setTextColor(0xff745D5C);
-//        TextHeaderView headerView = (TextHeaderView) View.inflate(this,R.layout.header_tv,null);
-        refreshLayout.setHeaderView(headerView);
-
-        LoadingView loadingView = new LoadingView(this);
-        refreshLayout.setBottomView(loadingView);
-
+    ProgressLayout header = new ProgressLayout(this);
+        refreshLayout.setHeaderView(header);
+        refreshLayout.setFloatRefresh(true);
+        refreshLayout.setOverScrollRefreshShow(false);
+        refreshLayout.setHeaderHeight(140);
+        refreshLayout.setWaveHeight(240);
+        refreshLayout.setOverScrollHeight(200);
         refreshLayout.setPureScrollModeOn(false);
         refreshLayout.setAutoLoadMore(true);
         refreshLayout.setEnableOverScroll(false);

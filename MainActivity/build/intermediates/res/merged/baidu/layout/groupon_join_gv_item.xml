@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/press_white_to_gray_bg"
+    >
+
+    <FrameLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/join_user_photo_layout"
+        >
+    <com.bcinfo.tripaway.view.image.RoundImageView
+        android:id="@+id/join_user_photo"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:src="@drawable/user_defult_photo" />
+    
+    <ImageView 
+	    android:id="@+id/join_user_age_photo"
+        android:layout_width="15dp"
+	    android:layout_height="15dp"
+	    android:layout_gravity="right|bottom"
+        android:src="@drawable/boy_sex"
+	    />
+</FrameLayout>
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/join_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_below="@+id/join_user_photo_layout"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="12sp"
+        android:visibility="visible" />
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/join_user_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/join_user_name"
+        android:text=""
+        android:textColor="@color/dark_gray"
+        android:textSize="10sp"
+        android:visibility="visible" />
+</RelativeLayout>

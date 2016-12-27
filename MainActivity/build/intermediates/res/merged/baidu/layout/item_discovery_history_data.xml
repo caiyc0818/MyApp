@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 搜索默认页面-搜索历史列表item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="15dp"
+    android:background="@color/milk_color"
+    android:paddingBottom="15dp"
+    android:orientation="horizontal" >
+    <!-- 文本框   显示搜索历史item -->
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+        android:id="@+id/discovery_history_item_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="西班牙"
+        android:textSize="16sp"
+        android:textColor="@color/shadow_gray"
+        />
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 精选 标题栏 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/the_picked_title"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/dark_green"
+    
+    android:orientation="horizontal" >
+    <!-- 相对布局 -->
+   <RelativeLayout 
+       
+       android:id="@+id/picked_title"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal" 
+       
+       android:gravity="center_vertical"
+       android:layout_gravity="center"
+       
+       >
+       
+        <!-- 定义标题栏左边的"回到侧边栏"图标 -->
+        
+   <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+       android:id="@+id/picked_nav_sidebar"
+       
+       android:layout_width="30dp"
+       android:layout_height="40dp"
+       
+       android:background="@drawable/nav_sidebar"
+       android:layout_alignParentLeft="true"
+       
+       android:layout_marginLeft="10dp"
+      android:singleLine="true"
+       android:visibility="visible"
+       android:gravity="center_vertical"
+       android:layout_centerVertical="true"
+       />
+   <!-- 在"回到侧边栏"图标的右边定义一个文本框 显示"精选"字样 -->
+   <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+       android:id="@+id/picked_title_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="@string/product_picked_titleName"
+       android:textColor="@color/milk_color"
+       android:textSize="24sp"
+       android:visibility="visible"
+       android:singleLine="true"
+       android:layout_toRightOf="@id/picked_nav_sidebar"
+       
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="10dp"
+       />
+  </RelativeLayout>
+  
+
+</LinearLayout>

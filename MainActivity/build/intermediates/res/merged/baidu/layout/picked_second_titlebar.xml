@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 精选目的地产品详情二级标题栏 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/title_bg" >
+
+    <!-- 最左边的后退按钮 -->
+
+    <ImageView
+        android:id="@+id/picked_back_button"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="@dimen/title_height"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_selector_bg"
+        android:padding="10dip"
+        android:src="@drawable/nav_back"
+        android:gravity="center" />
+    <!-- 中间   一个发现-搜索框 -->
+
+    <LinearLayout
+        android:id="@+id/picked_discover_input_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/picked_back_button"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <!-- 搜索模块-居中的发现搜索输入框 -->
+
+        <LinearLayout
+            android:id="@+id/picked_discover_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/shape_discovery_input_normal"
+            android:orientation="horizontal"
+            android:padding="4dp" >
+
+            <!-- 搜索图标 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/picked_discover_icon"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/search_searchicon_gray" />
+            <!-- 发现输入框 -->
+
+            <com.bcinfo.tripaway.view.editText.DiscoveryEditText
+                android:id="@+id/picked_discover_keywords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="1dp"
+                android:background="@null"
+                android:hint="@string/search_hint"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="3dp"
+                android:singleLine="true"
+                android:textColor="@color/discovery_edit_color"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

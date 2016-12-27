@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义 微游记-发布布局界面 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 导入微游记-发布 标题栏 -->
+
+    <include layout="@layout/square_publish_title" 
+        android:id="@+id/square_publish_title"/>
+
+    <ScrollView
+        android:id="@+id/trip_blog_container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/square_publish_title"
+        android:layout_above="@+id/bottom_tab"
+        android:scrollbars="none"
+        >
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+     
+         <FrameLayout
+            android:layout_width="290dp"
+             android:layout_marginTop="18dp"
+             android:layout_gravity="center_horizontal"
+            android:layout_height="130dp" >
+
+              <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="290dp"
+                android:layout_height="130dp"
+                android:background="@drawable/dash_rectangle"
+                android:gravity="center"
+                android:text="+ 添加封面"
+                android:id="@+id/add_cover"
+               
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/gray_text"
+                android:textSize="18sp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pic_layout"
+                android:visibility="gone"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/pic"
+                     />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="64dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#80000000"
+                    android:gravity="center"
+                    android:text="更换封面"
+                    android:id="@+id/modify"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white"
+                    android:drawableLeft="@drawable/change_cover"
+                    android:paddingLeft="5dp"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </FrameLayout>
+           <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="连载标题"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLength="32"
+                android:background="@null"
+                android:id="@+id/title_tv"
+                android:textColor="@color/gray_text"
+                android:textSize="18sp" />
+           <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/line"
+        android:layout_marginTop="10dp"
+        android:background="#d9d9d9" />
+        <com.bcinfo.tripaway.view.editText.EditText1
+            android:id="@+id/trip_edit_photoDescript"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left|top"
+            android:hint="记录你的点点滴滴"
+            android:maxLength="140"
+            android:padding="10dp"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:layout_marginTop="10dp"
+            android:singleLine="false"
+            android:textColor="@color/color_trip_blog_photoDescript"
+            android:textSize="14sp" />
+        <!-- GridView 网格列表 -->
+      <com.wefika.flowlayout.FlowLayout
+                        android:id="@+id/tags_flow"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
+
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_tab"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+     
+
+            <RelativeLayout
+                android:id="@+id/hot_topic_linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_square_tag"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="3dp" >
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="14.7dp"
+                        android:src="@drawable/square_pic_location" >
+                    </ImageView>
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:paddingTop="1dp"
+                        android:text="显示位置"
+                        android:id="@+id/locationTv"
+                        android:textColor="#0f81eb"
+                        android:textSize="12sp" >
+                    </com.bcinfo.tripaway.view.textview.NormalTfTextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/shape_square_tag"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="3dp" >
+
+                    <ImageView
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:src="@drawable/square_pic_public" >
+                    </ImageView>
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:paddingTop="1dp"
+                        android:text="公开"
+                        android:id="@+id/access_text"
+                        android:textColor="@color/gray_text"
+                        android:textSize="12sp" >
+                    </com.bcinfo.tripaway.view.textview.NormalTfTextView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <include layout="@layout/include_square" />
+        </LinearLayout>
+
+
+</RelativeLayout>

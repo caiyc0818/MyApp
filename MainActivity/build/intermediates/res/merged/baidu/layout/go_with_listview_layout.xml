@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/go_with_listview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="@android:color/transparent"
+    android:divider="@color/gray_border"
+    android:dividerHeight="0.5px"
+    android:listSelector="@android:color/transparent"
+    android:scrollbars="none" >
+
+</ListView>

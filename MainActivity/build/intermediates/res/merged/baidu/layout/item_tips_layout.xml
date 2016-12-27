@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/tip_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/detail_price_size" />
+	<com.bcinfo.tripaway.view.MyGridView
+        android:id="@+id/tip_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="@color/transparent"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@color/transparent"
+        android:visibility="gone"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="10dp" >
+    </com.bcinfo.tripaway.view.MyGridView>
+    <WebView 
+        android:id="@+id/tip_common"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+    <!-- <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/tip_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:lineSpacingExtra="5dip"
+        android:textColor="@color/gray_more"
+        android:textSize="@dimen/car_info_size" /> -->
+
+</LinearLayout>

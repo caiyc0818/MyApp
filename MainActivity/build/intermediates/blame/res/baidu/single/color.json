@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_tint_default.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\ge_common_text_color_333333_white.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\ge_common_text_color_333333_white.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\design_error.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_secondary_text_material_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_tint_edittext.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_pay_price_textcolor.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_pay_price_textcolor.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\switch_thumb_material_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_discovery_selected_items.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_discovery_selected_items.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_tint_switch_thumb.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_tint_spinner.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\color_radiobutton.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\color_radiobutton.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_personal_tab_button_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_personal_tab_button_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_trip_service_textcolor.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_trip_service_textcolor.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_btn_colored_text_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\subscribe_item_text_color.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\subscribe_item_text_color.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\ge_common_text_color_868686_white.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\ge_common_text_color_868686_white.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_zone_checkbox_color_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_zone_checkbox_color_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_tint_seek_thumb.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_search_url_text.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_primary_text_material_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\ge_common_text_color_0057af_white.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\ge_common_text_color_0057af_white.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\ge_send_btn_textcolor.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\ge_send_btn_textcolor.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\switch_thumb_material_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\design_tint_password_toggle.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_calendar_weekend.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_calendar_weekend.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_hint_foreground_material_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_calendar_outrange.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_calendar_outrange.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\top_category_scroll_text_color_day.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\top_category_scroll_text_color_day.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_setting_update_version.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_setting_update_version.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_calendar_normal.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_calendar_normal.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_primary_text_material_dark.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_secondary_text_material_light.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_tint_btn_checkable.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\colorlist_calendar_today.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\color\\colorlist_calendar_today.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\color\\abc_tint_switch_track.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\abc_tint_switch_track.xml"
+    }
+]

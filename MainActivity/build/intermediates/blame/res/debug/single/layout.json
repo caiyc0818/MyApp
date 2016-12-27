@@ -16,8 +16,16 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_orders_list_item.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\invite_go_with_detail_activity.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\invite_go_with_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\trip_scenic_layout.xml",
@@ -40,12 +48,12 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\content_activity.xml"
     },
     {
-        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\setting_exit_dialog.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_exit_dialog.xml"
-    },
-    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_post_share.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\setting_exit_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_exit_dialog.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
@@ -64,20 +72,24 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_itinerary_detail_activity.xml"
     },
     {
-        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\message_fragment1.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\message_fragment1.xml"
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_leak_row.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.5\\res\\layout\\leak_canary_leak_row.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\message_fragment_header.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\message_fragment_header.xml"
     },
     {
-        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\load_more.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\load_more.xml"
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\message_fragment1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\message_fragment1.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_album.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_album.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\load_more.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\load_more.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\tour_guider_homepage.xml",
@@ -112,12 +124,16 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\micro_blogs_travel_info_head.xml"
     },
     {
-        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\square_published_item.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_published_item.xml"
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\micro_blogs_listener_item.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\micro_blogs_listener_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\square_published_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_published_item.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_cancel_attention_layout.xml",
@@ -136,6 +152,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_image_grid.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\header_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\header_layout.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_photoitem.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_photoitem.xml"
     },
@@ -145,27 +165,31 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\common_calendar_gridview_item2.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\common_calendar_gridview_item2.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\car_product_detail_activity.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\car_product_detail_activity.xml"
     },
     {
-        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\ge_message_header.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_message_header.xml"
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mypartener_add.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_mypartener_add.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\ge_message_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_message_header.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\trip_product_picked_title.xml",
@@ -178,6 +202,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\reverse_anim.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\reverse_anim.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_ref_top_row.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.5\\res\\layout\\leak_canary_ref_top_row.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\travel_experience.xml",
@@ -269,7 +297,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_layout.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\square_serial_preview1.xml",
@@ -290,6 +318,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\location_country_detail_item.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_country_detail_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\main_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\main_layout.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\ge_getui_notification.xml",
@@ -318,6 +350,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\discovery_default_main.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_default_main.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\squer_item_print.xml",
@@ -361,7 +397,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\plan_group_item.xml",
@@ -374,6 +410,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\square_theme.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_theme.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\associate_item.xml",
@@ -484,6 +524,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\verify_code.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\ingroup_data_detail_activity2.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ingroup_data_detail_activity2.xml"
     },
@@ -498,6 +542,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\new_item_discovery_theme_list.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\new_item_discovery_theme_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\club_homepage_fragment.xml",
@@ -561,7 +609,11 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_bottom.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_clubmeb_layout.xml",
@@ -589,7 +641,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\club_travels_fragment.xml",
@@ -641,7 +693,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\personal_customization_step_one.xml",
@@ -658,6 +710,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\tips_detail_list_item.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\tips_detail_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\shaitupopuwindow.xml",
@@ -692,6 +748,14 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_company_hp.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_right.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_right.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_left.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_left.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_bak_platform_selector_dialog.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_bak_platform_selector_dialog.xml"
     },
@@ -717,7 +781,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\squaretheme.xml",
@@ -734,6 +798,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\product_affirm_list_item.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_affirm_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\go_with_lable_text.xml",
@@ -781,7 +849,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\loading_activity_item.xml",
@@ -816,8 +884,16 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\vehicle_info_fragment.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\color_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\color_selector.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\view_calendar_day_cell.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\view_calendar_day_cell.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_comment_view.xml",
@@ -868,6 +944,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\rotating.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\squrelayout2.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squrelayout2.xml"
     },
@@ -881,7 +961,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_item_material.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_orgpeo_layout.xml",
@@ -890,6 +970,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\trip_plan_detail_car_listitem.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_car_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_segment_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_segment_tab.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_pull_to_refresh_header.xml",
@@ -1020,6 +1104,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_cats_item.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\order_popwindow.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\order_popwindow.xml"
     },
@@ -1033,7 +1121,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_toolbar.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_discovery_theme_list.xml",
@@ -1054,6 +1142,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\price_tip_layout.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\price_tip_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\go_with_detail_activity.xml",
@@ -1112,6 +1204,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\head_search.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sliding_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_sliding_tab.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\location_area_item.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_area_item.xml"
     },
@@ -1157,7 +1253,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\trip_manage_fragment.xml",
@@ -1201,7 +1297,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\my_schedulet_layout.xml",
@@ -1273,7 +1369,11 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_media.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\dialog.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\my_trip_blog_layout.xml",
@@ -1333,7 +1433,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_bar.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\discovery_results.xml",
@@ -1362,6 +1462,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\product_services_item.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_services_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\snackbar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\snackbar.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\tourist_homepage.xml",
@@ -1408,12 +1512,20 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_member_gv_item.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\order_service_listitem.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\order_service_listitem.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\product_detail_services_h.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_detail_services_h.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\view_sinaheader.xml",
@@ -1484,6 +1596,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\confirm_pay_layout.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\squer_item_tra.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squer_item_tra.xml"
     },
@@ -1508,6 +1624,14 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_picked_item.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_common_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_common_tab.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_discovery_results.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_results.xml"
     },
@@ -1521,7 +1645,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_dialog_title_material.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\area_select_activity.xml",
@@ -1536,12 +1660,20 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_common_info.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_discovery_history_data.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_history_data.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\scenic_spots_listview_item.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\scenic_spots_listview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_comment_content.xml",
@@ -1604,12 +1736,16 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\link_activity.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\number_indicator_spinner.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\number_indicator_spinner.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_facebook_login_activity_layout.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_facebook_login_activity_layout.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\change_product_state_dialog.xml",
@@ -1625,11 +1761,11 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_view.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\setting_exit_second_dialog.xml",
@@ -1649,11 +1785,15 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\invoice_adapter.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\invoice_adapter.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\fr_simple_card.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\fr_simple_card.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\ge_chat_item_right.xml",
@@ -1668,8 +1808,16 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\loading_activity.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_display_leak.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.5\\res\\layout\\leak_canary_display_leak.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\org_list.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\org_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\journey_adapter.xml",
@@ -1685,7 +1833,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\photo_activity.xml",
@@ -1736,6 +1884,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\area_activity.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_heap_dump_toast.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.5\\res\\layout\\leak_canary_heap_dump_toast.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
@@ -1745,7 +1897,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\ingroup_data_detail_activity.xml",
@@ -1758,6 +1910,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bind_alipay.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_bind_alipay.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\progress_dialog.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\more_time_item.xml",
@@ -1829,7 +1985,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\location_country_detail_activity.xml",
@@ -1848,6 +2004,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_post_comment.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\square_publish_title.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_publish_title.xml"
     },
@@ -1857,7 +2017,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_at_item.xml",
@@ -1925,7 +2085,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\notification_template_part_time.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\product_author_brief_activity.xml",
@@ -1941,7 +2101,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\personal_customization_tip.xml",
@@ -1958,6 +2118,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_zone_photo_layout.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_zone_photo_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_top.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_top.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\plan_child_item.xml",
@@ -2105,7 +2269,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\product_manage_fragment.xml",
@@ -2202,6 +2366,10 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_service_product_layout.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_service_product_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -2328,6 +2496,10 @@
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_detail_titlebar.xml"
     },
     {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.github.mcxtzhang\\all-base-adapter\\V1.3.0\\res\\layout\\item.xml"
+    },
+    {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\ge_face.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_face.xml"
     },
@@ -2341,7 +2513,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\edit_pop_window.xml",
@@ -2349,7 +2521,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\product_affirm_activity.xml",
@@ -2386,6 +2558,14 @@
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\items_picked_location_products.xml",
         "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\items_picked_location_products.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\leak_canary_ref_row.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.squareup.leakcanary\\leakcanary-android\\1.5\\res\\layout\\leak_canary_ref_row.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\my_journey_list_item.xml",
@@ -2461,11 +2641,15 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_segment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_segment.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\item_subject_club_layout.xml",
@@ -2489,7 +2673,7 @@
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_titile_bar.xml",

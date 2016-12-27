@@ -24,9 +24,9 @@ import com.bcinfo.tripaway.utils.LogUtil;
 import com.bcinfo.tripaway.utils.StringUtils;
 import com.bcinfo.tripaway.view.NewSinaRefreshView;
 import com.bcinfo.tripaway.view.refreshandload.PullableGridView;
-import com.lcodecore.tkrefreshlayout.Footer.LoadingView;
 import com.lcodecore.tkrefreshlayout.RefreshListenerAdapter;
 import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
+import com.lcodecore.tkrefreshlayout.header.progresslayout.ProgressLayout;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
@@ -93,18 +93,13 @@ public class AllLocationActivity extends BaseActivity implements
         getAllLocationUrl();
         refreshLayout = (TwinklingRefreshLayout) findViewById(R.id.refreshLayout);
         refreshLayout.startRefresh();
-//        ProgressLayout headerView = new ProgressLayout(this);
-////        BezierLayout headerView = new BezierLayout(this);
-//        refreshLayout.setHeaderView(headerView);
-        headerView = new NewSinaRefreshView(this);
-        headerView.setArrowResource(R.drawable.arrow);
-        headerView.setTextColor(0xff745D5C);
-//        TextHeaderView headerView = (TextHeaderView) View.inflate(this,R.layout.header_tv,null);
-        refreshLayout.setHeaderView(headerView);
-
-        LoadingView loadingView = new LoadingView(this);
-        refreshLayout.setBottomView(loadingView);
-
+        ProgressLayout header = new ProgressLayout(this);
+        refreshLayout.setHeaderView(header);
+        refreshLayout.setFloatRefresh(true);
+        refreshLayout.setOverScrollRefreshShow(true);
+        refreshLayout.setHeaderHeight(140);
+        refreshLayout.setWaveHeight(240);
+        refreshLayout.setOverScrollHeight(200);
 //        refreshLayout.setFloatRefresh(false);
         refreshLayout.setPureScrollModeOn(false);
 //        refreshLayout.setEnableOverlayRefreshView(false);

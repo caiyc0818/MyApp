@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <!-- 旅行经历的图片 -->
+       <ImageView 
+           android:id="@+id/travel_experience_picture"
+           android:layout_width="0dp"
+           android:layout_weight="2"
+           android:layout_height="wrap_content"
+           android:src="@drawable/summer"/>
+       <!-- <LinearLayout 
+           android:id="@+id/travel_experience_picture"
+           android:layout_width="0dp"
+           android:layout_weight="2"
+           android:layout_height="wrap_content">
+           
+       </LinearLayout> -->
+        <LinearLayout 
+           android:id="@+id/travel_experience_instruction"
+           android:layout_width="0dp"
+           android:layout_weight="3"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+               android:id="@+id/travel_experience_title"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:text="白宫走一走"
+               android:textSize="18sp"/>
+           
+       </LinearLayout>
+   </LinearLayout> 
+
+</LinearLayout>

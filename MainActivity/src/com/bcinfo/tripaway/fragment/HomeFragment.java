@@ -62,9 +62,9 @@ import com.bcinfo.tripaway.utils.StringUtils;
 import com.bcinfo.tripaway.utils.ToastUtil;
 import com.bcinfo.tripaway.view.NewSinaRefreshView;
 import com.bcinfo.tripaway.view.image.RoundImageView;
-import com.lcodecore.tkrefreshlayout.Footer.LoadingView;
 import com.lcodecore.tkrefreshlayout.RefreshListenerAdapter;
 import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
+import com.lcodecore.tkrefreshlayout.header.progresslayout.ProgressLayout;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -196,27 +196,22 @@ public class HomeFragment extends BaseFragment implements OnItemClickListener, O
         mainScorll = (ScrollView) view.findViewById(R.id.mainScorll);
         themeOrDestinationImageW = (screenWidth - DensityUtil.dip2px(getActivity(), 14)) / 3;
         // 轮播图
-        getPushCarousel();
+//        getPushCarousel();
 
         mainScorll.setVisibility(View.GONE);
         statisticsTitle = "首页";
         refreshLayout = (TwinklingRefreshLayout) view.findViewById(R.id.refreshLayout);
         refreshLayout.startRefresh();
-//        ProgressLayout headerView = new ProgressLayout(this);
-////        BezierLayout headerView = new BezierLayout(this);
-//        refreshLayout.setHeaderView(headerView);
-        headerView = new NewSinaRefreshView(getActivity());
-        headerView.setArrowResource(R.drawable.arrow);
-        headerView.setTextColor(0xff745D5C);
-//        TextHeaderView headerView = (TextHeaderView) View.inflate(this,R.layout.header_tv,null);
-        refreshLayout.setHeaderView(headerView);
-        LoadingView loadingView = new LoadingView(getActivity());
-        refreshLayout.setBottomView(loadingView);
-
-//        refreshLayout.setFloatRefresh(false);
+        ProgressLayout header = new ProgressLayout(getActivity());
+        refreshLayout.setHeaderView(header);
+        refreshLayout.setFloatRefresh(true);
+        refreshLayout.setOverScrollRefreshShow(false);
+        refreshLayout.setHeaderHeight(140);
+        refreshLayout.setWaveHeight(240);
+        refreshLayout.setOverScrollHeight(200);
         refreshLayout.setPureScrollModeOn(false);
-//        refreshLayout.setEnableOverlayRefreshView(false);
         refreshLayout.setAutoLoadMore(true);
+        refreshLayout.setEnableOverScroll(false);
         refreshLayout.setEnableLoadmore(false);
         refreshLayout.setOnRefreshListener(new RefreshListenerAdapter() {
             @Override
@@ -235,6 +230,7 @@ public class HomeFragment extends BaseFragment implements OnItemClickListener, O
                             locationsList.clear();
                             pickedItemList.clear();
                             pickedListView.removeAllViews();
+//                            mainScorll.setVisibility(View.GONE);
                         }
 
                         getPushCarousel();
@@ -402,9 +398,6 @@ public class HomeFragment extends BaseFragment implements OnItemClickListener, O
                 String code = response.optString("code");
                 // 本周推荐
                 getFindWeek();
-                if (isRefresh) {
-                    refreshLayout.finishRefreshing();
-                }
                 if (code.equals("00000")) {
                     pushCarouselJsonObject = response;
 
@@ -936,6 +929,7 @@ public class HomeFragment extends BaseFragment implements OnItemClickListener, O
                         // code);
                     }
                     mainScorll.setVisibility(View.VISIBLE);
+                    refreshLayout.finishRefreshing();
                     setPushCarouselData(pushCarouselJsonObject);
                     setFindWeekData(findWeekJsonObject);
                     setPickTitleData(pickTitleJsonObject);

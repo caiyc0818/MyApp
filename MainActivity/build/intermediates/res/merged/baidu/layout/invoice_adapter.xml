@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+       <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+	    <LinearLayout
+	        android:layout_marginTop="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+			<com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+              android:textColor="@color/black"
+            android:text="身份证：" />
+     
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/id_number"
+             android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+              android:textColor="@color/black"
+            android:text="" />
+ </LinearLayout>
+ <LinearLayout
+	        android:layout_marginTop="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+			<com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+              android:textColor="@color/black"
+            android:text="护照号：" />
+     
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/passport"
+             android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+              android:textColor="@color/black"
+            android:text="" />
+ </LinearLayout>
+   
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_border" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/button_delete"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#5CACEE"
+            android:gravity="center_vertical"
+            android:text="删除" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/button_modify"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@id/button_delete"
+            android:gravity="center_vertical"
+            android:textColor="#5CACEE"
+            android:text="编辑" />
+    </RelativeLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/gray_bg"
+        
+        />
+</LinearLayout>

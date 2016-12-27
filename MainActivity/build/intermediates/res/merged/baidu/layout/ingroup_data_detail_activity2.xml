@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+<RelativeLayout
+    android:id="@+id/time_title2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/title_bg" >
+
+        <LinearLayout
+            android:id="@+id/date_back_button2"
+            android:layout_width="@dimen/title_height"
+            android:layout_height="@dimen/title_height"
+            android:background="@drawable/button_selector_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/back_button_height"
+                android:layout_height="@dimen/back_button_height"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/nav_back"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/product_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:text="请选择出发日期"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+    </RelativeLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/gray_border"
+        android:gravity="center"
+        android:text="商品日期均为当地时间"
+        android:textColor="@color/colorlist_zone_checkbox_color_selector"
+        android:textSize="@dimen/title_size_small_more" />
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <LinearLayout
+            android:id="@+id/contain_ll2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

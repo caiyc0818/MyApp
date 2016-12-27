@@ -1,32 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 精选 布局 -->
+<?xml version="1.0" encoding="utf-8"?><!-- 精选 布局 -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/trip_products_picked_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical" >
-     <View 
-         android:id="@+id/login_loading" 
-         android:layout_width="40dp" 
-         android:layout_height="40dp"
-         android:layout_gravity="center_horizontal" 
-         android:background="@anim/loading"/>
-      
+    android:orientation="vertical">
     <!-- 显示  精选item的上拉加载的listview -->
-
-    <com.bcinfo.tripaway.view.refreshandload.XListView
-        android:id="@+id/main_picked_listview"
+    <!-- 自定义GridView -->
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+        android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:cacheColorHint="@android:color/transparent"
-        android:divider="@color/transparent"
-        android:dividerHeight="0dp"
-        android:fadingEdge="none"
-        android:footerDividersEnabled="false"
-        android:headerDividersEnabled="false"
-        android:listSelector="@color/transparent"
-        android:overScrollMode="never"
-        android:scrollbars="none" />
+        app:tr_head_height="100dp"
+        app:tr_wave_height="180dp">
+
+
+        <com.bcinfo.tripaway.view.refreshandload.XListView
+            android:id="@+id/main_picked_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
 
 </FrameLayout>

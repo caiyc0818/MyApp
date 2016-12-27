@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 显示在OverFlow中的item 美食 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overFlow_item_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!-- 正面显示的ListView列表 -->
+
+    <LinearLayout
+        android:id="@+id/overFlow_item_positive_container"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <!-- 显示美食信息的列表 -->
+
+        <ListView
+            android:id="@+id/overFlow_food_item_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/black"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+    </LinearLayout>
+    <!-- 反面显示详细信息 -->
+
+    <RelativeLayout
+        android:id="@+id/overFlow_item_negative_container"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:visibility="gone" >
+
+        <ScrollView
+            android:id="@+id/overFlow_item_scrollView_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/overFlow_item_layout_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- top 图片 -->
+
+                <ImageView
+                    android:id="@+id/overFlow_food_item_ImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/ic_launcher"
+                    android:scaleType="centerCrop" />
+                <!-- item信息 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/overFlow_item_product_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Oklahoma Joe&apos;s 堪萨斯州"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/overFlow_item_introduce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="作为奔驰轿车的顶级产品,奔驰s600装备了新型v12发动机,除了保留传统的60度气缸夹角外,与其前身无任何相同之处。"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                    <!-- item extra infos -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp" >
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 白色的分隔条 -->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@android:color/white" />
+                <!-- 显示具体信息 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <!-- 车辆编号 -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp" >
+
+                        <!-- 车辆编号 textView -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="车辆编号"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp" />
+                        <!-- 编号数值 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/car_number_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="345454"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                    <!-- 灰色分隔线 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/gray" />
+                    </LinearLayout>
+
+                    <!-- 行驶里程 -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <!-- 行驶里程 textView -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="行驶里程"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp" />
+                        <!-- 里程数值 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/drive_route_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="3万公里"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                    <!-- 灰色分隔线 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/gray" />
+                    </LinearLayout>
+                    <!-- 车型级别 -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <!-- 车型级别 textView -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="车型级别"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp" />
+                        <!-- 级别数值 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/car_Level_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="SUV"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                    <!-- 分隔线 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/gray" />
+                    </LinearLayout>
+                    <!-- 燃油种类 -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <!-- 燃油种类 textView -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="燃油种类"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp" />
+                        <!-- 燃油种类 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/oil_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="汽油"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                    <!-- 灰色分隔线 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" >
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/gray" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <!-- 后备箱 textView -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="后备箱"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp" />
+                        <!-- 后备箱容量 -->
+
+                        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                            android:id="@+id/car_backBox_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            android:text="500L"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <!-- 底部 旋转图标 -->
+
+        <ImageView
+            android:id="@+id/overFlow_item_bottom_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/ic_launcher"
+            android:scaleType="center" />
+    </RelativeLayout>
+
+</LinearLayout>

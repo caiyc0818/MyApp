@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView 
+	    android:id="@+id/close_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginRight="10dp"
+	    android:background="@drawable/login_delete"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical"
+        android:text="退订理由"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+        <EditText 
+            android:id="@+id/leave_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:gravity="top"
+            android:padding="5dp"
+            android:background="@drawable/input_bg"/>
+        <Button 
+            android:id="@+id/confirm_unsubcribe"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" 
+            android:layout_marginTop="20dp"
+            android:text="退订"
+            android:background="@drawable/btn_bg_red"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\raw\\ge_office.mp3",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\raw\\ge_office.mp3"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\raw\\shake_sound.mp3",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\raw\\shake_sound.mp3"
+    }
+]

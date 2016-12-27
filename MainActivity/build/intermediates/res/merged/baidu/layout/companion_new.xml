@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxEms="5"
+        android:maxLines="1"
+        android:text="赵梅赵梅赵梅赵梅"
+        android:textColor="@color/dark_gray"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/tvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身份证： "
+            android:textColor="@color/gray_text"
+            android:textSize="12sp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/tvNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tvId"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="321283199913188321283199913188321283199913188321283199913188321283199913188321283199913188"
+            android:textColor="@color/gray_text"
+            android:textSize="12sp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/tvpassport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvId"
+            android:layout_marginTop="8dp"
+            android:text="护照号： "
+            android:textColor="@color/gray_text"
+            android:textSize="12sp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/tvpassportNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvId"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/tvpassport"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="321283199913188321283199913188321283199913188321283199913188321283199913188321283199913188"
+            android:textColor="@color/gray_text"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

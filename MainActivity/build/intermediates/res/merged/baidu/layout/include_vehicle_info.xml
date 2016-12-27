@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+                android:layout_marginTop="6dp"
+    android:orientation="vertical" >
+
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+              >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/traffic" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:text="车辆信息"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/homepage_text_size_two" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_border"
+                android:orientation="horizontal"
+                >
+            </LinearLayout>
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                android:padding="10dp">
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/vehicleContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="现代9座商务车免费提供wifi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/homepage_text_size_two" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/vehicleIcon"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:src="@drawable/suv" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/vehicleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="SUV"
+                android:textColor="@color/black_gray"
+                android:textSize="@dimen/homepage_text_size_four" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tourist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/touristIcon"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:src="@drawable/tourist" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="×"
+                android:textColor="@color/black_gray"
+                android:textSize="@dimen/homepage_text_size_four" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/touristNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="9"
+                android:textColor="@color/black_gray"
+                android:textSize="@dimen/homepage_text_size_four" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/luggage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/luggageIcon"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_centerVertical="true"
+                android:src="@drawable/luggage_small" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="×"
+                android:textColor="@color/black_gray"
+                android:textSize="@dimen/homepage_text_size_four" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/luggageNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="3"
+                android:textColor="@color/black_gray"
+                android:textSize="@dimen/homepage_text_size_four" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java是一种可以撰写跨平台应用程序的面向对象、高效性、平台移、数据中心、游戏控制台、科学超级计"
+        android:textColor="@color/black_gray"
+        android:textSize="@dimen/homepage_text_size_four" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="车内配套："
+        android:textColor="@color/black"
+        android:textSize="@dimen/homepage_text_size_three" />
+
+    <com.wefika.flowlayout.FlowLayout
+        android:id="@+id/vehicleEquipment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+    </LinearLayout>
+</LinearLayout>

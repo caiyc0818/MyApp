@@ -1,0 +1,2718 @@
+[
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_travels_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_travels_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\left_chat_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\left_chat_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\itinerary_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\itinerary_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_journey_remark_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_journey_remark_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\airplane_checked_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\airplane_checked_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_reminder_layout_fas_cashno.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_reminder_layout_fas_cashno.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_getui_notification.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_getui_notification.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_customization_step_end.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_customization_step_end.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_flight_picked_listview.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_flight_picked_listview.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\homepage_product.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\homepage_product.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting_cache_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_cache_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ingroup_data_detail_activity2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ingroup_data_detail_activity2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_xlistview_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_xlistview_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_zone_photo_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_zone_photo_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_full_alert_dialog_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_journey_check_remark_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_journey_check_remark_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\comm_calendar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\comm_calendar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_full_alert_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\go_with_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\go_with_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\date_pick.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\date_pick.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_recomend_notitle_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_recomend_notitle_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_product_traffic_overflow_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_product_traffic_overflow_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\addserieslist.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\addserieslist.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_simple_spinner_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_image_bucket.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_image_bucket.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squer_item_print.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squer_item_print.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_customization_step_two.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_customization_step_two.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\a_ne_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\a_ne_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_comfire_order.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_comfire_order.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_common_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_common_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_select_dialog_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\image_viewer_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\image_viewer_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\blog_image_viewer_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\blog_image_viewer_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\discovery_themes_products_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_themes_products_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_titile_bar_comment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_titile_bar_comment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\flight_info_cls_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\flight_info_cls_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_my_good_friendship_listview_head.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_my_good_friendship_listview_head.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\companion_new.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\companion_new.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_product_picked_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_product_picked_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\customer_homepage.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\customer_homepage.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discover_hint.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discover_hint.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_pull_to_refresh_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discovery_theme_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_theme_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_my_good_friendship_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_my_good_friendship_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_personal_more_experience_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_personal_more_experience_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_service_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_service_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\color_selector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\color_selector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squrelayout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squrelayout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\mysqurelayout_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\mysqurelayout_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_driver_homepage_nav.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_driver_homepage_nav.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\sidebar_headinfo.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\sidebar_headinfo.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\search_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\search_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\register.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\refresh_head.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\refresh_head.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\commend_product.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\commend_product.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_product_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_product_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_travel_period_month_product_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_travel_period_month_product_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_navigation_menu_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\service_detail_car_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\service_detail_car_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_trends_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_trends_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\notification_action.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\micro_blogs_travel_info_head.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\micro_blogs_travel_info_head.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\follow_member_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\follow_member_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_published_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_published_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\experience_adapter.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\experience_adapter.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\footprint_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\footprint_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_base_alert_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_plan_detail_car_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_car_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_main.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_scenic_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_scenic_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_menu_item_action_area.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\help_and_consult.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\help_and_consult.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\travel_experience_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\travel_experience_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discovery_theme_product_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_theme_product_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\head_one.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\head_one.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_segment_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_segment_tab.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squeroldshaitu.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squeroldshaitu.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_hot_theme.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_hot_theme.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\items_picked_location_products.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\items_picked_location_products.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_select_area_activity_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_select_area_activity_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\shaitupopuwindow.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\shaitupopuwindow.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_alert_dialog_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_reminder_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_reminder_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_navigation_item_subheader.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_music_detail.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_music_detail.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_travels_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_travels_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\scenic_detail_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\scenic_detail_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\search_choice_item_results.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\search_choice_item_results.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\recommend_product_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\recommend_product_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_main_microblog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_main_microblog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_info_new_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_info_new_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_product_individual.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_product_individual.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\notification_template_lines_media.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_servicer_info_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_servicer_info_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_navigation_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_joinmeb_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_joinmeb_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\discovery_results.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_results.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_clubmeb_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_clubmeb_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_info_fragment_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_info_fragment_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\go_with_detail_list_head.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\go_with_detail_list_head.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_content_zone_list_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_content_zone_list_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_applay_send_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_applay_send_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\add_blue_card_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\add_blue_card_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_net_status_bar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_net_status_bar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_subject_club_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_subject_club_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_at_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_at_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\member_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\member_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_photoitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_photoitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\discovery_themes_all.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_themes_all.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\chat_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\chat_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_product_food_overflow_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_product_food_overflow_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\order_popwindow.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\order_popwindow.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting_about_us_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_about_us_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\messenger_button_send_blue_large.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\user_comment_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\user_comment_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_image_bucket.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_image_bucket.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\companion_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\companion_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_titile_bar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\discovery_second_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_second_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_screen_toolbar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_lodging_service_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_lodging_service_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\notification_template_media_custom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_country_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_country_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\day_picker_enddialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\day_picker_enddialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_findpassword_by_phone.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_findpassword_by_phone.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_trends_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_trends_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\shake_umeng_socialize_share_dlg.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\shake_umeng_socialize_share_dlg.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_bak_at_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_bak_at_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_my_squer_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_my_squer_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\messenger_button_send_white_small.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\pic_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\pic_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_product_listview_footer.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_product_listview_footer.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\select_flight_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\select_flight_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\date_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\date_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_composer_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_composer_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_layout_tab_text.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\cashcarditem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\cashcarditem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_manage_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_manage_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\notification_template_part_time.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_layout_car_picked.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_layout_car_picked.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_itinerary_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_itinerary_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_detail_titlebar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_detail_titlebar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_attention_individual.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_attention_individual.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\head_two.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\head_two.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\customer_blog_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\customer_blog_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\home_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\car_detail_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\car_detail_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_personal_more_view_split_container.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_personal_more_view_split_container.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_country_tip_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_country_tip_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\acceptedfragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\acceptedfragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\main_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\main_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\feature_list_item1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\feature_list_item1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\event_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\event_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\filter_condition.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\filter_condition.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\org_carousel_view.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\org_carousel_view.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\new_item_discovery_theme_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\new_item_discovery_theme_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\sex_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\sex_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting_exit_second_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_exit_second_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\main_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\flight_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\flight_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_collection_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_collection_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_date_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_date_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\xlistview_footer.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_recomend_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_recomend_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_tab_segment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_segment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\review_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\review_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\service_detail_shop_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\service_detail_shop_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\confirm_pay_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\confirm_pay_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_serial_preview_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_serial_preview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\photo_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\photo_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_activity_chat.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_activity_chat.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_join_gv_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_join_gv_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_layout_snackbar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_theme.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_theme.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\flight_listview_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\flight_listview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_order_fee_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_order_fee_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\mylocationcountrylayout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\mylocationcountrylayout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_layout_hotel_picked.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_layout_hotel_picked.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_bak_at_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_bak_at_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_product_detail_activity1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_product_detail_activity1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\micro_blogs_travel_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\micro_blogs_travel_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\menu_frame.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\menu_frame.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\notification_template_media.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_failed_load_page.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_navigation_item_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_action_bar_up_container.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\rotating.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\rotating.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_cats_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_cats_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_info_more_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_info_more_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\a_day_line_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\a_day_line_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_personal_products_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_personal_products_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\qualification_more_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\qualification_more_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\header_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\header_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\experience_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\experience_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\drawer_listview_headview.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\drawer_listview_headview.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discovery_hot_keywords_gridview.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_hot_keywords_gridview.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_published_music.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_published_music.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_product_tip_overflow_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_product_tip_overflow_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\new_trip_picked_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\new_trip_picked_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\change_product_state_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\change_product_state_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_product_lodging_overflow_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_product_lodging_overflow_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\feature_list_item2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\feature_list_item2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_member_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_member_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_acc2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_acc2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_myinvoice_add.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_myinvoice_add.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\scenic_spots_listview_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\scenic_spots_listview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\to_consult_or_complaint.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\to_consult_or_complaint.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\footprint.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\footprint.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\message_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\message_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\mytravel_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\mytravel_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_dialog_title_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\error_toast.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\error_toast.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_my_account2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_my_account2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\micro_user_comment_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\micro_user_comment_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_products_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_products_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\paid_success_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\paid_success_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_journey_pay_success_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_journey_pay_success_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_manage_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_manage_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_select_area_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_select_area_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squeroldshaitulist.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squeroldshaitulist.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\login_main.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\login_main.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_post_comment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_post_comment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_all.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_all.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\service_detail_hotel_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\service_detail_hotel_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\text.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\text.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_new_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_new_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_homepage_nav.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_homepage_nav.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\content_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\content_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_ucenter.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_ucenter.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_comment_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_comment_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\cats_info_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\cats_info_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\vehicle_info_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\vehicle_info_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_facebook_login_activity_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\unsubscribe_leave_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\unsubscribe_leave_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\service_content_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\service_content_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\travel_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\travel_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_layout_flight_picked.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_layout_flight_picked.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\friend_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\friend_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_ucenter_platform_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_ucenter_platform_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_fellowship_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_fellowship_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\service_page_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\service_page_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\comments_detail_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\comments_detail_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squrelayout2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squrelayout2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_layout_snackbar_include.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\single_product_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\single_product_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_detail_new_ctivity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_detail_new_ctivity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_city_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_city_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_my_account.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_my_account.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_trip_zone_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_trip_zone_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_order_detail.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_order_detail.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\theme_pic_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\theme_pic_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_plan_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_slidingmenu_albums_item_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_slidingmenu_albums_item_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_driver_homepage_nav1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_driver_homepage_nav1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\tourist_homepage.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\tourist_homepage.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\progress_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\consult_or_complaint_detail.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\consult_or_complaint_detail.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squer_item_commend.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squer_item_commend.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_base_alert_dialog_button.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_travel_experience.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_travel_experience.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\tour_guider_homepage.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\tour_guider_homepage.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\comfireorder_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\comfireorder_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_item_current_travel_achivement.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_item_current_travel_achivement.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_post_share.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_bind_alipay.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_bind_alipay.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_item_blog_individual.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_item_blog_individual.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\face_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\face_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_food_service_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_food_service_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_image_grid.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_image_grid.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\area_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\area_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discovery_locations.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_locations.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\journey_adapter.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\journey_adapter.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\send_msg_tool.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\send_msg_tool.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squrelayout_item2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squrelayout_item2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_oauth_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_product_headerview.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_product_headerview.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_recomend_serviser.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_recomend_serviser.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squer_item_serialize1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squer_item_serialize1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\area__select_activity_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\area__select_activity_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_microblog_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_microblog_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_affirm_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_affirm_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_table_item_popuwindow.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_table_item_popuwindow.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\reply_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\reply_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\subject_product_item2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\subject_product_item2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_xlistview_footer.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_xlistview_footer.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_screen_content_include.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\pick_carousel_view.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\pick_carousel_view.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\loading_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\loading_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_serial_detail_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_serial_detail_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\notification_action_tombstone.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\select_pic_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\select_pic_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_squer_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_squer_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\add_member_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\add_member_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_refer_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_refer_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_list_adapter_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_list_adapter_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\help_and_consult_detail.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\help_and_consult_detail.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\messenger_button_send_blue_round.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\new_item_discovery_locations.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\new_item_discovery_locations.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_customization_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_customization_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\result.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\result.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_trip_blog_photo.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_trip_blog_photo.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_background_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_background_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\filter1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\filter1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discovery_results.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_results.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\number_indicator_spinner.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\number_indicator_spinner.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_customization_step_one.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_customization_step_one.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_country_detail_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_country_detail_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_bak_platform_item_simple.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_bak_platform_item_simple.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_reminder_single_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_reminder_single_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_plan_detail_child_listview_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_child_listview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_layout_tab_icon.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\date_time_picker.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\date_time_picker.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\channel.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\channel.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_search_view.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting_help_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_help_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_tour_guider_homepage_nav.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_tour_guider_homepage_nav.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\pay_success_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\pay_success_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_publish_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_publish_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squer_item_promotion_product.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squer_item_promotion_product.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\day_picker_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\day_picker_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_cancel_attention_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_cancel_attention_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_homepage.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_homepage.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_list_menu_item_radio.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_chat_item_left.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_chat_item_left.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_homepage.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_homepage.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_itinerary_lv_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_itinerary_lv_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_expanded_menu_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squaretheme.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squaretheme.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\view_photopreview.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\view_photopreview.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_trip_time.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_trip_time.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\messenger_button_send_white_round.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squer_item_story.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squer_item_story.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_fans_individual.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_fans_individual.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_clubmeb_info_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_clubmeb_info_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_items_picked.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_items_picked.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\select_dialog_multichoice_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_my_invoice2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_my_invoice2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\image_detail_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\image_detail_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\service_detail_tips_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\service_detail_tips_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_my_account3.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_my_account3.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_image_grid.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_image_grid.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_blog_deleted_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_blog_deleted_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_picked_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_picked_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_detail_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_detail_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\shake_umeng_socialize_scrshot_snapshot.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\shake_umeng_socialize_scrshot_snapshot.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_vehicle_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_vehicle_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\add_go_with_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\add_go_with_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_text_input_password_icon.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_item_focus_individual.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_item_focus_individual.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_pic_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_pic_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\view_bezier.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.lcodecorex\\tkrefreshlayout\\1.0.5\\res\\layout\\view_bezier.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\logreg_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\logreg_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\comments_detail_second_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\comments_detail_second_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_personal_more_experience_photo.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_personal_more_experience_photo.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting_version_update_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_version_update_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_full_curtain.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_journey_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_journey_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\image_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\image_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_default_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_default_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\consult_or_complaint_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\consult_or_complaint_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\main_title_bar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\main_title_bar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_serial_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_serial_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_plan_detail_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\go_with_responce_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\go_with_responce_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_detail_similar_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_detail_similar_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_item_fans_individual.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_item_fans_individual.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\car_info_grid_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\car_info_grid_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_club_layout2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_club_layout2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\messenger_button_send_white_large.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\findpassword_by_email_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\findpassword_by_email_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_message_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_message_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\picked_second_titlebar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\picked_second_titlebar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_subject_dest_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_subject_dest_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\invoice_adapter2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\invoice_adapter2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\alarm_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\alarm_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_journey_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_journey_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\right_chat_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\right_chat_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_tips_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_tips_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\invite_go_with_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\invite_go_with_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\help_and_consult_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\help_and_consult_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\car_info_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\car_info_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\apply_product_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\apply_product_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\msg_face_gridview.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\msg_face_gridview.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\experiod_list_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\experiod_list_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_tab_top.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_top.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\gallery_title_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\gallery_title_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\reverse_anim.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\reverse_anim.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\picked_details_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\picked_details_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\review_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\review_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_description_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_description_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_theme2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_theme2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_service_product_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_service_product_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\message_fragment_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\message_fragment_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_affirm_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_affirm_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_comment_content.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_comment_content.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_blog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_blog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_jour_appraise_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_jour_appraise_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\follow_fans_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\follow_fans_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discovery_location_products.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_location_products.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\common_calendar_gridview_item2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\common_calendar_gridview_item2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\filter.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\filter.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_children_num.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_children_num.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_services_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_services_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting_exit_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_exit_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_tab_left.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_left.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\responce_listview_foot.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\responce_listview_foot.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\plan_child_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\plan_child_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_info_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_info_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_my_account_hint.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_my_account_hint.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_at_overlay.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_at_overlay.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squeradditem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squeradditem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\complain_pop_view.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\complain_pop_view.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_days_task_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_days_task_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_blog_individual.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_blog_individual.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\time_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\time_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_mypartener_add.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_mypartener_add.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_orders_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_orders_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_product_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_product_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_account_default.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_account_default.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_adult_num.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_adult_num.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_shareboard_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_bottom_navigation_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\cash_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\cash_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\cashcardlist.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\cashcardlist.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\verify_code.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\verify_code.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\sidebar_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\sidebar_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\discovery_default_sol_result.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_default_sol_result.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_alipay_binded_done.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_alipay_binded_done.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_photopreview.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_photopreview.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_takephotoitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_takephotoitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\traffic_info_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\traffic_info_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\travel_experience_listview_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\travel_experience_listview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_journey_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_journey_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_photoselector.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_photoselector.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_comment_more.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_comment_more.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\traitemfragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\traitemfragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_days_service_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_days_service_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ingroup_data_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ingroup_data_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_article_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_article_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\subject_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\subject_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_company_hp.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_company_hp.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_bak_platform_selector_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_bak_platform_selector_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_collected_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_collected_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\xlistview_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\plan_group_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\plan_group_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\message_fragment1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\message_fragment1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\affirm_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\affirm_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\subject_product_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\subject_product_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\travel_itinerary_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\travel_itinerary_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\area_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\area_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_micro_blog_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_micro_blog_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_plan_detail_new_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_new_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_item_pic.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_item_pic.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_action_menu_item_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_list_menu_item_icon.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\com_facebook_login_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_tab_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\scenic_spots_devider.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\scenic_spots_devider.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_go_with_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_go_with_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_actionbar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_actionbar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\mylay.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\mylay.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\login.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\confirm_pay_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\confirm_pay_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_my_friendships_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_my_friendships_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\com_facebook_activity_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\tips_detail_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\tips_detail_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\company_info_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\company_info_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_cashcardlist.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_cashcardlist.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\view_calendar_day_cell.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\view_calendar_day_cell.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\theme_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\theme_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_firstpage.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_firstpage.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\button_activity_main.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\button_activity_main.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\loading_activity_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\loading_activity_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_sliding_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_sliding_tab.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_action_menu_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\car_product_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\car_product_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_published.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_published.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_layout_findpwd_by_phone_result.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_layout_findpwd_by_phone_result.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\stay_info_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\stay_info_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_chat_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_chat_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\add_schedule_event_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\add_schedule_event_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\add_pay_type_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\add_pay_type_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_orgpeo_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_orgpeo_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\select_area_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\select_area_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_addphoto_slidingdrawer2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_addphoto_slidingdrawer2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\go_with_listview_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\go_with_listview_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_serial_preview1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_serial_preview1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\confirm_pay_layout3.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\confirm_pay_layout3.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\add_associate_linearlayout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\add_associate_linearlayout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\micro_blogs_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\micro_blogs_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\view_calendar_table.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\view_calendar_table.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_face.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_face.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\filter_pop_window.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\filter_pop_window.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\service_detail_cate_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\service_detail_cate_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\go_with_lable_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\go_with_lable_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_go_with_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_go_with_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\all_responce_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\all_responce_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_itinerary_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_itinerary_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squarecannelguanzhupopuwindow.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squarecannelguanzhupopuwindow.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\day_button_lv_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\day_button_lv_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_journey_pay_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_journey_pay_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_apply_success_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_apply_success_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\update_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\update_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\xlistview_footer1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\xlistview_footer1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_warm_tip.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_warm_tip.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\follow_fans_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\follow_fans_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\load_more_footer.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\load_more_footer.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_microblog_items.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_microblog_items.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\link_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\link_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_journey_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_journey_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_schedulet_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_schedulet_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_square.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_square.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_product_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_product_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_microblog_published.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_microblog_published.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\review_linearlayout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\review_linearlayout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\select_flight_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\select_flight_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_serial_published.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_serial_published.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_member_gv_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_member_gv_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_navigation_menu.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\replay_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\replay_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\fr_simple_card.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\fr_simple_card.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\go_with_lable_text.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\go_with_lable_text.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_traffic_service_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_traffic_service_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\update_download.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\update_download.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\notification_template_icon_group.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_comment_detail_nomap.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_comment_detail_nomap.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\more_time_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\more_time_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\resetpwd.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\resetpwd.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\order_status_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\order_status_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_comment_bottom.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_comment_bottom.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\addresssetting.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\addresssetting.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\go_with_theme_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\go_with_theme_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_list_menu_item_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\experice_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\experice_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\associate_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\associate_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_schedulet_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_schedulet_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_square_pic.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_square_pic.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\travel_experience.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\travel_experience.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\theme_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\theme_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_my_account_added.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_my_account_added.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\confirm_pay_layout2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\confirm_pay_layout2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_header_title.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_header_title.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\com_listview_footer.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\com_listview_footer.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_club_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_club_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\group_product_newest_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\group_product_newest_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_screen_simple.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\price_tip_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\price_tip_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\channel_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\channel_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\driver_more_info.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\driver_more_info.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_product_shop_overflow_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_product_shop_overflow_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\design_navigation_item_separator.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\right_drawer.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\right_drawer.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\message_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\message_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\driver_homepage.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\driver_homepage.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\date_time_picker_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\date_time_picker_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_action_bar_title_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\cust_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\cust_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_homepage_nav.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_homepage_nav.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_post_comment_platform.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_post_comment_platform.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_detail_services_h.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_detail_services_h.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_area_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_area_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\delect_choise_traffic_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\delect_choise_traffic_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\view_calendar_week_index.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\view_calendar_week_index.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_order_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_order_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\area_select_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\area_select_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_outtime.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_outtime.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squarecannelguanzhupopuwindow2.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squarecannelguanzhupopuwindow2.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squer_item_tra.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squer_item_tra.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\wheel_date_picker.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\wheel_date_picker.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_home.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\discovery_default.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_default.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\go_with_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\go_with_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\ge_chat_item_right.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\ge_chat_item_right.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_subject_topic_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_subject_topic_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_common_tab.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_common_tab.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_action_mode_bar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\gold_filter.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\gold_filter.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_go_with_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_go_with_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\setting_main.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\setting_main.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\messenger_button_send_blue_small.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_album.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\layout_album.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\micro_blogs_listener_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\micro_blogs_listener_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\face_gridview.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\face_gridview.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_shop_service_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_shop_service_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\club_homepage_fragment.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\club_homepage_fragment.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_experience_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_experience_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\snackbar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\MaterialDesign\\unspecified\\res\\layout\\snackbar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\set_userinfo_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\set_userinfo_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_tip_service_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_tip_service_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\squer_item_newproduct.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\squer_item_newproduct.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\dialog_reminder_layout_fas_cash.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\dialog_reminder_layout_fas_cash.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\second_title_bar.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\second_title_bar.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_item_blog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_item_blog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\discovery_default_main.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_default_main.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\select_dialog_item_material.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_author_brief_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_author_brief_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\layout_tab_right.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.flyco.tablayout\\FlycoTabLayout_Lib\\2.1.0\\res\\layout\\layout_tab_right.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\submit_list_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\submit_list_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\tips_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\tips_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_pic_published.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_pic_published.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discovery_history_data.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_history_data.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\travel_itinerary_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\travel_itinerary_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\user_comment_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\user_comment_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_at_view.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_at_view.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_blog1.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_blog1.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_serial_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_serial_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_personal_verificate.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_personal_verificate.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_plan_detail_new_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_new_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_plan_detail_air_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_air_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\edit_pop_window.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\edit_pop_window.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_article_micro.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_article_micro.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\findpassword_by_phone_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\findpassword_by_phone_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\subject_product_item3.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\subject_product_item3.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\org_gv_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\org_gv_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\notification_template_part_chronometer.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_cats_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_cats_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_comment_detail.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_comment_detail.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\theme_list_hearder.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\theme_list_hearder.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\area_select_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\area_select_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\head_search.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\head_search.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\my_trip_blog_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\my_trip_blog_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\modify_info_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\modify_info_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_customization_tip.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_customization_tip.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\discovery_locations_all.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\discovery_locations_all.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\groupon_product_apply_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\groupon_product_apply_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\load_more.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\load_more.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\scenic_spots_gridview_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\scenic_spots_gridview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\square_pic_or_serial_detail.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\square_pic_or_serial_detail.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\include_square_serial.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\include_square_serial.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\select_flight_list_header.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\select_flight_list_header.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_experience_listview_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_experience_listview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\item_discovery_subject.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\item_discovery_subject.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_plan_detail_parent_listview_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_plan_detail_parent_listview_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\apply_detail_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\apply_detail_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\trip_product_rotate.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\trip_product_rotate.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_activity_chooser_view.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\register_main.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\register_main.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\view_sinaheader.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.lcodecorex\\tkrefreshlayout\\1.0.5\\res\\layout\\view_sinaheader.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_list_item_child.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_list_item_child.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\order_service_listitem.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\order_service_listitem.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\help_and_consult_header_item.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\help_and_consult_header_item.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\order_status_following.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\order_status_following.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\warmprompt_tip_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\warmprompt_tip_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\location_select_area_activity_footer.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\location_select_area_activity_footer.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\personal_customization_step_three.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\personal_customization_step_three.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\product_list_item_group.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\product_list_item_group.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\org_list.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\org_list.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\invoice_adapter.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\invoice_adapter.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\activity_my_invoice.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\activity_my_invoice.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\house_product_detail_activity.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\house_product_detail_activity.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_bind_select_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\micro_blogs_travel.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\micro_blogs_travel.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\share_select_dialog.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\share_select_dialog.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\lable_layout.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\res\\layout\\lable_layout.xml"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\res\\merged\\baidu\\layout\\umeng_socialize_comment_view.xml",
+        "source": "H:\\gitHub\\tripAway\\MainActivity\\build\\intermediates\\exploded-aar\\tripAway\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_comment_view.xml"
+    }
+]

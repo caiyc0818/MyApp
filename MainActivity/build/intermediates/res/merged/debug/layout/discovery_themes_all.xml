@@ -10,6 +10,13 @@
     <!-- 导入二级标题 -->
 
     <include layout="@layout/discovery_second_title" />
+    <!--
+         <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/responsetv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="response"/>
+    -->
 
 
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:orientation="horizontal" >
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/trip_task_index"
+        android:layout_width="24dp"
+        android:layout_height="24dip"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/gray_circle_bg"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/detail_button_size" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/trip_task_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_gravity="center_vertical"
+        android:text="曼谷大皇宫 The grand palace"
+        android:textColor="@color/gray_more_5"
+        android:textSize="@dimen/detail_button_size" />
+
+</LinearLayout>

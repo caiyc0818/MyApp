@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="国际航班：中国--美国"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/title_size" />
+    
+    
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="国际直飞美国，提供多个出发地城市选择，抵达美国洛杉矶国际机场"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/title_size" />
+        
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="点击选择乘坐的航班"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/title_size" />
+</LinearLayout>

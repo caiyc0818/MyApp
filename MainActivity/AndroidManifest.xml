@@ -117,7 +117,7 @@
             android:name="com.bcinfo.tripaway.activity.MainActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
         <activity
             android:name="com.bcinfo.tripaway.activity.ResultActivity"
@@ -1036,6 +1036,7 @@
         <activity
             android:name="com.bcinfo.tripaway.activity.ClubMebHomepageActivity"
             android:hardwareAccelerated="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
             android:screenOrientation="portrait" >
         </activity>
         <activity
@@ -1273,6 +1274,23 @@
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name="com.flyco.tablayoutsamples.ui.SimpleHomeActivity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.flyco.tablayoutsamples.ui.CommonTabActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.flyco.tablayoutsamples.ui.SlidingTabActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.flyco.tablayoutsamples.ui.SegmentTabActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milk_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/topRegisterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <!-- 里面在定义两个linearLayout布局和一个注册字样的button按钮 -->
+
+        <LinearLayout
+            android:id="@+id/accountRegisterLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:orientation="horizontal" >
+
+            <!-- 其中定义一个textview显示图标和一个垂直的分隔条 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/em"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:background="@color/shadow_gray" />
+            <!-- 自定义editText控件  实现删除功能 -->
+
+            <com.bcinfo.tripaway.view.editText.DeletedEditText
+                android:id="@+id/registerName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="@string/regNameHint"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textColor="@color/dark_gray"
+                android:textColorHint="@color/gray_text"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passWordRegisterLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountRegisterLayout"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_logreg_cell_normal"
+            android:orientation="horizontal" >
+
+            <!-- 其中定义一个textview显示图标和一个垂直的分隔条 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/lgoin_password"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:background="@color/shadow_gray" />
+            <!-- 自定义editText控件 -->
+
+            <com.bcinfo.tripaway.view.editText.DeletedEditText
+                android:id="@+id/registerPassWord"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="@string/regPassWordHint"
+                android:inputType="textPassword"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:singleLine="true"
+                android:textColor="@color/dark_gray"
+                android:textColorHint="@color/gray_text"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <!-- 下面定义注册条件的规则 -->
+
+        <LinearLayout
+            android:id="@+id/confrimLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@id/passWordRegisterLayout"
+            android:layout_below="@id/passWordRegisterLayout"
+            android:layout_marginTop="17dp"
+            android:orientation="horizontal" >
+
+            <!-- 里面定义一个checkbox和一个textview文本框 -->
+
+            <CheckBox
+                android:id="@+id/isConfrim"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="left|top"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/checkbox_state"
+                android:button="@null"
+                android:checked="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical" >
+
+                <!-- 注册条件协议 -->
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/applyConversionTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.2"
+                    android:textColor="@color/gray_text"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 定义注册按钮控件 -->
+
+        <LinearLayout
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/confrimLayout"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_logreg_btn_normal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 下面定义一个linearLayout线性布局 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/milk_color"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <!-- 里面定义两个左右的分隔线和一个文本内容"使用以下方式登录" -->
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/gray_border" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/otherLoginWays"
+            android:textColor="@color/color_trip_blog_photoDescript"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/gray_border" />
+    </LinearLayout>
+    <!-- 下面在定义一个线性布局LinearLayout 其中水平放置第三方登录图标 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/milk_color"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/weiboLogin"
+                android:layout_width="0dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:drawableTop="@drawable/login_weibo"
+                android:gravity="center"
+                android:text="@string/weiboLogin"
+                android:textColor="@color/shadow_gray"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/qqLogin"
+                android:layout_width="0dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:drawableTop="@drawable/login_qq"
+                android:gravity="center"
+                android:text="@string/qqLogin"
+                android:textColor="@color/shadow_gray"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/twitterLogin"
+                android:layout_width="0dp"
+                android:layout_height="86dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:drawableTop="@drawable/login_twitter"
+                android:gravity="center"
+                android:text="@string/twitterLogin"
+                android:textColor="@color/shadow_gray"
+                android:textSize="16sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

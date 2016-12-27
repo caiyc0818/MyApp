@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义 微游记-发布布局界面 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher"
+            android:id="@+id/product_servicer_icon_iv"
+            imagecontrol:border_inside_color="@color/white"
+            imagecontrol:border_thickness="0dp" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text=""
+            android:id="@+id/tvName"
+            android:maxWidth="150dp"
+            android:textColor="@color/dark_gray"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/isTalent"
+            android:visibility="gone"
+            android:src="@drawable/popular_man" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape_green_rectangle"
+                android:ellipsize="end"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:text="+关注"
+                android:visibility="gone"
+                android:id="@+id/add_focus"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:background="#efefef" >
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+             android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:paddingRight="8dp"
+            >
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="16dp"
+                android:id="@+id/map_location"
+                android:src="@drawable/square_location" >
+            </ImageView>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:ellipsize="end"
+                android:maxWidth="200dp"
+                android:singleLine="true"
+                android:id="@+id/map_location_text"
+                android:text=""
+                android:textColor="@color/gray_text"
+                android:textSize="12sp" >
+            </com.bcinfo.tripaway.view.textview.NormalTfTextView>
+        </LinearLayout>
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text=""
+             android:layout_marginLeft="1dp"
+            android:textColor="@color/gray_text"
+            android:id="@+id/tvTime"
+            android:textSize="12sp" >
+        </com.bcinfo.tripaway.view.textview.NormalTfTextView>
+    </RelativeLayout>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp" >
+
+       <com.wefika.flowlayout.FlowLayout
+                        android:id="@+id/tags_flow"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                         android:layout_alignParentRight="true"
+                        android:layout_height="wrap_content" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:id="@+id/viewNum"
+            android:textColor="@color/gray_text"
+            android:textSize="12sp" >
+        </com.bcinfo.tripaway.view.textview.NormalTfTextView>
+    </RelativeLayout>
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:maxLength="140"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+         android:paddingTop="5dp"
+        android:singleLine="false"
+        android:textColor="@color/color_trip_blog_photoDescript"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="14sp" />
+    <LinearLayout
+            android:id="@+id/imageall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:paddingBottom="20dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+    <!-- GridView 网格列表 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:background="#efefef" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评论（"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp" >
+        </com.bcinfo.tripaway.view.textview.NormalTfTextView>
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/text2"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp" >
+        </com.bcinfo.tripaway.view.textview.NormalTfTextView>
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="）"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp" >
+        </com.bcinfo.tripaway.view.textview.NormalTfTextView>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#efefef" >
+    </View>
+
+</LinearLayout>

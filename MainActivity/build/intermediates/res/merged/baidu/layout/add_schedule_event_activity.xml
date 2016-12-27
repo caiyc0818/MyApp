@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/second_title_bar" />
+
+    <EditText
+        android:id="@+id/event_des"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_margin="10dip"
+        android:background="@drawable/gray_border_bg"
+        android:gravity="left|top"
+        android:hint="写点什么吧"
+        android:paddingBottom="4dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="4dip"
+        android:textColor="@color/dark_gray"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/gray_border_bg"
+        android:orientation="horizontal" >
+        <!-- 开始日期 -->
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/event_date_begin"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="开始日期"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@color/gray_border" />
+         <!-- 结束日期 -->
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/event_date_end"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            android:text="结束日期"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_set_event_color"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/gray_border_bg" >
+        <!-- 事件颜色 -->
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:singleLine="true"
+            android:text="事件颜色"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:id="@+id/set_event_color"
+            android:layout_width="26dip"
+            android:layout_height="26dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@color/event_green" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_event_notify"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/gray_border_bg" >
+        <!-- 提醒时间 -->
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:singleLine="true"
+            android:text="提醒时间"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical"
+            android:src="@drawable/right_arrow" />
+
+
+        
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/event_notify_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+             android:layout_toLeftOf="@id/right_arrow"
+            android:singleLine="true"
+            android:gravity="center"
+            android:text="无提醒"
+            android:textColor="@color/gray_little"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <!-- 备注 -->
+    <EditText
+        android:id="@+id/event_remark"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_margin="10dip"
+        android:background="@drawable/gray_border_bg"
+        android:gravity="left|top"
+        android:hint="备注"
+        android:paddingBottom="4dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="4dip"
+        android:textColor="@color/gray_more"
+        android:textSize="16sp" />
+
+</LinearLayout>

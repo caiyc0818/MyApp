@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.bcinfo.tripaway.view.date.DateTimePicker
+        android:id="@+id/alarm_date_time_picker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg_green"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commit_button_size" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/btn_bg_gray"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="@color/gray_more"
+            android:textSize="@dimen/commit_button_size" />
+    </LinearLayout>
+
+</LinearLayout>

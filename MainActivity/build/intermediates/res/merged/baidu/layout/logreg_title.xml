@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义一个水平方向的相对布局 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/the_first_title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/title_bg" >
+
+    <!-- 在布局的左边定义一个箭头式的返回图标 -->
+
+    <LinearLayout
+        android:id="@+id/layout_back_button"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="fill_parent"
+        android:background="@drawable/button_selector_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/back_button_height"
+            android:layout_height="@dimen/back_button_height"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/nav_back"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- 在其左边定义一个登录字样的相对布局 -->
+  <RelativeLayout
+        android:id="@+id/leftLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/layout_back_button"
+        android:gravity="center_vertical" >
+
+        <!-- 里面定义两个textview 其中一个放在最左边；一个放在最右边 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size"
+            android:visibility="visible" />
+
+       <!-- 定义重置 找回密码的textview文本框 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/findOrResetLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <!--在标题的右边 添加 注册  -->
+    <!-- 找回密码 标题栏 右边 添加  邮箱找回 -->
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size"
+            android:visibility="invisible" />
+</RelativeLayout>

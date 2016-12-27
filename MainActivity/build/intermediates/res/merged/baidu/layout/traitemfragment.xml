@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    <com.bcinfo.tripaway.view.MyListView
+            android:id="@+id/all_listview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:divider="#efefef"
+            android:dividerHeight="2dp" >
+      </com.bcinfo.tripaway.view.MyListView>
+
+</RelativeLayout>

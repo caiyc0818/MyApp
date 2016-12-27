@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 发现-搜索结果 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/discovery_second_title" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 发现结果的Listview列表 -->
+
+        <ListView
+            android:id="@+id/discovery_resultData_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/shadow_gray"
+            android:dividerHeight="0.5dp"
+            android:fadingEdge="none"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+        <!-- "筛选条件"按钮(正常状态) -->
+
+        <LinearLayout
+            android:id="@+id/discovery_results_bottomBtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_search_cell_choice"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/searchresult_icon" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/choice_title"
+                android:textColor="@color/milk_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!-- 筛选条件(筛选结果状态) -->
+          <LinearLayout
+            android:id="@+id/discovery_filter_results_bottomBtn"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_search_cell_choice"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+          <LinearLayout 
+              android:id="@+id/discovery_filter_results_container"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center"
+              >
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/searchresult_icon" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/choice_title"
+                android:textColor="@color/milk_color"
+                android:textSize="20sp" />
+            </LinearLayout>
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+                android:id="@+id/discovery_filter_results_dateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/milk_color"
+                android:text="2014/10/12-2014/10/22"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

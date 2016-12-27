@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/main_radiogroup_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/tab_radioGroup_text_root"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+          
+
+                <com.bcinfo.tripaway.view.DrawableCenterRadioButton
+                      android:gravity="left|center_vertical"
+                    android:id="@+id/radio_1_text"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                        android:layout_weight="1"
+                    android:drawableLeft="@drawable/trip_selected"
+                    android:button="@null"
+                    android:checked="true"
+                    android:text="游记"
+                    android:textColor="@color/black"
+                     >
+                </com.bcinfo.tripaway.view.DrawableCenterRadioButton>
+
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#a3a3a3" >
+            </LinearLayout>
+
+         
+
+               <com.bcinfo.tripaway.view.DrawableCenterRadioButton
+                      android:gravity="left|center_vertical"
+                    android:id="@+id/radio_2_text"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                        android:layout_weight="1"
+                    android:drawableLeft="@drawable/experience"
+                    android:button="@null"
+                    android:text="经历"
+                    android:textColor="@color/gray_more"
+                    >
+                </com.bcinfo.tripaway.view.DrawableCenterRadioButton>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#a3a3a3" >
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.DrawableCenterRadioButton
+                      android:gravity="left|center_vertical"
+                    android:id="@+id/radio_3_text"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                        android:layout_weight="1"
+                    android:drawableLeft="@drawable/product"
+                    android:button="@null"
+                    android:text="产品"
+                    android:textColor="@color/gray_more"
+                    >
+                </com.bcinfo.tripaway.view.DrawableCenterRadioButton>
+        </RadioGroup>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/second_title_bar" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/apply_product_affirm_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/press_white_to_gray_bg"
+        android:gravity="center"
+        android:text="确认并支付"
+        android:textColor="@color/gray_more_5"
+        android:textSize="@dimen/bootom_button_size" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/apply_product_affirm_line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/border_width"
+        android:layout_above="@id/apply_product_affirm_button"
+        android:background="@color/gray_border" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/apply_product_affirm_line"
+        android:layout_below="@id/title_layout"
+        android:background="@color/gray_bg"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <include layout="@layout/product_layout" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dip"
+                android:text="行程时间"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="horizontal"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/layout_apply_date_begin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:text="开始时间"
+                        android:textColor="@color/red"
+                        android:textSize="16sp" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/apply_date_begin"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:text="10.11-10.15"
+                        android:textColor="@color/gray_more_5"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="0.5dip"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@color/gray_border" />
+
+                <LinearLayout
+                    android:id="@+id/layout_apply_date_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:text="结束时间"
+                        android:textColor="@color/red"
+                        android:textSize="16sp" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/apply_date_end"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="10dip"
+                        android:singleLine="true"
+                        android:text="10.11-10.15"
+                        android:textColor="@color/gray_more_5"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dip"
+                android:text="同行游客"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/gray_border_bg" >
+
+                <ImageView
+                    android:id="@+id/apply_tourist_subtract_button"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:padding="10dip"
+                    android:src="@drawable/search_choosepeople_subtract" />
+
+                <ImageView
+                    android:layout_width="@dimen/border_width"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_toRightOf="@id/apply_tourist_subtract_button"
+                    android:background="@color/gray_border" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/apply_tourist_number_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="0位游客"
+                    android:textColor="@color/gray_more_5"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/apply_tourist_add_button"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:padding="10dip"
+                    android:src="@drawable/search_choosepeople_add" />
+
+                <ImageView
+                    android:layout_width="@dimen/border_width"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_toLeftOf="@id/apply_tourist_add_button"
+                    android:background="@color/gray_border" />
+            </RelativeLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dip"
+                android:text="价格"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginTop="10dip" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="产品价格"
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/apply_product_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="￥3000"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/border_width"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@color/gray_border" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginTop="10dip" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="小费"
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/apply_product_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="Y100"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/border_width"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:background="@color/gray_border" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_marginTop="10dip" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="总价"
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/apply_product_total_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="Y3100"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/apply_product_exchange_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:text="预订此产品的汇率为1"
+                android:textColor="@color/gray_more"
+                android:textSize="@dimen/apply_price_explain" />
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dip"
+                android:text="付款"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/detail_content_title_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/gray_border_bg"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="信用卡："
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="***685474"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/car_info_size" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/border_width"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@color/gray_border" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dip"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="添加信用卡："
+                        android:textColor="@color/gray_more"
+                        android:textSize="@dimen/car_info_size" />
+
+                    <ImageView
+                        android:id="@+id/apply_add_blue_card"
+                        android:layout_width="30dip"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dip"
+                        android:layout_marginRight="20dip"
+                        android:padding="5dip"
+                        android:src="@drawable/search_choosepeople_add" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/apply_product_explain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:textColor="@color/gray_more"
+                android:textSize="@dimen/apply_price_explain" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

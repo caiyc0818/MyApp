@@ -1,69 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 目的地-国家-详情页面 -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <!-- scrollview -->
 
-    <LinearLayout
+    <RelativeLayout
+        android:id="@+id/tab"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#efefef"
-        android:orientation="vertical" >
+        android:layout_height="?attr/actionBarSize"
+        android:background="#009688"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/tl_4"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_toLeftOf="@+id/l_button_more_columns"
+            android:background="#009688"
+            tl:tl_tab_padding="0dp"
+            tl:tl_tab_width="95dp"
+            tl:tl_textsize="15sp" />
 
         <LinearLayout
-            android:id="@+id/tab"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:orientation="horizontal"
-            android:visibility="gone" >
+            android:id="@+id/l_button_more_columns"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:background="#009688">
 
-            <com.bcinfo.tripaway.view.ColumnHorizontalScrollView
-                android:id="@+id/mColumnHorizontalScrollView"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-               android:overScrollMode="never"
-                android:scrollbars="none" >
-
-                <LinearLayout
-                    android:id="@+id/mRadioGroup_content"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal" />
-            </com.bcinfo.tripaway.view.ColumnHorizontalScrollView>
-
-            <LinearLayout
-                android:id="@+id/l_button_more_columns"
+            <ImageView
+                android:id="@+id/button_more_columns"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                
-                android:background="@color/white"
-                android:gravity="center_vertical|right" >
-
-                <ImageView
-                    android:id="@+id/button_more_columns"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="17dp"
-                    android:scaleType="center"
-                    android:src="@drawable/line" />
-            </LinearLayout>
+                android:scaleType="center"
+                android:src="@drawable/line" />
         </LinearLayout>
+    </RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
 
-            <android.support.v4.view.ViewPager
-                android:id="@+id/mViewPager"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </RelativeLayout>
-    </LinearLayout>
 
-</RelativeLayout>
+
+
+

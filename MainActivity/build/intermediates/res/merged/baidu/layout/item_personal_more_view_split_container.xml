@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 个人主页-更多   空白分隔快 布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+    
+    <!-- 左边的竖线标志 -->
+    <LinearLayout 
+         android:layout_width="wrap_content"
+       android:layout_height="15dp"
+       android:orientation="horizontal"
+       android:layout_marginLeft="13.2dp"
+        >
+        <!-- 竖线 -->
+         <View
+           android:layout_width="@dimen/border_width"
+           android:layout_height="match_parent"
+           android:background="@color/gray_border"
+           
+            
+           />
+    </LinearLayout>
+   <!-- 右边的空白分隔块 -->
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="15dp"
+       
+       
+       />
+</LinearLayout>

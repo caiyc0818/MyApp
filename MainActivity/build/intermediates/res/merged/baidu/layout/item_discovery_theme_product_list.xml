@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 单一主题产品item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="@drawable/shape_singletheme_normal" >
+
+    <!-- frameLayout 帧布局 包含产品照片和产品标价 -->
+
+    <FrameLayout
+        android:id="@+id/discovery_theme_product_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" >
+
+        <!-- ImageView 显示产品照片 -->
+
+        <ImageView
+            android:id="@+id/discovery_theme_product_header_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             
+            android:scaleType="centerCrop" />
+        <!-- 产品标价 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@color/transparent_gray"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <!-- rmb 图标 -->
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rmb_icon_white" />
+            <!-- 标价 -->
+
+            <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                android:id="@+id/discovery_theme_product_header_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </FrameLayout>
+    <!-- 文本框  显示产品名称 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/discovery_theme_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/discovery_theme_product_header_container"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/shadow_black"
+        android:textSize="15sp" />
+  
+
+    <LinearLayout
+        android:id="@+id/discovery_theme_product_sponsor_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/discovery_theme_product_name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="9dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- By -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/discover_theme_product_by"
+            android:textColor="@color/color_trip_blog_photoDescript"
+            android:textSize="14sp" />
+        <!-- 产品发布者 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/discovery_theme_product_sponsor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/price_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+    
+      <!-- 文本框  显示旅游地点 -->
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/discovery_theme_product_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/discovery_theme_product_name"
+        android:layout_below="@id/discovery_theme_product_name"
+        android:layout_above="@id/discovery_theme_product_sponsor_container"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/color_trip_blog_photoDescript"
+        android:textSize="14sp" />
+
+</RelativeLayout>

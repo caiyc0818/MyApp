@@ -16,8 +16,7 @@
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:tr_head_height="100dp"
-        app:tr_wave_height="180dp">
+        >
 
 
         <com.bcinfo.tripaway.view.refreshandload.PullableGridView

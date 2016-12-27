@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/second_title_bar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!-- <com.bcinfo.tripaway.view.refreshandload.PullToRefreshLayout
+                android:id="@+id/members_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                自定义GridView
+
+                <include layout="@layout/refresh_head" /> -->
+				
+                
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+				    android:id="@+id/pro_meb"
+				    android:layout_width="match_parent"
+				    android:layout_height="40dp"
+				    android:background="@color/gray_bg"
+				    android:gravity="center_vertical|left"
+				    android:textColor="#666666"
+				    android:paddingLeft="5dp"
+				    
+				    />
+                <com.bcinfo.tripaway.view.MyGridView
+                    android:id="@+id/members_gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:horizontalSpacing="6dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:listSelector="@null"
+                    android:numColumns="4"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"
+                    android:verticalSpacing="6dp" />
+                
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+				    android:id="@+id/not_pro_meb"
+				    android:layout_width="match_parent"
+				    android:layout_height="40dp"
+				    android:background="@color/gray_bg"
+				    android:gravity="center_vertical|left"
+				    android:textColor="#666666"
+				  android:paddingLeft="5dp"
+				    />
+                <com.bcinfo.tripaway.view.MyGridView
+                    android:id="@+id/not_members_gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:horizontalSpacing="6dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:listSelector="@null"
+                    android:numColumns="4"
+                    android:overScrollMode="never"
+                    android:scrollbars="none"
+                    android:verticalSpacing="6dp" />
+          <!--       导入底部的上拉加载  布局
+
+                <include layout="@layout/load_more" />
+            </com.bcinfo.tripaway.view.refreshandload.PullToRefreshLayout> -->
+
+            <Button
+                android:id="@+id/sign_out_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/red_btn_selected_status"
+                android:text="删除并退出"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

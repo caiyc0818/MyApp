@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/second_title_bar" />
+
+    <ImageView
+        android:layout_width="@dimen/detail_author_photo_size"
+        android:layout_height="@dimen/detail_author_photo_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        android:src="@drawable/allpage_ok" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:text="付款成功"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="30dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="产品总价:"
+            android:textColor="@color/gray_more_5"
+            android:textSize="@dimen/detail_price_size" />
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:id="@+id/product_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥4,231"
+            android:textColor="@color/dark_pink"
+            android:textSize="@dimen/detail_price_size" />
+    </LinearLayout>
+
+    <include layout="@layout/product_layout" />
+
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/apply_explain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:background="@color/gray_bg"
+        android:padding="20dip"
+        android:textColor="@color/gray_more"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设置-退出对话框 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_setting_dialog_normal"
+    android:orientation="vertical" >
+
+    <!-- 对话框主体内容 -->
+
+    <LinearLayout
+        android:id="@+id/content_exitDialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="40dp" >
+
+        <!-- 文本框  显示主题内容 -->
+
+        <com.bcinfo.tripaway.view.textview.NormalTfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="6dp"
+            android:singleLine="false"
+            android:text="@string/setting_exit_yesOrNo"
+            android:textColor="@color/color_setting_cache_dialog_content"
+            android:id="@+id/tip"
+            android:textSize="20sp" />
+        <!-- 灰色分隔线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="35dp"
+            android:background="@color/color_trip_blog_publish_separate_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <!-- 取消按钮 -->
+
+            <LinearLayout
+                android:id="@+id/setting_exitDialog_cancel_layout"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/setting_exit_dialog_negative"
+                    android:textColor="@color/color_setting_cache_dialog_content"
+                    android:textSize="22sp" />
+            </LinearLayout>
+            <!-- 分隔线 -->
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_trip_blog_publish_separate_line" />
+            <!-- 确定按钮 -->
+
+            <LinearLayout
+                android:id="@+id/setting_exitDialog_confirm_layout"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/setting_exit_dialog_positive"
+                    android:textColor="@color/title_bg"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

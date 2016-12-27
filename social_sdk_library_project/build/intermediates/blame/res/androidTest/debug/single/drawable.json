@@ -12,12 +12,12 @@
         "source": "H:\\gitHub\\tripAway\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_facebook_off.png"
     },
     {
-        "merged": "H:\\gitHub\\tripAway\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_foursquare.png",
-        "source": "H:\\gitHub\\tripAway\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_foursquare.png"
-    },
-    {
         "merged": "H:\\gitHub\\tripAway\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_yixin_circle_gray.png",
         "source": "H:\\gitHub\\tripAway\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_yixin_circle_gray.png"
+    },
+    {
+        "merged": "H:\\gitHub\\tripAway\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_foursquare.png",
+        "source": "H:\\gitHub\\tripAway\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_foursquare.png"
     },
     {
         "merged": "H:\\gitHub\\tripAway\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_ynote_gray.png",

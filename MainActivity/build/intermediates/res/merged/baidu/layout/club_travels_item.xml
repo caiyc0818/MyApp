@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/club_travel_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:orientation="horizontal" >
+
+        <com.bcinfo.tripaway.view.image.RoundImageView
+            xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/product_servicer_icon_iv"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/product_servicer_icon_iv"
+                android:orientation="horizontal" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="卓玛扎金 "
+                    android:maxEms="7"
+                    android:textColor="@color/gray_text"
+                    android:textSize="16sp" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/tvPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tvName"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@+id/tvName"
+                    android:text="(领队)"
+                    android:textColor="@color/gray_text"
+                    android:textSize="11sp" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tvName"
+                    android:layout_alignParentRight="true"
+                    android:text="5分钟前"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="11sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/tvType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="发表微游记"
+                    android:textColor="@color/gray_themore"
+                    android:textSize="11sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/micro_travel_relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" >
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/tvContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:ellipsize="end"
+                    android:lineSpacingExtra="4dp"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="发表微游记发表微游记发表微游记发表微游记发表微游记发表微游记发表微游记发表微游记"
+                    android:textColor="#535353"
+                    android:textSize="12.5sp" />
+
+                <com.bcinfo.tripaway.view.refreshandload.PullableGridView
+                    android:id="@+id/discovery_allThemes_gridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvContent"
+                    android:layout_marginTop="12dp"
+                    android:horizontalSpacing="6dp"
+                    android:listSelector="@null"
+                    android:numColumns="3"
+                    android:overScrollMode="never"
+                    android:padding="5dp"
+                    android:scrollbars="none"
+                    android:verticalSpacing="6dp"
+                    android:visibility="gone" />
+
+                <com.bcinfo.tripaway.view.MyGridView
+                    android:id="@+id/gridView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvContent"
+                    android:layout_marginTop="12dp"
+                    android:columnWidth="80dp"
+                    android:gravity="center"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="3dp" >
+                </com.bcinfo.tripaway.view.MyGridView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/greate_travel_relativelayout"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginTop="8dp"
+                android:background="#f0f0f0"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/iv_image"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/iv_image"
+                    android:orientation="vertical" >
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/tv_story_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="美国签证必须准备好写材料的啊呼呼啊呼呼"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="12.5dp" />
+
+                    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                        android:id="@+id/tv_story_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:ellipsize="end"
+                        android:lineSpacingExtra="4dp"
+                        android:maxLines="2"
+                        android:singleLine="false"
+                        android:text="申请美国签证到底能不能顺利过关，与你的身份密切相关的啊呜哈哈哈哈啊呜哈哈哈啊呜哈哈哈啊呜哈哈哈"
+                        android:textColor="#6d6d6d"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" >
+
+                <ImageView
+                    android:id="@+id/map_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/map_black" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/map_location_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@+id/map_location"
+                    android:text="中国西藏日喀则"
+                    android:textColor="@color/gray_text" />
+
+                <com.bcinfo.tripaway.view.textview.NormalTfTextView
+                    android:id="@+id/tvComments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:text="327"
+                    android:textColor="@color/gray_more"
+                    android:textSize="11.5sp" />
+
+                <ImageView
+                    android:id="@+id/iv_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/tvComments"
+                    android:src="@drawable/product_detail_talk" />
+            </RelativeLayout>            
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 发现-全部目的地产品 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <!-- 导入二级标题 -->
+
+    <include layout="@layout/discovery_second_title" />
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView
+        android:id="@+id/discovery_locations_desc" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:text="我空间规划额忘记我我跑i为微位为人位位企鹅请问wr额外是电风扇的十多个上单发大水感受到 阿三撒旦发射点 上单发 高大上发额人恶搞但是发额个是发个上单发恶搞 士大夫个上单费个上单格外发生地格外发生地格外 上单格外 上单个位发受到高温 是否的各位"/>
+<LinearLayout 
+    android:id="@+id/show_more_or_less"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+    <com.bcinfo.tripaway.view.textview.NormalTfTextView 
+        android:id="@+id/showtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看更多"/>
+    <ImageView 
+        android:id="@+id/direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+    <com.bcinfo.tripaway.view.refreshandload.PullToRefreshLayout
+        android:id="@+id/allLocations_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+		<include layout="@layout/refresh_head" />
+        <com.bcinfo.tripaway.view.refreshandload.PullableGridView
+            android:id="@+id/discovery_allLocations_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="6dp"
+            android:listSelector="@null"
+            android:numColumns="2"
+            android:padding="5dp"
+            android:scrollbars="none"
+            android:verticalSpacing="6dp" />
+
+        <include layout="@layout/load_more" />
+    </com.bcinfo.tripaway.view.refreshandload.PullToRefreshLayout>
+
+</LinearLayout>
